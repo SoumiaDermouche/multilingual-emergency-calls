@@ -1,0 +1,12 @@
+# Secrets (reviewer passwords)
+comptes.txt
+
+# Participant data (voices): do not publish before signed consent
+data/
+
+# Logs and runtime files
+appli.log
+nohup.out
+.gradio/
+__pycache__/
+*.pyc
