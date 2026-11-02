@@ -1,0 +1,4 @@
+# Relecture et validation des erreurs : python app.py, annotation.py
+pandas
+numpy
+gradio

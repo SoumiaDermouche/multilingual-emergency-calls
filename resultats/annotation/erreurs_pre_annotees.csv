@@ -1,0 +1,1407 @@
+﻿call,id,couche,tour,locuteur,operations,reference,automatique,mots_critiques,categorie,gravite,garder,part_source_fautive
+anglais_1.1,anglais_1.1-trans-001,transcription,3,Operator,M,où ça dans quelle ville,où ça dans quelle ville (déplacé),,inversion de locuteur,mineure,True,
+anglais_1.1,anglais_1.1-trans-002,transcription,6,Caller,MS,rue des roseaux,rue de rosaux (déplacé),rue des roseaux,code-switching,critique,True,
+anglais_1.1,anglais_1.1-trans-003,transcription,8,Caller,S,4,four,4 four,entité/nombre,critique,True,
+anglais_1.1,anglais_1.1-trans-004,transcription,11,Operator,M,d accord c est quel appartement,d accord c est quel appartement (déplacé),,inversion de locuteur,mineure,True,
+anglais_1.1,anglais_1.1-trans-005,transcription,14,Caller,I,,no,,répétition,mineure,True,
+anglais_1.1,anglais_1.1-trans-006,transcription,14,Caller,I,,yes that s,,insertion/hallucination,mineure,True,
+anglais_1.1,anglais_1.1-trans-007,transcription,15,Operator,S,donc,it,,code-switching,mineure,True,
+anglais_1.1,anglais_1.1-trans-008,transcription,16,Caller,D,yes that s it ok d accord,,,omission,majeure,True,
+anglais_1.1,anglais_1.1-trans-009,transcription,19,Operator,I,,okay merci merci merci,,répétition,majeure,True,
+anglais_1.1,anglais_1.1-tradu-001,traduction,1,Operator,S,fire department,the firefighters,fire firefighters,contresens,critique,True,0.0
+anglais_1.1,anglais_1.1-tradu-002,traduction,1,Operator,I,,to you,,ajout,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-003,traduction,2,Caller,S,je vous appelle puisqu,j appelle parce qu,,contresens,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-004,traduction,2,Caller,S,le feu,un incendie,feu incendie,terminologie,critique,True,0.0
+anglais_1.1,anglais_1.1-tradu-005,traduction,2,Caller,I,,d,,ajout,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-006,traduction,3,Operator,M,where in which city,where in which city (déplacé),,héritée de la transcription,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-007,traduction,5,Operator,S,is,s,,forme,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-008,traduction,6,Caller,MS,rue des roseaux,rue des rosiers (déplacé),rue des roseaux,héritée de la transcription,critique,True,1.0
+anglais_1.1,anglais_1.1-tradu-009,traduction,8,Caller,S,4 all right,numéro quatre alright,4 quatre,contresens,critique,True,0.2
+anglais_1.1,anglais_1.1-tradu-010,traduction,9,Operator,IS,is the,there s a,,forme,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-011,traduction,9,Operator,I,,what,,ajout,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-012,traduction,9,Operator,D,or,,,omission,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-013,traduction,10,Caller,DS,une maison il y a,un immeuble avec,,terminologie,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-014,traduction,10,Caller,S,dedans i see,à l intérieur,,contresens,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-015,traduction,11,Operator,MS,which apartment is it,alright which apartment is it (déplacé),,contresens,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-016,traduction,12,Caller,S,au,du,,forme,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-017,traduction,13,Operator,IS,is,but has,,contresens,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-018,traduction,13,Operator,S,out,left,,terminologie,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-019,traduction,14,Caller,I,,non,,ajout,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-020,traduction,14,Caller,I,,au moins,,ajout,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-021,traduction,14,Caller,D,sûre et,,,omission,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-022,traduction,14,Caller,I,,vieux,,ajout,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-023,traduction,14,Caller,D,de personnes âgées,,,omission,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-024,traduction,14,Caller,IS,vu ressortir so,vus sortir oui c est ça there are,,contresens,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-025,traduction,15,Operator,D,are,,,omission,mineure,True,0.0
+anglais_1.1,anglais_1.1-tradu-026,traduction,15,Operator,S,are out,have left,,contresens,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-027,traduction,15,Operator,S,correct,right,,terminologie,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-028,traduction,16,Caller,D,oui c est ça ok i see,,,héritée de la transcription,majeure,True,1.0
+anglais_1.1,anglais_1.1-tradu-029,traduction,17,Operator,S,anything,something,,terminologie,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-030,traduction,18,Caller,IS,du vélux une,de la fenêtre velux de la,,contresens,majeure,True,0.0
+anglais_1.1,anglais_1.1-tradu-031,traduction,19,Operator,DS,all right,alright,,héritée de la transcription,majeure,True,0.4
+anglais_1.1,anglais_1.1-tradu-032,traduction,19,Operator,I,,okay merci merci merci,,héritée de la transcription,majeure,True,0.4
+anglais_1.2,anglais_1.2-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+anglais_1.2,anglais_1.2-trans-002,transcription,4,Caller,D,i don t know,,,omission,majeure,True,
+anglais_1.2,anglais_1.2-trans-003,transcription,5,Operator,D,l adresse exacte,,adresse,omission,critique,True,
+anglais_1.2,anglais_1.2-trans-004,transcription,8,Caller,D,thank you,,,omission,majeure,True,
+anglais_1.2,anglais_1.2-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,héritée de la transcription,critique,True,0.33
+anglais_1.2,anglais_1.2-tradu-002,traduction,2,Caller,I,,sur le,,ajout,mineure,True,0.0
+anglais_1.2,anglais_1.2-tradu-003,traduction,3,Operator,S,is,s,,forme,mineure,True,0.0
+anglais_1.2,anglais_1.2-tradu-004,traduction,4,Caller,D,je ne sais pas,,,héritée de la transcription,majeure,True,0.44
+anglais_1.2,anglais_1.2-tradu-005,traduction,5,Operator,D,the exact address,,address,héritée de la transcription,critique,True,1.0
+anglais_1.2,anglais_1.2-tradu-006,traduction,7,Operator,DS,go through,cross,,contresens,majeure,True,0.0
+anglais_1.2,anglais_1.2-tradu-007,traduction,8,Caller,D,merci,,,héritée de la transcription,majeure,True,1.0
+anglais_1.3,anglais_1.3-trans-001,transcription,1,Operator,S,ain a car is burning,eau yatim you cul garé,car burning,code-switching,critique,True,
+anglais_1.3,anglais_1.3-trans-002,transcription,2,Caller,D,completely in the grand parc parking lot y a t il d autres véhicules garés,,grand parc,code-switching,critique,True,
+anglais_1.3,anglais_1.3-trans-003,transcription,4,Caller,DS,yes a van right next to it it s starting to smoke,éloignez les gens,smoke,code-switching,critique,True,
+anglais_1.3,anglais_1.3-tradu-001,traduction,1,Operator,S,firefighters,firefighter,firefighters firefighter,héritée de la transcription,critique,True,1.0
+anglais_1.3,anglais_1.3-tradu-002,traduction,1,Operator,S,ain une voiture brûle entièrement,the water orphan tu ass,voiture brûle,héritée de la transcription,critique,True,1.0
+anglais_1.3,anglais_1.3-tradu-003,traduction,2,Caller,D,sur le parking du grand parc are there other vehicles,,grand parc,héritée de la transcription,critique,True,1.0
+anglais_1.3,anglais_1.3-tradu-004,traduction,4,Caller,DS,oui une camionnette juste à côté elle commence à fumer move,keep people away keep,,héritée de la transcription,majeure,True,1.0
+anglais_1.3,anglais_1.3-tradu-005,traduction,5,Operator,DS,are on our way,re coming,,contresens,majeure,True,0.0
+anglais_1.4,anglais_1.4-trans-001,transcription,1,Operator,IS,pompiers,so pompier,,substitution phonétique,majeure,True,
+anglais_1.4,anglais_1.4-trans-002,transcription,2,Caller,D,hello i have a restaurant in the medieval city a grease rod fire spreading to the exposed beams,,fire,omission,critique,True,
+anglais_1.4,anglais_1.4-trans-003,transcription,3,Operator,DS,exacte dans la cité,you so,,code-switching,majeure,True,
+anglais_1.4,anglais_1.4-trans-004,transcription,4,Caller,IS,de,oder all dans,,code-switching,majeure,True,
+anglais_1.4,anglais_1.4-trans-005,transcription,4,Caller,S,halle coupez,cité couper,,substitution phonétique,majeure,True,
+anglais_1.4,anglais_1.4-trans-006,transcription,5,Operator,I,,et l,,insertion/hallucination,mineure,True,
+anglais_1.4,anglais_1.4-tradu-001,traduction,1,Operator,S,fire department i m listening bonjour j ai un restaurant dans la cité médiévale un,here is the translation of the text from french to english firefighter i m listening,fire firefighter,héritée de la transcription,critique,True,0.67
+anglais_1.4,anglais_1.4-tradu-002,traduction,2,Caller,D,feu de hotte à graisse se propage aux poutres apparentes,,feu,héritée de la transcription,critique,True,1.0
+anglais_1.4,anglais_1.4-tradu-003,traduction,3,Operator,S,exact address in the medieval city c est,address tu c est l ordre ou la,address,héritée de la transcription,critique,True,0.5
+anglais_1.4,anglais_1.4-tradu-004,traduction,4,Caller,S,de la halle,in the city,,héritée de la transcription,majeure,True,0.83
+anglais_1.4,anglais_1.4-tradu-005,traduction,5,Operator,I,,and,,ajout,mineure,True,0.0
+anglais_1.5,anglais_1.5-trans-001,transcription,2,Caller,DS,mont luel,montlueil,mont luel,entité/nombre,critique,True,
+anglais_1.5,anglais_1.5-trans-002,transcription,6,Caller,M,no none,no none (déplacé),,inversion de locuteur,mineure,True,
+anglais_1.5,anglais_1.5-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_1.5,anglais_1.5-tradu-002,traduction,2,Caller,S,c est,je suis,,contresens,majeure,True,0.07
+anglais_1.5,anglais_1.5-tradu-003,traduction,2,Caller,S,directeur,principal,,terminologie,majeure,True,0.07
+anglais_1.5,anglais_1.5-tradu-004,traduction,2,Caller,S,montluel,montlueil,montluel,terminologie,critique,True,0.07
+anglais_1.5,anglais_1.5-tradu-005,traduction,2,Caller,DS,s est déclenchée,a retenti,,terminologie,majeure,True,0.07
+anglais_1.5,anglais_1.5-tradu-006,traduction,4,Caller,I,,non aucun,,ajout,majeure,True,0.0
+anglais_1.5,anglais_1.5-tradu-007,traduction,5,Operator,D,people non aucun,,,omission,majeure,True,0.0
+anglais_1.5,anglais_1.5-tradu-008,traduction,7,Operator,S,are,re,,contresens,majeure,True,0.0
+anglais_2.1,anglais_2.1-trans-001,transcription,2,Caller,S,neighbor,neighbour,,substitution phonétique,majeure,True,
+anglais_2.1,anglais_2.1-trans-002,transcription,4,Caller,IS,3,the three,3 three,entité/nombre,critique,True,
+anglais_2.1,anglais_2.1-trans-003,transcription,7,Operator,S,restez,reste,,substitution phonétique,majeure,True,
+anglais_2.1,anglais_2.1-trans-004,transcription,7,Operator,S,touchez,touche,,substitution phonétique,majeure,True,
+anglais_2.1,anglais_2.1-trans-005,transcription,7,Operator,S,des,les,,forme,mineure,True,
+anglais_2.1,anglais_2.1-trans-006,transcription,8,Caller,S,the,your,,forme,mineure,True,
+anglais_2.1,anglais_2.1-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_2.1,anglais_2.1-tradu-002,traduction,2,Caller,S,on dirait,il semble,,terminologie,majeure,True,0.05
+anglais_2.1,anglais_2.1-tradu-003,traduction,2,Caller,DS,a fait une chute alright,soit tombé sure,chute tombé,contresens,critique,True,0.05
+anglais_2.1,anglais_2.1-tradu-004,traduction,4,Caller,DS,au 3,la,3,contresens,critique,True,0.17
+anglais_2.1,anglais_2.1-tradu-005,traduction,4,Caller,DS,dans la commune de,à,,contresens,majeure,True,0.17
+anglais_2.1,anglais_2.1-tradu-006,traduction,6,Caller,IS,être blessé,avoir des blessures,blessé blessures,contresens,critique,True,0.0
+anglais_2.1,anglais_2.1-tradu-007,traduction,6,Caller,S,sur le sol alright,par terre got it,,contresens,majeure,True,0.0
+anglais_2.1,anglais_2.1-tradu-008,traduction,7,Operator,S,do not,don t,,contresens,majeure,True,0.11
+anglais_2.1,anglais_2.1-tradu-009,traduction,8,Caller,S,l,ton,,contresens,majeure,True,0.0
+anglais_2.2,anglais_2.2-trans-001,transcription,1,Operator,I,,d accord vous êtes à quel endroit,,insertion/hallucination,majeure,True,
+anglais_2.2,anglais_2.2-trans-002,transcription,3,Operator,S,d accord vous êtes à quel endroit la reyssouze in bourg en bresse la,larry suze in bourg cambresse yes it s near a bridge rue jean moulin,reyssouze bourg en bresse rue jean moulin,code-switching,critique,True,
+anglais_2.2,anglais_2.2-trans-003,transcription,5,Operator,D,reyssouze,,reyssouze,omission,critique,True,
+anglais_2.2,anglais_2.2-trans-004,transcription,5,Operator,S,a,à,,forme,mineure,True,
+anglais_2.2,anglais_2.2-trans-005,transcription,6,Caller,D,yes it s near a bridge rue jean moulin,,rue jean moulin,omission,critique,True,
+anglais_2.2,anglais_2.2-trans-006,transcription,7,Operator,D,tomber à l eau,,tomber,omission,critique,True,
+anglais_2.2,anglais_2.2-trans-007,transcription,8,Caller,D,no no they are not visible i think they are still underwater,,,omission,majeure,True,
+anglais_2.2,anglais_2.2-trans-008,transcription,10,Caller,D,yes,,,omission,mineure,True,
+anglais_2.2,anglais_2.2-trans-009,transcription,12,Caller,D,yes absolutely,,,omission,majeure,True,
+anglais_2.2,anglais_2.2-trans-010,transcription,13,Operator,D,vous nous raccrochez,,,omission,majeure,True,
+anglais_2.2,anglais_2.2-trans-011,transcription,13,Caller,I,,you je vais chercher,,insertion/hallucination,majeure,True,
+anglais_2.2,anglais_2.2-trans-012,transcription,14,Operator,S,ok thank you,je vais chercher,,code-switching,majeure,True,
+anglais_2.2,anglais_2.2-tradu-001,traduction,1,Operator,IS,fire department hello,firefighters hello okay where are you located,fire firefighters,héritée de la transcription,critique,True,1.0
+anglais_2.2,anglais_2.2-tradu-002,traduction,2,Caller,I,,larry suze,,ajout,majeure,True,0.0
+anglais_2.2,anglais_2.2-tradu-003,traduction,3,Operator,S,alright where are you located la reyssouze à bourg en bresse la reyssouze,à bourg cambresse oui c est près d un pont rue jean moulin,la reyssouze bourg en bresse rue jean moulin,héritée de la transcription,critique,True,1.0
+anglais_2.2,anglais_2.2-tradu-004,traduction,6,Caller,DS,oui c est près d un pont rue jean moulin alright,okay,rue jean moulin,héritée de la transcription,critique,True,1.0
+anglais_2.2,anglais_2.2-tradu-005,traduction,7,Operator,D,very,,,omission,majeure,True,0.12
+anglais_2.2,anglais_2.2-tradu-006,traduction,7,Operator,S,is,s,,forme,mineure,True,0.12
+anglais_2.2,anglais_2.2-tradu-007,traduction,7,Operator,I,,did,,ajout,mineure,True,0.12
+anglais_2.2,anglais_2.2-tradu-008,traduction,7,Operator,S,saw,see,,terminologie,majeure,True,0.12
+anglais_2.2,anglais_2.2-tradu-009,traduction,7,Operator,D,fall into the water,,fall,omission,critique,True,0.12
+anglais_2.2,anglais_2.2-tradu-010,traduction,7,Operator,DS,this person,she,,contresens,majeure,True,0.12
+anglais_2.2,anglais_2.2-tradu-011,traduction,8,Caller,DS,non non ils ne sont pas visibles je pense qu ils sont encore sous l eau are they,that person she is,,héritée de la transcription,majeure,True,1.0
+anglais_2.2,anglais_2.2-tradu-012,traduction,9,Operator,S,though,right,,terminologie,majeure,True,0.0
+anglais_2.2,anglais_2.2-tradu-013,traduction,10,Caller,D,oui,,,omission,mineure,True,0.0
+anglais_2.2,anglais_2.2-tradu-014,traduction,11,Operator,DS,wave at the emergency services,signal for help,,contresens,majeure,True,0.0
+anglais_2.2,anglais_2.2-tradu-015,traduction,12,Caller,DS,oui tout à fait ok,okay,,héritée de la transcription,majeure,True,1.0
+anglais_2.2,anglais_2.2-tradu-016,traduction,13,Operator,D,you can hang up,,,omission,majeure,True,0.27
+anglais_2.2,anglais_2.2-tradu-017,traduction,13,Operator,DS,go near,approach,,contresens,majeure,True,0.27
+anglais_2.2,anglais_2.2-tradu-018,traduction,13,Operator,S,waterway,water,,terminologie,majeure,True,0.27
+anglais_2.2,anglais_2.2-tradu-019,traduction,13,Operator,S,and come welcome,come to meet,,contresens,majeure,True,0.27
+anglais_2.2,anglais_2.2-tradu-020,traduction,13,Operator,DS,emergency services,rescuers,,contresens,majeure,True,0.27
+anglais_2.2,anglais_2.2-tradu-021,traduction,13,Operator,S,are,re,,contresens,majeure,True,0.27
+anglais_2.2,anglais_2.2-tradu-022,traduction,13,Caller,I,,tu i will look,,ajout,majeure,True,0.27
+anglais_2.2,anglais_2.2-tradu-023,traduction,14,Operator,S,ok thank you,i will look,,héritée de la transcription,majeure,True,1.0
+anglais_2.3,anglais_2.3-trans-001,transcription,1,Operator,D,oui,,,omission,mineure,True,
+anglais_2.3,anglais_2.3-trans-002,transcription,2,Caller,D,how can i get one,,one,omission,critique,True,
+anglais_2.3,anglais_2.3-trans-003,transcription,3,Operator,S,caverne,caserne,,substitution phonétique,majeure,True,
+anglais_2.3,anglais_2.3-trans-004,transcription,4,Caller,DS,oh yeah okay the station in bourg en bresse which way do i go,you,bourg en bresse,entité/nombre,critique,True,
+anglais_2.3,anglais_2.3-trans-005,transcription,5,Operator,I,,parce que là,,insertion/hallucination,majeure,True,
+anglais_2.3,anglais_2.3-trans-006,transcription,5,Operator,S,les lignes,l une,,substitution phonétique,majeure,True,
+anglais_2.3,anglais_2.3-trans-007,transcription,5,Operator,DS,au revoir,yeah,,substitution lexicale,majeure,True,
+anglais_2.3,anglais_2.3-tradu-001,traduction,1,Operator,D,yes,,,omission,mineure,True,0.0
+anglais_2.3,anglais_2.3-tradu-002,traduction,2,Caller,DS,là où j habite parce qu,chez moi car,car,contresens,critique,True,0.14
+anglais_2.3,anglais_2.3-tradu-003,traduction,2,Caller,S,dispositifs,mesures,,terminologie,majeure,True,0.14
+anglais_2.3,anglais_2.3-tradu-004,traduction,2,Caller,DS,comment puis je en obtenir un well,then,en,contresens,critique,True,0.14
+anglais_2.3,anglais_2.3-tradu-005,traduction,3,Operator,DS,stop by,pass,,contresens,majeure,True,0.04
+anglais_2.3,anglais_2.3-tradu-006,traduction,3,Operator,D,can,,,omission,majeure,True,0.04
+anglais_2.3,anglais_2.3-tradu-007,traduction,3,Operator,S,directly,straight,,terminologie,majeure,True,0.04
+anglais_2.3,anglais_2.3-tradu-008,traduction,3,Operator,S,station,barracks,,terminologie,majeure,True,0.04
+anglais_2.3,anglais_2.3-tradu-009,traduction,3,Operator,D,right now,,,omission,majeure,True,0.04
+anglais_2.3,anglais_2.3-tradu-010,traduction,3,Operator,S,alright oh,okay tu,,contresens,majeure,True,0.04
+anglais_2.3,anglais_2.3-tradu-011,traduction,4,Caller,D,oui d accord la caserne de bourg en bresse par quel chemin dois je passer,,bourg en bresse chemin,héritée de la transcription,critique,True,1.0
+anglais_2.3,anglais_2.3-tradu-012,traduction,5,Operator,D,go and,,,omission,majeure,True,0.18
+anglais_2.3,anglais_2.3-tradu-013,traduction,5,Operator,S,is,s,,forme,mineure,True,0.18
+anglais_2.3,anglais_2.3-tradu-014,traduction,5,Operator,I,,because right now,,ajout,majeure,True,0.18
+anglais_2.3,anglais_2.3-tradu-015,traduction,5,Operator,DS,emergency lines are,it s,,contresens,majeure,True,0.18
+anglais_2.3,anglais_2.3-tradu-016,traduction,5,Operator,S,made,meant,,terminologie,majeure,True,0.18
+anglais_2.3,anglais_2.3-tradu-017,traduction,5,Operator,S,this,that,,forme,mineure,True,0.18
+anglais_2.3,anglais_2.3-tradu-018,traduction,5,Operator,I,,an emergency one,one,ajout,critique,True,0.18
+anglais_2.3,anglais_2.3-tradu-019,traduction,5,Operator,S,goodbye,yeah,,terminologie,majeure,True,0.18
+anglais_2.4,anglais_2.4-trans-001,transcription,4,Caller,DS,so it s,at,,forme,mineure,True,
+anglais_2.4,anglais_2.4-trans-002,transcription,4,Caller,S,jaurès,jouret,jaurès,entité/nombre,critique,True,
+anglais_2.4,anglais_2.4-trans-003,transcription,5,Operator,M,respire t elle,respire t elle (déplacé),respire,inversion de locuteur,mineure,True,
+anglais_2.4,anglais_2.4-trans-004,transcription,7,Operator,D,jusqu à,,,omission,majeure,True,
+anglais_2.4,anglais_2.4-trans-005,transcription,7,Operator,DS,qu on,quoi,,substitution phonétique,majeure,True,
+anglais_2.4,anglais_2.4-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_2.4,anglais_2.4-tradu-002,traduction,4,Caller,DS,alors c est le,au,,forme,mineure,True,0.08
+anglais_2.4,anglais_2.4-tradu-003,traduction,4,Caller,S,jaurès,jouret,jaurès,terminologie,critique,True,0.08
+anglais_2.4,anglais_2.4-tradu-004,traduction,5,Operator,D,is she breathing,,breathing,omission,critique,True,0.0
+anglais_2.4,anglais_2.4-tradu-005,traduction,6,Caller,IS,beaucoup de difficulté,grande difficulté does she breathe,breathe,contresens,critique,True,0.0
+anglais_2.4,anglais_2.4-tradu-006,traduction,7,Operator,S,until we arrive,and what happens,,héritée de la transcription,majeure,True,0.31
+anglais_2.5,anglais_2.5-trans-001,transcription,1,Caller,I,,you,,insertion/hallucination,mineure,True,
+anglais_2.5,anglais_2.5-trans-002,transcription,1,Operator,I,,a quelle adresse,adresse,insertion/hallucination,critique,True,
+anglais_2.5,anglais_2.5-trans-003,transcription,3,Operator,S,à quelle adresse 12 impasse des tiolles meximieux meximieux peut il,twelve impasses de psyolles mais c est mieux c est mieux,adresse 12 impasse des tiolles meximieux twelve,entité/nombre,critique,True,
+anglais_2.5,anglais_2.5-trans-004,transcription,5,Operator,D,se relever,,,omission,majeure,True,
+anglais_2.5,anglais_2.5-trans-005,transcription,6,Operator,I,,peut il se relever,,insertion/hallucination,majeure,True,
+anglais_2.5,anglais_2.5-tradu-001,traduction,1,Operator,S,fire department,tu firefighter,fire firefighter,héritée de la transcription,critique,True,1.0
+anglais_2.5,anglais_2.5-tradu-002,traduction,1,Operator,I,,what address,address,héritée de la transcription,critique,True,1.0
+anglais_2.5,anglais_2.5-tradu-003,traduction,2,Caller,S,il a mal aux hanches at what address 12 impasse des tiolles meximieux meximieux can he,ses hanches lui font mal douze impasses de psyolles mais c est mieux c est mieux,address 12 impasse des tiolles douze,contresens,critique,True,0.0
+anglais_2.5,anglais_2.5-tradu-004,traduction,5,Operator,D,get up,,,héritée de la transcription,majeure,True,0.5
+anglais_2.5,anglais_2.5-tradu-005,traduction,6,Operator,I,,can he get up,,héritée de la transcription,majeure,True,0.67
+anglais_2.5,anglais_2.5-tradu-006,traduction,7,Operator,S,do not,don t,,contresens,majeure,True,0.0
+anglais_2.5,anglais_2.5-tradu-007,traduction,7,Operator,S,are,re,,contresens,majeure,True,0.0
+anglais_2.6,anglais_2.6-trans-001,transcription,1,Operator,I,,vous êtes où,,insertion/hallucination,majeure,True,
+anglais_2.6,anglais_2.6-trans-002,transcription,2,Caller,I,,18 rue,18 rue,insertion/hallucination,critique,True,
+anglais_2.6,anglais_2.6-trans-003,transcription,3,Operator,S,vous êtes où 18 rue michelet oyonnax,michelet are you now about 10 minutes,18 rue michelet oyonnax 10,code-switching,critique,True,
+anglais_2.6,anglais_2.6-trans-004,transcription,6,Caller,D,about 10 minutes,,10,omission,critique,True,
+anglais_2.6,anglais_2.6-trans-005,transcription,7,Operator,S,secours,secouats,,substitution phonétique,majeure,True,
+anglais_2.6,anglais_2.6-trans-006,transcription,7,Operator,I,,продолжение следует,,insertion/hallucination,majeure,True,
+anglais_2.6,anglais_2.6-tradu-001,traduction,1,Operator,IS,fire department hello,firefighter hello where are you,fire firefighter,héritée de la transcription,critique,True,1.0
+anglais_2.6,anglais_2.6-tradu-002,traduction,2,Caller,S,une douleur,des douleurs,douleur douleurs,terminologie,critique,True,0.18
+anglais_2.6,anglais_2.6-tradu-003,traduction,3,Operator,S,where are you 18 rue michelet oyonnax how long has your husband,18 rue michelet êtes vous sur place environ 10 minutes he has,18 rue michelet 10,héritée de la transcription,critique,True,1.0
+anglais_2.6,anglais_2.6-tradu-004,traduction,5,Operator,I,,for how long your,,ajout,majeure,True,0.0
+anglais_2.6,anglais_2.6-tradu-005,traduction,6,Caller,S,environ 10 minutes,husband is doing,10,héritée de la transcription,critique,True,1.0
+anglais_2.6,anglais_2.6-tradu-006,traduction,7,Operator,IS,help is coming,the shakes will arrive,,héritée de la transcription,majeure,True,0.33
+anglais_2.6,anglais_2.6-tradu-007,traduction,7,Operator,I,,to be continued,,héritée de la transcription,majeure,True,0.33
+anglais_2.7,anglais_2.7-trans-001,transcription,3,Operator,S,arbent,arbord,arbent,entité/nombre,critique,True,
+anglais_2.7,anglais_2.7-trans-002,transcription,5,Operator,DS,sur la plaie,cela plaît,,substitution phonétique,majeure,True,
+anglais_2.7,anglais_2.7-trans-003,transcription,5,Operator,S,linge,âge,,substitution phonétique,majeure,True,
+anglais_2.7,anglais_2.7-trans-004,transcription,6,Caller,S,strenght,friends,,substitution lexicale,majeure,True,
+anglais_2.7,anglais_2.7-tradu-001,traduction,3,Operator,S,arbent,arbord,,terminologie,majeure,True,0.12
+anglais_2.7,anglais_2.7-tradu-002,traduction,5,Operator,S,okay,alright,,héritée de la transcription,majeure,True,0.36
+anglais_2.7,anglais_2.7-tradu-003,traduction,5,Operator,D,down,,,héritée de la transcription,majeure,True,0.36
+anglais_2.7,anglais_2.7-tradu-004,traduction,5,Operator,S,on the wound,it s pleasing,,héritée de la transcription,majeure,True,0.36
+anglais_2.7,anglais_2.7-tradu-005,traduction,5,Operator,S,cloth,age,,héritée de la transcription,majeure,True,0.36
+anglais_2.7,anglais_2.7-tradu-006,traduction,6,Caller,I,,une crise,,ajout,majeure,True,0.14
+anglais_2.7,anglais_2.7-tradu-007,traduction,6,Caller,S,appuyer,asthme,,terminologie,majeure,True,0.14
+anglais_2.7,anglais_2.7-tradu-008,traduction,6,Caller,S,forces,amis,,terminologie,majeure,True,0.14
+anglais_2.8,anglais_2.8-trans-001,transcription,2,Caller,DS,my son has been stung by several wasps his face is swelling and he s having trouble breathing,you,breathing,substitution lexicale,critique,True,
+anglais_2.8,anglais_2.8-trans-002,transcription,4,Caller,DS,yes near the entrance installez,allongez,,substitution lexicale,majeure,True,
+anglais_2.8,anglais_2.8-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_2.8,anglais_2.8-tradu-002,traduction,2,Caller,DS,mon fils a été piqué par plusieurs guêpes son visage gonfle et il a du mal à respirer,tu,respirer,héritée de la transcription,critique,True,1.0
+anglais_2.8,anglais_2.8-tradu-003,traduction,3,Operator,S,parc des oiseaux,bird park put,parc des oiseaux,contresens,critique,True,0.0
+anglais_2.8,anglais_2.8-tradu-004,traduction,4,Caller,D,oui près de l entrée lay,,,héritée de la transcription,majeure,True,1.0
+anglais_2.8,anglais_2.8-tradu-005,traduction,5,Operator,D,down,,,omission,majeure,True,0.0
+anglais_2.8,anglais_2.8-tradu-006,traduction,5,Operator,I,,if,,ajout,majeure,True,0.0
+anglais_2.9,anglais_2.9-trans-001,transcription,4,Caller,D,yes at,,,omission,mineure,True,
+anglais_2.9,anglais_2.9-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_2.9,anglais_2.9-tradu-002,traduction,2,Caller,S,bonjour,salut,,terminologie,majeure,True,0.0
+anglais_2.9,anglais_2.9-tradu-003,traduction,2,Caller,S,mes escaliers,mon escalier,,contresens,majeure,True,0.0
+anglais_2.9,anglais_2.9-tradu-004,traduction,2,Caller,S,prendre appui,m appuyer,,contresens,majeure,True,0.0
+anglais_2.9,anglais_2.9-tradu-005,traduction,4,Caller,D,oui au,,,omission,mineure,True,0.0
+anglais_2.9,anglais_2.9-tradu-006,traduction,5,Operator,D,anymore,,,omission,majeure,True,0.0
+anglais_2.9,anglais_2.9-tradu-007,traduction,5,Operator,S,transport,take,,terminologie,majeure,True,0.0
+anglais_2.10,anglais_2.10-trans-001,transcription,4,Caller,D,yes we re near the croix du colombier,,croix du colombier,omission,critique,True,
+anglais_2.10,anglais_2.10-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_2.10,anglais_2.10-tradu-002,traduction,2,Caller,IS,une,de la,,forme,mineure,True,0.0
+anglais_2.10,anglais_2.10-tradu-003,traduction,4,Caller,DS,oui nous sommes près de la croix du colombier do not,don t,croix du colombier,héritée de la transcription,critique,True,1.0
+anglais_2.10,anglais_2.10-tradu-004,traduction,5,Operator,D,anymore,,,omission,majeure,True,0.0
+anglais_3.1,anglais_3.1-trans-001,transcription,2,Caller,D,hello,,,omission,majeure,True,
+anglais_3.1,anglais_3.1-trans-002,transcription,8,Caller,D,yes the flames are spreading more and more we re afraid it will get to the nearest forest,,,omission,majeure,True,
+anglais_3.1,anglais_3.1-trans-003,transcription,10,Caller,D,thank,,,omission,majeure,True,
+anglais_3.1,anglais_3.1-trans-004,transcription,10,Caller,S,very much,продолжение следует,,substitution lexicale,majeure,True,
+anglais_3.1,anglais_3.1-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_3.1,anglais_3.1-tradu-002,traduction,2,Caller,D,bonjour,,,omission,majeure,True,0.07
+anglais_3.1,anglais_3.1-tradu-003,traduction,4,Caller,S,commune,ville,,terminologie,majeure,True,0.0
+anglais_3.1,anglais_3.1-tradu-004,traduction,6,Caller,S,piégée,coincée,,terminologie,majeure,True,0.0
+anglais_3.1,anglais_3.1-tradu-005,traduction,7,Operator,M,is,is (déplacé),,héritée de la transcription,mineure,True,0.0
+anglais_3.1,anglais_3.1-tradu-006,traduction,7,Operator,S,fire spreading dangerously oui les,spread of the fire dangerous,fire,contresens,critique,True,0.0
+anglais_3.1,anglais_3.1-tradu-007,traduction,8,Caller,D,flammes se propagent de plus en plus nous avons peur que cela atteigne la forêt la plus proche,,de la,héritée de la transcription,critique,True,1.0
+anglais_3.1,anglais_3.1-tradu-008,traduction,9,Operator,S,do not,don t,,contresens,majeure,True,0.0
+anglais_3.1,anglais_3.1-tradu-009,traduction,9,Operator,DS,emergency services and firefighters are,help is,firefighters,contresens,critique,True,0.0
+anglais_3.1,anglais_3.1-tradu-010,traduction,9,Operator,S,their,the,,contresens,majeure,True,0.0
+anglais_3.1,anglais_3.1-tradu-011,traduction,9,Caller,I,,tu to,,ajout,mineure,True,0.0
+anglais_3.1,anglais_3.1-tradu-012,traduction,10,Caller,S,merci beaucoup,be continued,,héritée de la transcription,majeure,True,0.75
+anglais_3.2,anglais_3.2-trans-001,transcription,2,Caller,DS,en bresse,ambrès,en bresse,code-switching,critique,True,
+anglais_3.2,anglais_3.2-trans-002,transcription,2,Caller,S,amiot,amieux,amiot,entité/nombre,critique,True,
+anglais_3.2,anglais_3.2-trans-003,transcription,3,Operator,IS,amiot,à mieux,amiot,entité/nombre,critique,True,
+anglais_3.2,anglais_3.2-trans-004,transcription,3,Operator,S,motard,moteur,,substitution phonétique,majeure,True,
+anglais_3.2,anglais_3.2-trans-005,transcription,3,Operator,D,il,,,omission,mineure,True,
+anglais_3.2,anglais_3.2-trans-006,transcription,4,Caller,DS,yeah yeah he s on the ground he s not responding i m right next to him,et attention,,code-switching,majeure,True,
+anglais_3.2,anglais_3.2-trans-007,transcription,5,Operator,D,est conscient il,,conscient,omission,critique,True,
+anglais_3.2,anglais_3.2-trans-008,transcription,6,Caller,D,i m not sure,,,omission,majeure,True,
+anglais_3.2,anglais_3.2-trans-009,transcription,8,Caller,DS,yes he s breathing,you,breathing,substitution lexicale,critique,True,
+anglais_3.2,anglais_3.2-trans-010,transcription,9,Operator,D,le,,,omission,mineure,True,
+anglais_3.2,anglais_3.2-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_3.2,anglais_3.2-tradu-002,traduction,2,Caller,DS,en bresse,ambrès,en bresse,terminologie,critique,True,0.12
+anglais_3.2,anglais_3.2-tradu-003,traduction,2,Caller,S,au,du,,forme,mineure,True,0.12
+anglais_3.2,anglais_3.2-tradu-004,traduction,2,Caller,S,amiot,amieux,amiot,terminologie,critique,True,0.12
+anglais_3.2,anglais_3.2-tradu-005,traduction,3,Operator,S,carré amiot was,square to improve,carré amiot,contresens,critique,True,0.23
+anglais_3.2,anglais_3.2-tradu-006,traduction,3,Operator,IS,motorcyclist still,engine is always,,contresens,majeure,True,0.23
+anglais_3.2,anglais_3.2-tradu-007,traduction,4,Caller,DS,ouais ouais il est au sol il ne répond pas je suis juste à côté de lui is,there attention,,héritée de la transcription,majeure,True,1.0
+anglais_3.2,anglais_3.2-tradu-008,traduction,5,Operator,DS,conscious is he,s,conscious,héritée de la transcription,critique,True,0.6
+anglais_3.2,anglais_3.2-tradu-009,traduction,6,Caller,D,oui je ne suis pas sûr,,,héritée de la transcription,majeure,True,1.0
+anglais_3.2,anglais_3.2-tradu-010,traduction,7,Operator,S,look,check,,terminologie,majeure,True,0.0
+anglais_3.2,anglais_3.2-tradu-011,traduction,7,Caller,I,,youfrench translation tu donc vous laissez,,ajout,majeure,True,0.0
+anglais_3.2,anglais_3.2-tradu-012,traduction,8,Caller,S,oui,comme,,héritée de la transcription,majeure,True,1.0
+anglais_3.2,anglais_3.2-tradu-013,traduction,8,Operator,IS,respire so you leave him as he is and,est et je vous envoie du monde d accord english translation sure,respire,héritée de la transcription,critique,True,1.0
+anglais_3.2,anglais_3.2-tradu-014,traduction,9,Operator,S,am sending,ll send,,contresens,majeure,True,0.0
+anglais_3.2,anglais_3.2-tradu-015,traduction,9,Operator,DS,your way alright,over okay,,contresens,majeure,True,0.0
+anglais_3.2,anglais_3.2-tradu-016,traduction,10,Caller,R,oui d accord merci,oui d accord merci (attribué à Operator),,héritée de la transcription,majeure,True,0.0
+anglais_3.3,anglais_3.3-trans-001,transcription,4,Caller,MS,it s in bourg en bresse,it s in bourg combresse (déplacé),bourg en bresse,entité/nombre,critique,True,
+anglais_3.3,anglais_3.3-trans-002,transcription,8,Caller,DS,well there is this colleague who inhaled it and then we had three other people who were present they seem to be okay,no he s unconscious,three unconscious,entité/nombre,critique,True,
+anglais_3.3,anglais_3.3-trans-003,transcription,10,Caller,D,no he s unconscious,,unconscious,omission,critique,True,
+anglais_3.3,anglais_3.3-trans-004,transcription,12,Caller,D,yes,,,omission,mineure,True,
+anglais_3.3,anglais_3.3-trans-005,transcription,13,Operator,DS,gaz toxique ou pas,gaspillage okay,,code-switching,majeure,True,
+anglais_3.3,anglais_3.3-trans-006,transcription,14,Caller,DS,everyone is out,problem,,substitution lexicale,majeure,True,
+anglais_3.3,anglais_3.3-trans-007,transcription,16,Caller,D,okay no problem,,,omission,majeure,True,
+anglais_3.3,anglais_3.3-trans-008,transcription,20,Caller,D,okay thank you,,,omission,majeure,True,
+anglais_3.3,anglais_3.3-tradu-001,traduction,1,Operator,DS,fire department,firefighter,fire firefighter,contresens,critique,True,0.0
+anglais_3.3,anglais_3.3-tradu-002,traduction,4,Caller,MS,c est à bourg en bresse,c est à bourg combresse (déplacé),bourg en bresse,héritée de la transcription,critique,True,1.0
+anglais_3.3,anglais_3.3-tradu-003,traduction,7,Operator,S,okay,ok,,forme,mineure,True,0.0
+anglais_3.3,anglais_3.3-tradu-004,traduction,7,Operator,IS,came into,have been in,,contresens,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-005,traduction,8,Caller,DS,eh bien,non,,héritée de la transcription,mineure,True,1.0
+anglais_3.3,anglais_3.3-tradu-006,traduction,8,Caller,DS,y a ce collègue qui l a inhalé et puis nous avions trois autres personnes qui étaient présentes elles semblent aller bien,est inconscient,trois,héritée de la transcription,critique,True,1.0
+anglais_3.3,anglais_3.3-tradu-007,traduction,9,Operator,D,it,,,omission,mineure,True,0.0
+anglais_3.3,anglais_3.3-tradu-008,traduction,9,Operator,S,he,she,,forme,mineure,True,0.0
+anglais_3.3,anglais_3.3-tradu-009,traduction,10,Caller,D,non il est inconscient,,,héritée de la transcription,majeure,True,1.0
+anglais_3.3,anglais_3.3-tradu-010,traduction,11,Operator,S,he,she,,forme,mineure,True,0.0
+anglais_3.3,anglais_3.3-tradu-011,traduction,12,Caller,S,oui,ok,,forme,mineure,True,0.0
+anglais_3.3,anglais_3.3-tradu-012,traduction,13,Operator,D,okay,,,héritée de la transcription,mineure,True,0.31
+anglais_3.3,anglais_3.3-tradu-013,traduction,13,Operator,S,he,she,,héritée de la transcription,mineure,True,0.31
+anglais_3.3,anglais_3.3-tradu-014,traduction,13,Operator,S,exposed to the toxic gas or not,experiencing gasping d accord pas de problème,,héritée de la transcription,majeure,True,0.31
+anglais_3.3,anglais_3.3-tradu-015,traduction,14,Caller,D,non tout le monde est dehors,,,héritée de la transcription,majeure,True,0.75
+anglais_3.3,anglais_3.3-tradu-016,traduction,15,Operator,IS,set,re setting,,contresens,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-017,traduction,15,Operator,S,safety,security,,terminologie,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-018,traduction,16,Caller,D,d accord pas de problème,,,héritée de la transcription,majeure,True,1.0
+anglais_3.3,anglais_3.3-tradu-019,traduction,17,Operator,S,do,can,,contresens,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-020,traduction,17,Operator,D,have the possibility to,,,omission,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-021,traduction,18,Caller,R,non non c est impossible,non non c est impossible (attribué à Operator),,héritée de la transcription,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-022,traduction,19,Operator,D,well,,,omission,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-023,traduction,19,Operator,S,my,the,,forme,mineure,True,0.0
+anglais_3.3,anglais_3.3-tradu-024,traduction,19,Operator,S,do not,don t,,contresens,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-025,traduction,19,Operator,S,am,m,,contresens,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-026,traduction,19,Operator,DS,you emergency services,help,,contresens,majeure,True,0.0
+anglais_3.3,anglais_3.3-tradu-027,traduction,20,Caller,D,d accord merci,,,héritée de la transcription,majeure,True,1.0
+anglais_3.4,anglais_3.4-trans-001,transcription,1,Operator,MS,allô les pompiers bonjour,allo les pompiers bonjour (déplacé),,substitution phonétique,majeure,True,
+anglais_3.4,anglais_3.4-trans-002,transcription,3,Operator,S,plein,panne,,substitution lexicale,majeure,True,
+anglais_3.4,anglais_3.4-trans-003,transcription,4,Caller,D,yes this is it,,,omission,mineure,True,
+anglais_3.4,anglais_3.4-trans-004,transcription,8,Caller,D,okay thank you,,,omission,majeure,True,
+anglais_3.4,anglais_3.4-tradu-001,traduction,1,Operator,MS,hello fire department good morning,hello firefighters good morning (déplacé),fire firefighters,héritée de la transcription,critique,True,1.0
+anglais_3.4,anglais_3.4-tradu-002,traduction,3,Operator,IS,right,broken down,,contresens,majeure,True,0.14
+anglais_3.4,anglais_3.4-tradu-003,traduction,4,Caller,D,oui c est ça,,,omission,mineure,True,0.0
+anglais_3.4,anglais_3.4-tradu-004,traduction,5,Operator,DS,do not hang up,hold on,,contresens,majeure,True,0.0
+anglais_3.4,anglais_3.4-tradu-005,traduction,5,Operator,DS,am going to transfer,ll connect,,contresens,majeure,True,0.0
+anglais_3.4,anglais_3.4-tradu-006,traduction,5,Operator,S,to,with,,forme,mineure,True,0.0
+anglais_3.4,anglais_3.4-tradu-007,traduction,6,Caller,S,la rocade,le contournement,,terminologie,majeure,True,0.0
+anglais_3.4,anglais_3.4-tradu-008,traduction,7,Operator,S,transferring,connecting,,terminologie,majeure,True,0.0
+anglais_3.4,anglais_3.4-tradu-009,traduction,7,Operator,S,to,with,,forme,mineure,True,0.0
+anglais_3.4,anglais_3.4-tradu-010,traduction,7,Operator,DS,do not hang up,please hold,,contresens,majeure,True,0.0
+anglais_3.4,anglais_3.4-tradu-011,traduction,8,Caller,D,d accord merci,,,héritée de la transcription,majeure,True,1.0
+anglais_3.5,anglais_3.5-trans-001,transcription,1,Operator,DS,l ain,là,ain,entité/nombre,critique,True,
+anglais_3.5,anglais_3.5-trans-002,transcription,2,Caller,S,hello i just witnessed a head on collision very violent between two cars on the rd 1084 in the cerdon switchbacks d accord y a t,d accord y at il des blessés et et et et et et et et et et et et et et et et et et et,two cars 1084 cerdon blessés,code-switching,critique,True,
+anglais_3.5,anglais_3.5-trans-003,transcription,3,Operator,D,il des blessés,,blessés,omission,critique,True,
+anglais_3.5,anglais_3.5-trans-004,transcription,7,Operator,DS,pont d ain,poncin,pont ain,entité/nombre,critique,True,
+anglais_3.5,anglais_3.5-trans-005,transcription,7,Operator,S,nantua,lentua,nantua,entité/nombre,critique,True,
+anglais_3.5,anglais_3.5-trans-006,transcription,7,Operator,I,,gracias,,insertion/hallucination,majeure,True,
+anglais_3.5,anglais_3.5-tradu-001,traduction,1,Operator,S,firefighters of ain,firefighter from there,firefighters ain firefighter,héritée de la transcription,critique,True,0.4
+anglais_3.5,anglais_3.5-tradu-002,traduction,2,Caller,S,bonjour je viens d être témoin d une collision frontale très violente entre deux voitures sur la rd 1084 dans les lacets de cerdon,alright are there any injured and and and and and and and and and and and and and and and and and and and,deux voitures 1084 cerdon injured,héritée de la transcription,critique,True,1.0
+anglais_3.5,anglais_3.5-tradu-003,traduction,3,Operator,D,alright are there any injuries,,injuries,héritée de la transcription,critique,True,0.38
+anglais_3.5,anglais_3.5-tradu-004,traduction,4,Caller,S,piégé,coincé,,terminologie,majeure,True,0.0
+anglais_3.5,anglais_3.5-tradu-005,traduction,5,Operator,S,roadway,road,roadway road,terminologie,critique,True,0.0
+anglais_3.5,anglais_3.5-tradu-006,traduction,7,Operator,IS,emergency services,the rescue teams,,héritée de la transcription,majeure,True,0.31
+anglais_3.5,anglais_3.5-tradu-007,traduction,7,Operator,IS,pont d ain and nantua are alerted,poncin and lentua have been alerted thank you,pont ain nantua,héritée de la transcription,critique,True,0.31
+italien_1.1,italien_1.1-trans-001,transcription,2,Caller,I,,sono a burkham res,,insertion/hallucination,majeure,True,
+italien_1.1,italien_1.1-trans-002,transcription,4,Caller,D,sono a bourg en bresse,,bourg en bresse,code-switching,critique,True,
+italien_1.1,italien_1.1-trans-003,transcription,6,Caller,D,rue des roseaux,,rue des roseaux,code-switching,critique,True,
+italien_1.1,italien_1.1-trans-004,transcription,9,Operator,D,d accord,,,omission,majeure,True,
+italien_1.1,italien_1.1-trans-005,transcription,11,Caller,S,une,una,,code-switching,mineure,True,
+italien_1.1,italien_1.1-trans-006,transcription,11,Caller,S,4,quattro,4 quattro,entité/nombre,critique,True,
+italien_1.1,italien_1.1-trans-007,transcription,12,Operator,S,d accord c est,quello al primo piano,primo piano,code-switching,critique,True,
+italien_1.1,italien_1.1-trans-008,transcription,13,Caller,D,quello al primo piano,,primo piano,omission,critique,True,
+italien_1.1,italien_1.1-trans-009,transcription,17,Operator,D,donc,,,omission,mineure,True,
+italien_1.1,italien_1.1-trans-010,transcription,17,Operator,DS,manquent à l,manquaient d,,substitution phonétique,majeure,True,
+italien_1.1,italien_1.1-trans-011,transcription,18,Caller,D,sì esatto,,,omission,majeure,True,
+italien_1.1,italien_1.1-trans-012,transcription,21,Caller,DS,sì c è molto fumo sopra il lucennario un fumo nero,you,fumo,substitution lexicale,critique,True,
+italien_1.1,italien_1.1-tradu-001,traduction,1,Caller,I,,oui bonjour j,,ajout,majeure,True,0.0
+italien_1.1,italien_1.1-tradu-002,traduction,2,Caller,S,sì buongiorno chiamo perché c è,appelle parce qu il y a,,contresens,majeure,True,0.36
+italien_1.1,italien_1.1-tradu-003,traduction,2,Caller,IS,incendio nell appartamento accanto dove in quale città sono a bourg en bresse,incendie dans l appartement voisin je suis à burkham res dove in quale città,incendio bourg en bresse incendie,contresens,critique,True,0.36
+italien_1.1,italien_1.1-tradu-004,traduction,5,Operator,D,qual è,,,omission,majeure,True,0.0
+italien_1.1,italien_1.1-tradu-005,traduction,6,Caller,DS,rue des roseaux,qual è,rue des roseaux,contresens,critique,True,1.0
+italien_1.1,italien_1.1-tradu-006,traduction,8,Caller,S,il,le,,forme,mineure,True,0.0
+italien_1.1,italien_1.1-tradu-007,traduction,9,Operator,DS,d accordo ok benissimo,ok molto bene,,contresens,majeure,True,0.4
+italien_1.1,italien_1.1-tradu-008,traduction,9,Caller,I,,c,,ajout,mineure,True,0.4
+italien_1.1,italien_1.1-tradu-009,traduction,10,Caller,S,è,est,,forme,mineure,True,0.0
+italien_1.1,italien_1.1-tradu-010,traduction,10,Caller,IS,casa con 4 appartamenti all interno d accordo,maison avec quatre appartements à l intérieur celui du premier étage,4 quatre premier étage,contresens,critique,True,0.0
+italien_1.1,italien_1.1-tradu-011,traduction,11,Operator,D,è quello,,,omission,majeure,True,0.12
+italien_1.1,italien_1.1-tradu-012,traduction,12,Caller,R,al primo piano,al primo piano (attribué à Operator),primo piano,héritée de la transcription,critique,True,0.67
+italien_1.1,italien_1.1-tradu-013,traduction,13,Operator,DS,al primo piano ok ma,va bene ma tutti,primo piano,contresens,critique,True,1.0
+italien_1.1,italien_1.1-tradu-014,traduction,13,Operator,D,tutti,,,omission,majeure,True,1.0
+italien_1.1,italien_1.1-tradu-015,traduction,13,Caller,I,,non non non,,ajout,mineure,True,1.0
+italien_1.1,italien_1.1-tradu-016,traduction,14,Caller,S,no no no manca sicuramente una persona forse due e una copia di anziani non li ho visti uscire quindi mancano all appello,il manque sûrement une personne peut être deux et une copie de personnes âgées je ne les ai pas vus sortir ci sono,due deux,contresens,critique,True,0.0
+italien_1.1,italien_1.1-tradu-017,traduction,15,Operator,I,,che mancavano all appello,,ajout,majeure,True,0.0
+italien_1.1,italien_1.1-tradu-018,traduction,15,Operator,S,le altre,gli altri,,terminologie,majeure,True,0.0
+italien_1.1,italien_1.1-tradu-019,traduction,15,Operator,S,uscite,usciti,,terminologie,majeure,True,0.0
+italien_1.1,italien_1.1-tradu-020,traduction,16,Caller,D,sì esatto,,,omission,majeure,True,0.0
+italien_1.1,italien_1.1-tradu-021,traduction,17,Operator,S,vede,vedete,,terminologie,majeure,True,0.15
+italien_1.1,italien_1.1-tradu-022,traduction,18,Caller,DS,sì c è molto fumo sopra il lucennario un fumo nero d accordo,tu va bene,fumo,contresens,critique,True,1.0
+italien_1.1,italien_1.1-tradu-023,traduction,19,Operator,DS,i vigili del fuoco stanno arrivando,stanno arrivando i pompieri,fuoco,contresens,critique,True,0.0
+italien_1.2,italien_1.2-trans-001,transcription,1,Operator,S,les,okay,,forme,mineure,True,
+italien_1.2,italien_1.2-trans-002,transcription,3,Caller,D,in boulevard de brou,,boulevard de brou,omission,critique,True,
+italien_1.2,italien_1.2-trans-003,transcription,6,Operator,MS,l adresse exacte,l adresse exacte on envoie (déplacé),adresse,substitution phonétique,critique,True,
+italien_1.2,italien_1.2-trans-004,transcription,8,Operator,D,on envoie les secours,,,omission,majeure,True,
+italien_1.2,italien_1.2-tradu-001,traduction,1,Operator,S,i vigili del fuoco,va bene pompiers vi,fuoco,contresens,critique,True,0.0
+italien_1.2,italien_1.2-tradu-002,traduction,2,Caller,DS,buongiorno esce del fumo nero dalle finestre del terzo piano del palazzo di fronte al mio in boulevard de brou sapete,bonjour de la fumée noire sort des fenêtres du troisième étage de l immeuble en face du mien sai,fumo terzo piano boulevard de brou fumée troisième étage,contresens,critique,True,0.0
+italien_1.2,italien_1.2-tradu-003,traduction,3,Operator,IS,all interno non,dentro l indirizzo esatto,indirizzo,contresens,critique,True,0.21
+italien_1.2,italien_1.2-tradu-004,traduction,4,Operator,IS,so ma le persiane sono aperte l indirizzo esatto,mandiamo je ne sais pas mais les volets sont ouverts,indirizzo,contresens,critique,True,0.0
+italien_1.2,italien_1.2-tradu-005,traduction,7,Operator,D,mandiamo i soccorsi,,,omission,majeure,True,0.0
+italien_1.2,italien_1.2-tradu-006,traduction,7,Operator,S,attraversate i fumi,attraversare le fumate,,contresens,majeure,True,0.0
+italien_1.3,italien_1.3-trans-001,transcription,1,Operator,D,pompier de l ain,,,omission,majeure,True,
+italien_1.3,italien_1.3-trans-002,transcription,2,Caller,IS,grand parc,gran parte pompier delain,parc,entité/nombre,critique,True,
+italien_1.3,italien_1.3-tradu-001,traduction,1,Operator,S,vigili del fuoco dell ain un auto sta bruciando completamente nel parcheggio,une voiture brûle complètement dans le parking du grand partage pompiere delain,vigili del fuoco auto bruciando voiture brûle,héritée de la transcription,critique,True,1.0
+italien_1.3,italien_1.3-tradu-002,traduction,2,Caller,D,del grand parc,,del,héritée de la transcription,critique,True,0.4
+italien_1.3,italien_1.3-tradu-003,traduction,3,Operator,IS,accanto sì un furgone proprio accanto sta iniziando a fumare allontanate le persone arriviamo,vicino allontanate le persone stiamo arrivando oui un fourgon juste à côté commence à fumer,,contresens,majeure,True,0.0
+italien_1.4,italien_1.4-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+italien_1.4,italien_1.4-trans-002,transcription,2,Caller,DS,buongiorno sono un ristoratore nella città medievale un incendio alla cappa si sta propagando alle travi a vista,بلس در الله,incendio,substitution lexicale,critique,True,
+italien_1.4,italien_1.4-trans-003,transcription,4,Caller,D,place de la halle,,place de la halle,code-switching,critique,True,
+italien_1.4,italien_1.4-trans-004,transcription,5,Operator,I,,et,,insertion/hallucination,mineure,True,
+italien_1.4,italien_1.4-tradu-001,traduction,1,Operator,DS,vigili del fuoco,pompiere ti,fuoco,héritée de la transcription,critique,True,0.33
+italien_1.4,italien_1.4-tradu-002,traduction,2,Caller,DS,buongiorno sono un ristoratore nella città medievale un incendio alla cappa si sta propagando alle travi a vista,bénédiction de dieu,incendio de,héritée de la transcription,critique,True,1.0
+italien_1.4,italien_1.4-tradu-003,traduction,4,Caller,DS,place de la halle chiudete,tagliate,place de la halle,héritée de la transcription,critique,True,1.0
+italien_1.4,italien_1.4-tradu-004,traduction,5,Operator,I,,e,,ajout,mineure,True,0.0
+italien_1.4,italien_1.4-tradu-005,traduction,5,Operator,IS,arrivano,stanno arrivando,,contresens,majeure,True,0.0
+italien_1.5,italien_1.5-trans-001,transcription,1,Operator,I,,okay,,insertion/hallucination,mineure,True,
+italien_1.5,italien_1.5-trans-002,transcription,2,Caller,S,montluel,montuel,montluel,entité/nombre,critique,True,
+italien_1.5,italien_1.5-trans-003,transcription,2,Caller,S,allarme,alarme,,substitution phonétique,majeure,True,
+italien_1.5,italien_1.5-trans-004,transcription,2,Caller,DS,e c è del,esce,,substitution lexicale,majeure,True,
+italien_1.5,italien_1.5-trans-005,transcription,3,Operator,I,,elle,,insertion/hallucination,mineure,True,
+italien_1.5,italien_1.5-trans-006,transcription,6,Caller,M,no nessuno,no nessuno (déplacé),,inversion de locuteur,mineure,True,
+italien_1.5,italien_1.5-tradu-001,traduction,1,Operator,IS,vigili del fuoco buongiorno buongiorno sono,pompiere buongiorno va bene bonjour je suis,vigili del fuoco,contresens,critique,True,0.0
+italien_1.5,italien_1.5-tradu-002,traduction,2,Caller,IS,direttrice della scuola primaria di montluel è scattato l allarme antincendio e c è del fumo dall aula di informatica,directrice de l école primaire de montuel l alarme incendie s est déclenchée de la fumée sort de la salle d informatique,scuola primaria montluel del fumo incendie fumée,contresens,critique,True,0.26
+italien_1.5,italien_1.5-tradu-003,traduction,3,Caller,I,,oui tous,,ajout,majeure,True,0.0
+italien_1.5,italien_1.5-tradu-004,traduction,4,Caller,S,sì tutti i bambini sono al punto di raccolta,les enfants sont au point de collecte non personne,bambini enfants,contresens,critique,True,0.0
+italien_1.5,italien_1.5-tradu-005,traduction,5,Operator,I,,dei,,ajout,mineure,True,0.0
+italien_1.5,italien_1.5-tradu-006,traduction,6,Caller,D,no nessuno benissimo arriviamo,,,omission,majeure,True,0.0
+italien_2.1,italien_2.1-trans-001,transcription,1,Operator,D,pompier bonjour,,,omission,majeure,True,
+italien_2.1,italien_2.1-trans-002,transcription,3,Caller,S,caduto,accaduto,caduto,substitution phonétique,critique,True,
+italien_2.1,italien_2.1-trans-003,transcription,5,Caller,IS,mulino 3 nel,muli notaray en el,mulino 3,code-switching,critique,True,
+italien_2.1,italien_2.1-trans-004,transcription,5,Caller,S,di saint rémy,de san rémi,di saint rémy,code-switching,critique,True,
+italien_2.1,italien_2.1-trans-005,transcription,7,Caller,D,sì,,,omission,mineure,True,
+italien_2.1,italien_2.1-trans-006,transcription,8,Operator,S,restez,reste,,substitution phonétique,majeure,True,
+italien_2.1,italien_2.1-trans-007,transcription,8,Operator,D,à,,,omission,mineure,True,
+italien_2.1,italien_2.1-trans-008,transcription,9,Caller,D,va bene grazie per l aiuto,,,omission,majeure,True,
+italien_2.1,italien_2.1-tradu-001,traduction,1,Operator,S,vigili del fuoco buongiorno buongiorno chiamo per segnalare un emergenza ho trovato il mio vicino deceduto in casa sembra sia caduto d accordo,bonjour j appelle pour signaler une urgence j ai trouvé mon voisin décédé chez lui il semble que cela soit arrivé va bene,vigili del fuoco caduto,contresens,critique,True,1.0
+italien_2.1,italien_2.1-tradu-002,traduction,3,Caller,I,,voie,,ajout,majeure,True,0.06
+italien_2.1,italien_2.1-tradu-003,traduction,4,Caller,S,via del mulino 3 nel comune di,du notaire muli dans la commune de,via del mulino 3 comune di,contresens,critique,True,0.0
+italien_2.1,italien_2.1-tradu-004,traduction,5,Caller,I,,il semble avoir des,,ajout,majeure,True,0.78
+italien_2.1,italien_2.1-tradu-005,traduction,6,Caller,S,sì sembra avere ferite alla testa c è sangue per terra d accordo resti in disparte,blessures à la tête il y a du sang par terre va bene resta a distanza,ferite sangue blessures sang,contresens,critique,True,0.0
+italien_2.1,italien_2.1-tradu-006,traduction,7,Operator,S,tocchi,toccare,,terminologie,majeure,True,0.0
+italien_2.1,italien_2.1-tradu-007,traduction,8,Caller,D,va bene grazie per l aiuto,,,omission,majeure,True,0.05
+italien_2.2,italien_2.2-trans-001,transcription,2,Caller,S,nel,in,,forme,mineure,True,
+italien_2.2,italien_2.2-trans-002,transcription,4,Caller,D,alla reyssouze bourg en bresse,,reyssouze bourg en bresse,omission,critique,True,
+italien_2.2,italien_2.2-trans-003,transcription,5,Operator,S,reyssouze,ressous,reyssouze,entité/nombre,critique,True,
+italien_2.2,italien_2.2-trans-004,transcription,5,Caller,I,,c,,insertion/hallucination,mineure,True,
+italien_2.2,italien_2.2-trans-005,transcription,6,Caller,S,sì,est,,code-switching,mineure,True,
+italien_2.2,italien_2.2-trans-006,transcription,6,Caller,S,a,à,,code-switching,mineure,True,
+italien_2.2,italien_2.2-trans-007,transcription,6,Caller,IS,ponte in,pont et une,,code-switching,majeure,True,
+italien_2.2,italien_2.2-trans-008,transcription,9,Caller,S,sott,stato,,substitution lexicale,majeure,True,
+italien_2.2,italien_2.2-trans-009,transcription,9,Caller,I,,sì,,insertion/hallucination,mineure,True,
+italien_2.2,italien_2.2-trans-010,transcription,10,Operator,S,aux,au,,forme,mineure,True,
+italien_2.2,italien_2.2-trans-011,transcription,11,Caller,D,sì certo,,,omission,majeure,True,
+italien_2.2,italien_2.2-trans-012,transcription,12,Operator,S,ne,nous,,forme,mineure,True,
+italien_2.2,italien_2.2-trans-013,transcription,12,Operator,DS,approchez pas du cours d eau,rapprochons sì certo,,code-switching,majeure,True,
+italien_2.2,italien_2.2-tradu-001,traduction,1,Caller,I,,bonjour,,ajout,majeure,True,0.0
+italien_2.2,italien_2.2-tradu-002,traduction,2,Caller,S,buongiorno qualcuno è caduto nel corso d acqua,quelqu un est il tombé à l eau,caduto tombé,contresens,critique,True,0.0
+italien_2.2,italien_2.2-tradu-003,traduction,3,Operator,DS,in quale punto si trova alla reyssouze bourg en bresse,dov è,reyssouze bourg en bresse,contresens,critique,True,0.0
+italien_2.2,italien_2.2-tradu-004,traduction,5,Operator,DS,reyssouze si trova,ressous siete,reyssouze siete,contresens,critique,True,0.09
+italien_2.2,italien_2.2-tradu-005,traduction,5,Operator,IS,in quale punto sì vicino a un ponte in via,dove c est près d un pont et d une rue,via rue,contresens,critique,True,0.09
+italien_2.2,italien_2.2-tradu-006,traduction,7,Operator,S,d accordo,va bene,,terminologie,majeure,True,0.0
+italien_2.2,italien_2.2-tradu-007,traduction,7,Operator,S,la,vi,,forme,mineure,True,0.0
+italien_2.2,italien_2.2-tradu-008,traduction,7,Operator,IS,benissimo,molto bene,,terminologie,majeure,True,0.0
+italien_2.2,italien_2.2-tradu-009,traduction,7,Operator,DS,sta succedendo ha,succede avete,,contresens,majeure,True,0.0
+italien_2.2,italien_2.2-tradu-010,traduction,7,Operator,I,,questa persona,,ajout,majeure,True,0.0
+italien_2.2,italien_2.2-tradu-011,traduction,7,Caller,IS,questa persona no non è visibile penso sia ancora sott acqua,non non est visible je pense qu il y a encore de l eau oui,,contresens,majeure,True,0.0
+italien_2.2,italien_2.2-tradu-012,traduction,9,Operator,S,ha,avete,,contresens,majeure,True,0.11
+italien_2.2,italien_2.2-tradu-013,traduction,9,Operator,DS,portarsi vicino,avvicinarvi,,contresens,majeure,True,0.11
+italien_2.2,italien_2.2-tradu-014,traduction,9,Operator,IS,segno,un segnale,,terminologie,majeure,True,0.11
+italien_2.2,italien_2.2-tradu-015,traduction,10,Caller,D,sì certo,,,omission,majeure,True,0.0
+italien_2.2,italien_2.2-tradu-016,traduction,11,Operator,DS,non si avvicini al corso d acqua resti in totale sicurezza,vi avviciniamo oui bien sûr e rimani al sicuro,,contresens,majeure,True,1.0
+italien_2.2,italien_2.2-tradu-017,traduction,11,Operator,S,vada,vieni,,terminologie,majeure,True,1.0
+italien_2.2,italien_2.2-tradu-018,traduction,11,Operator,IS,arriviamo,stiamo arrivando,,contresens,majeure,True,1.0
+italien_2.3,italien_2.3-trans-001,transcription,1,Operator,I,,oui okay,,insertion/hallucination,mineure,True,
+italien_2.3,italien_2.3-trans-002,transcription,1,Caller,S,calendario,calentario,,substitution phonétique,majeure,True,
+italien_2.3,italien_2.3-trans-003,transcription,1,Caller,D,come,,,omission,majeure,True,
+italien_2.3,italien_2.3-trans-004,transcription,3,Caller,DS,ah sì alla caserna,oui a casa,,code-switching,majeure,True,
+italien_2.3,italien_2.3-trans-005,transcription,3,Caller,DS,bourg en bresse,burkambres,bourg en bresse,code-switching,critique,True,
+italien_2.3,italien_2.3-trans-006,transcription,5,Operator,S,les lignes,l une,,substitution phonétique,majeure,True,
+italien_2.3,italien_2.3-tradu-001,traduction,1,Operator,IS,ho,sì va bene j ai,,contresens,majeure,True,0.08
+italien_2.3,italien_2.3-tradu-002,traduction,1,Caller,IS,problema vorrei il calendario dei pompieri ma purtroppo non potete passare dove abito perché hanno messo delle barriere di sicurezza come posso averne uno,problème je voudrais le calendrier des pompiers mais malheureusement vous ne pouvez pas passer où j habite car ils ont mis des barrières de sécurité puis je en avoir un,car en,contresens,critique,True,0.08
+italien_2.3,italien_2.3-tradu-003,traduction,2,Operator,S,o,oppure,,contresens,majeure,True,0.0
+italien_2.3,italien_2.3-tradu-004,traduction,2,Operator,S,reca,presenti,,terminologie,majeure,True,0.0
+italien_2.3,italien_2.3-tradu-005,traduction,2,Operator,S,in,alla,,forme,mineure,True,0.0
+italien_2.3,italien_2.3-tradu-006,traduction,2,Operator,D,su,,,omission,mineure,True,0.0
+italien_2.3,italien_2.3-tradu-007,traduction,3,Caller,D,ah,,,omission,mineure,True,0.58
+italien_2.3,italien_2.3-tradu-008,traduction,3,Caller,DS,alla caserna di bourg en bresse da che parte vado,je vais chez burkambres par où je dois aller,bourg en bresse,contresens,critique,True,0.58
+italien_2.3,italien_2.3-tradu-009,traduction,4,Operator,DS,esatto si presenterà lì è,è così vi presenterete,,contresens,majeure,True,0.0
+italien_2.3,italien_2.3-tradu-010,traduction,4,Operator,S,lei,voi,,terminologie,majeure,True,0.0
+italien_2.3,italien_2.3-tradu-011,traduction,4,Operator,S,entra,entrate,,terminologie,majeure,True,0.0
+italien_2.3,italien_2.3-tradu-012,traduction,4,Operator,S,qui è,lì siete,siete,contresens,critique,True,0.0
+italien_2.3,italien_2.3-tradu-013,traduction,4,Operator,S,fatta,fatto,,terminologie,majeure,True,0.0
+italien_2.3,italien_2.3-tradu-014,traduction,4,Operator,S,le linee,una linea,,terminologie,majeure,True,0.0
+italien_2.4,italien_2.4-trans-001,transcription,3,Operator,IS,donnez moi l adresse exacte,tu n y mets la dress exact respire t elle,adresse respire,substitution phonétique,critique,True,
+italien_2.4,italien_2.4-trans-002,transcription,4,Caller,S,en bresse respire t,commerce si mais quand,en bresse respire,code-switching,critique,True,
+italien_2.4,italien_2.4-trans-003,transcription,5,Operator,D,elle sì ma con,,,code-switching,majeure,True,
+italien_2.4,italien_2.4-trans-004,transcription,6,Caller,S,difficoltà,difficulta,,substitution phonétique,majeure,True,
+italien_2.4,italien_2.4-tradu-001,traduction,1,Operator,IS,vigili del fuoco buongiorno buongiorno una signora è appena svenuta nel negozio non risponde più d accordo mi dia l indirizzo esatto,pompiere buongiorno bonjour une dame vient de s évanouir dans le magasin elle ne répond plus va bene non ci metti la dose esatta respira lei,vigili del fuoco svenuta indirizzo respira,contresens,critique,True,0.0
+italien_2.4,italien_2.4-tradu-002,traduction,4,Caller,S,en bresse respira sì ma con molta difficoltà benissimo,commerce oui mais beaucoup de difficultés molto bene restate,en bresse respira,héritée de la transcription,critique,True,0.44
+italien_2.4,italien_2.4-tradu-003,traduction,7,Operator,D,resti,,,omission,majeure,True,0.0
+italien_2.4,italien_2.4-tradu-004,traduction,7,Operator,IS,arrivano,stanno arrivando,,contresens,majeure,True,0.0
+italien_2.5,italien_2.5-trans-001,transcription,2,Caller,S,anca,onca,,substitution phonétique,majeure,True,
+italien_2.5,italien_2.5-trans-002,transcription,3,Operator,D,à quelle adresse,,adresse,omission,critique,True,
+italien_2.5,italien_2.5-trans-003,transcription,4,Caller,S,impasse du tilleul meximieux,in pazzo quelle adresse,impasse du tilleul meximieux adresse,code-switching,critique,True,
+italien_2.5,italien_2.5-trans-004,transcription,5,Operator,D,peut il se relever,,,omission,majeure,True,
+italien_2.5,italien_2.5-trans-005,transcription,7,Operator,I,,monsieur relevez,,insertion/hallucination,majeure,True,
+italien_2.5,italien_2.5-tradu-001,traduction,1,Operator,S,vigili del fuoco buongiorno mia nonna è caduta dalle scale ha dolore all anca a quale indirizzo 12 impasse du tilleul meximieux riesce a rialzarsi no urla dal dolore,pompiere buongiorno ma grand mère est tombée dans l escalier elle a mal à l omoplate 12 en folie quale indirizzo pas de cri de douleur signore si alzi,vigili del fuoco caduta dolore indirizzo 12 tombée douleur,contresens,critique,True,0.0
+italien_2.5,italien_2.5-tradu-002,traduction,7,Operator,IS,mandiamo,stiamo inviando,,contresens,majeure,True,0.67
+italien_2.6,italien_2.6-trans-001,transcription,2,Caller,S,e suda,su da,,substitution phonétique,majeure,True,
+italien_2.6,italien_2.6-trans-002,transcription,4,Caller,DS,12 rue michelet oyonnax,circa 10 minuti,12 rue michelet 10,entité/nombre,critique,True,
+italien_2.6,italien_2.6-trans-003,transcription,6,Caller,D,circa 10 minuti,,10,omission,critique,True,
+italien_2.6,italien_2.6-tradu-001,traduction,1,Operator,DS,vigili del fuoco,pompiere,vigili del fuoco,contresens,critique,True,0.0
+italien_2.6,italien_2.6-tradu-002,traduction,2,Caller,S,mio marito ha un dolore al petto e suda molto,mon mari a une douleur à la poitrine depuis longtemps,dolore douleur,contresens,critique,True,0.2
+italien_2.6,italien_2.6-tradu-003,traduction,3,Operator,S,vi trovate 12 rue,sei environ 10 minutes,12 rue sei 10,contresens,critique,True,0.0
+italien_2.6,italien_2.6-tradu-004,traduction,4,Caller,D,michelet oyonnax,,michelet oyonnax,héritée de la transcription,critique,True,1.0
+italien_2.6,italien_2.6-tradu-005,traduction,5,Operator,D,ha dolore,,dolore,omission,critique,True,0.0
+italien_2.6,italien_2.6-tradu-006,traduction,6,Caller,S,circa 10 minuti benissimo,sta male molto bene,10,héritée de la transcription,critique,True,1.0
+italien_2.6,italien_2.6-tradu-007,traduction,7,Operator,IS,arrivano,stanno arrivando,,contresens,majeure,True,0.0
+italien_2.7,italien_2.7-trans-001,transcription,1,Operator,D,pompier j écoute,,,omission,majeure,True,
+italien_2.7,italien_2.7-trans-002,transcription,2,Operator,I,,pompier bonjour,,insertion/hallucination,majeure,True,
+italien_2.7,italien_2.7-trans-003,transcription,3,Operator,S,arbent sì,arbon sí,arbent,code-switching,critique,True,
+italien_2.7,italien_2.7-trans-004,transcription,5,Operator,D,d accord appuyez fort sur la plaie avec un linge propre,,,omission,majeure,True,
+italien_2.7,italien_2.7-trans-005,transcription,6,Caller,S,premendo,premando,,substitution phonétique,majeure,True,
+italien_2.7,italien_2.7-tradu-001,traduction,1,Operator,S,vigili del fuoco ascolto il mio collega si è tagliato con una sega circolare in officina sangue molto,mon collègue s est coupé avec une scie circulaire à l atelier beaucoup de sang pompiere buongiorno siete,del fuoco sangue sang siete,héritée de la transcription,critique,True,1.0
+italien_2.7,italien_2.7-tradu-002,traduction,3,Operator,D,vi trovate,,vi,omission,critique,True,0.25
+italien_2.7,italien_2.7-tradu-003,traduction,3,Operator,S,arbent sì,arbon oui,arbent,terminologie,critique,True,0.25
+italien_2.7,italien_2.7-tradu-004,traduction,5,Operator,S,un panno pulito sto premendo con tutte le mie forze,una benda pulita je pousse de toutes mes forces mantieni,,héritée de la transcription,majeure,True,1.0
+italien_2.7,italien_2.7-tradu-005,traduction,7,Operator,D,mantenga,,,omission,majeure,True,0.0
+italien_2.7,italien_2.7-tradu-006,traduction,7,Operator,S,pressione,pression,,terminologie,majeure,True,0.0
+italien_2.7,italien_2.7-tradu-007,traduction,7,Operator,S,mollare,allentare,,terminologie,majeure,True,0.0
+italien_2.7,italien_2.7-tradu-008,traduction,7,Operator,DS,vigili del fuoco,pompieri,del fuoco,contresens,critique,True,0.0
+italien_2.8,italien_2.8-trans-001,transcription,2,Caller,S,punto,appunto,,substitution phonétique,majeure,True,
+italien_2.8,italien_2.8-trans-002,transcription,4,Caller,M,sì verso l entrata,sì verso l entrata (déplacé),,inversion de locuteur,mineure,True,
+italien_2.8,italien_2.8-trans-003,transcription,5,Operator,D,s,,,omission,mineure,True,
+italien_2.8,italien_2.8-tradu-001,traduction,1,Operator,IS,vigili del fuoco buongiorno mio figlio è stato punto da diverse vespe,pompiere buongiorno mon fils a été piqué par plusieurs guêpes son visage gonfle et,vigili del fuoco,contresens,critique,True,0.0
+italien_2.8,italien_2.8-tradu-002,traduction,2,Caller,S,viso si sta gonfiando e fa fatica a respirare,a du mal à respirer oui vers l entrée,respirare respirer,contresens,critique,True,0.06
+italien_2.8,italien_2.8-tradu-003,traduction,3,Operator,S,parc des oiseaux sì,parco degli uccelli mettetelo,,contresens,majeure,True,0.0
+italien_2.8,italien_2.8-tradu-004,traduction,4,Caller,D,verso l entrata lo sdrai,,,omission,majeure,True,0.0
+italien_2.8,italien_2.8-tradu-005,traduction,5,Operator,DS,se fa fatica,ha difficoltà,,contresens,majeure,True,0.0
+italien_2.8,italien_2.8-tradu-006,traduction,5,Operator,IS,arrivano,stanno arrivando,,contresens,majeure,True,0.0
+italien_2.9,italien_2.9-trans-001,transcription,2,Caller,D,buongiorno sono caduta dalle scale la mia caviglia è triplicata di volume e non riesco più ad appoggiare il piede,,caduta,omission,critique,True,
+italien_2.9,italien_2.9-trans-002,transcription,3,Operator,S,seule,seul,,substitution phonétique,majeure,True,
+italien_2.9,italien_2.9-trans-003,transcription,4,Caller,D,sì 15 rue pasteur,,15 rue pasteur,omission,critique,True,
+italien_2.9,italien_2.9-tradu-001,traduction,1,Operator,DS,vigili del fuoco,pompiere,vigili del fuoco,contresens,critique,True,0.0
+italien_2.9,italien_2.9-tradu-002,traduction,2,Caller,DS,buongiorno sono caduta dalle scale la mia caviglia è triplicata di volume e non riesco più ad appoggiare il piede è sola in,sei da solo a,caduta sei,héritée de la transcription,critique,True,1.0
+italien_2.9,italien_2.9-tradu-003,traduction,4,Caller,D,sì 15 rue pasteur,,15 rue pasteur,héritée de la transcription,critique,True,1.0
+italien_2.9,italien_2.9-tradu-004,traduction,5,Operator,DS,si muova più,muovetevi,,contresens,majeure,True,0.0
+italien_2.9,italien_2.9-tradu-005,traduction,5,Operator,IS,arriveranno,stanno arrivando,,contresens,majeure,True,0.0
+italien_2.9,italien_2.9-tradu-006,traduction,5,Operator,S,trasportarla,portarvi,,terminologie,majeure,True,0.0
+italien_2.10,italien_2.10-trans-001,transcription,2,Caller,IS,gr9,gr 9,gr9 9,entité/nombre,critique,True,
+italien_2.10,italien_2.10-trans-002,transcription,2,Caller,DS,ed è,e,,substitution lexicale,majeure,True,
+italien_2.10,italien_2.10-trans-003,transcription,3,Operator,I,,ne,,insertion/hallucination,mineure,True,
+italien_2.10,italien_2.10-trans-004,transcription,4,Caller,S,siamo vicino alla croix du colombier ne bougez plus les secours arrivent,bougez plus les secours arrivent siamo vicino à la croix du colombier,croix du colombier,code-switching,critique,True,
+italien_2.10,italien_2.10-tradu-001,traduction,1,Operator,S,vigili del fuoco buongiorno buongiorno stiamo facendo un escursione sul gr9 il mio amico si è storto il ginocchio ed è,pompiere buongiorno bonjour nous faisons une randonnée sur le gr 9 mon ami s est tordu le genou et est bloqué,vigili del fuoco gr9 9,contresens,critique,True,0.0
+italien_2.10,italien_2.10-tradu-002,traduction,2,Caller,D,bloccato,,,omission,majeure,True,0.22
+italien_2.10,italien_2.10-tradu-003,traduction,3,Operator,I,,non si,,ajout,mineure,True,0.0
+italien_2.10,italien_2.10-tradu-004,traduction,4,Caller,S,siamo vicino alla croix du colombier non vi muovete più i soccorsi arrivano,muova i soccorsi stanno arrivando nous sommes près de la croix du colombier,croix du colombier,héritée de la transcription,critique,True,1.0
+italien_3.1,italien_3.1-trans-001,transcription,2,Caller,D,buongiorno,,,omission,majeure,True,
+italien_3.1,italien_3.1-trans-002,transcription,4,Caller,D,sulla,,,omission,majeure,True,
+italien_3.1,italien_3.1-trans-003,transcription,4,Caller,I,,e,,insertion/hallucination,mineure,True,
+italien_3.1,italien_3.1-trans-004,transcription,4,Caller,S,urtato,ursato,,substitution phonétique,majeure,True,
+italien_3.1,italien_3.1-trans-005,transcription,6,Caller,MS,ci sono due vittime nell auto,ci sono due vittime (déplacé),due auto,entité/nombre,critique,True,
+italien_3.1,italien_3.1-trans-006,transcription,6,Caller,S,incastrata,incassata,,substitution phonétique,majeure,True,
+italien_3.1,italien_3.1-tradu-001,traduction,1,Operator,DS,vigili del fuoco,pompiere,fuoco,contresens,critique,True,0.0
+italien_3.1,italien_3.1-tradu-002,traduction,2,Caller,S,buongiorno c è stato,il y a eu,,contresens,majeure,True,0.07
+italien_3.1,italien_3.1-tradu-003,traduction,2,Caller,IS,incidente sulla strada per,accident sur la route de,incidente strada accident la,contresens,critique,True,0.07
+italien_3.1,italien_3.1-tradu-004,traduction,2,Caller,IS,subito dopo la rotonda,juste après le rond point,la,contresens,critique,True,0.07
+italien_3.1,italien_3.1-tradu-005,traduction,3,Caller,I,,sur la route,la,ajout,critique,True,0.0
+italien_3.1,italien_3.1-tradu-006,traduction,4,Caller,S,sulla strada statale all ingresso del comune di,nationale à l entrée de la commune de,strada comune di la,contresens,critique,True,0.1
+italien_3.1,italien_3.1-tradu-007,traduction,4,Caller,S,veicolo ha urtato,véhicule a heurté,,contresens,majeure,True,0.1
+italien_3.1,italien_3.1-tradu-008,traduction,4,Caller,S,albero e ha preso fuoco quante vittime ci sono ci sono due vittime nell auto una è cosciente ma,arbre et a pris feu il y a deux victimes quante vittime ci sono l une est consciente mais,fuoco due auto cosciente feu deux victimes consciente,contresens,critique,True,0.1
+italien_3.1,italien_3.1-tradu-009,traduction,6,Caller,S,altra è incastrata e sembra incosciente,autre est enfoncée et semble inconsciente,,héritée de la transcription,majeure,True,0.41
+italien_3.1,italien_3.1-tradu-010,traduction,7,Operator,D,la propagazione del fuoco,,la fuoco,omission,critique,True,0.0
+italien_3.1,italien_3.1-tradu-011,traduction,8,Caller,D,sì le fiamme si estendono sempre di più abbiamo paura che colpisca,,di,omission,critique,True,0.0
+italien_3.1,italien_3.1-tradu-012,traduction,8,Caller,S,foresta vicina d accordo non tentate di intervenire nell auto i soccorsi e i vigili del fuoco stanno arrivando restate a,propagazione del fuoco oui les flammes s étendent de plus en plus nous avons peur qu elles atteignent la forêt voisine,di auto fuoco la,contresens,critique,True,0.0
+italien_3.1,italien_3.1-tradu-013,traduction,9,Operator,D,distanza di sicurezza,,di,omission,critique,True,0.0
+italien_3.2,italien_3.2-trans-001,transcription,1,Operator,IS,bonjour,je vous écoute,,substitution lexicale,majeure,True,
+italien_3.2,italien_3.2-trans-002,transcription,2,Caller,DS,bourg en bresse,burkham res,bourg en bresse,code-switching,critique,True,
+italien_3.2,italien_3.2-trans-003,transcription,2,Caller,DS,carré amiot,caramio,carré amiot caramio,entité/nombre,critique,True,
+italien_3.2,italien_3.2-trans-004,transcription,3,Operator,S,amiot,amio,amiot,entité/nombre,critique,True,
+italien_3.2,italien_3.2-trans-005,transcription,3,Operator,I,,il,,insertion/hallucination,mineure,True,
+italien_3.2,italien_3.2-trans-006,transcription,4,Caller,DS,sì è a terra non risponde sono qui accanto,là,,substitution lexicale,majeure,True,
+italien_3.2,italien_3.2-trans-007,transcription,6,Caller,S,non ne sono sicuro,respira il faut regarder,respira,substitution lexicale,critique,True,
+italien_3.2,italien_3.2-trans-008,transcription,7,Operator,D,regardez,,,omission,majeure,True,
+italien_3.2,italien_3.2-trans-009,transcription,8,Caller,D,sì respira,,respira,omission,critique,True,
+italien_3.2,italien_3.2-trans-010,transcription,9,Operator,D,le,,,omission,mineure,True,
+italien_3.2,italien_3.2-trans-011,transcription,9,Operator,S,monde,bond,,substitution phonétique,majeure,True,
+italien_3.2,italien_3.2-trans-012,transcription,10,Caller,S,sì,sí,,forme,mineure,True,
+italien_3.2,italien_3.2-tradu-001,traduction,1,Operator,S,vigili del fuoco buongiorno vi chiamo perché ho appena visto un motociclista investito da un auto a bourg en bresse vicino al mercato di carré amiot,pompiere vi ascolto je vous appelle parce que je viens de voir un motard renversé par une voiture à burkham res près du marché de caramio,vigili del fuoco auto bourg en bresse carré amiot voiture caramio,héritée de la transcription,critique,True,1.0
+italien_3.2,italien_3.2-tradu-002,traduction,3,Operator,S,amiot,amio,amiot,terminologie,critique,True,0.09
+italien_3.2,italien_3.2-tradu-003,traduction,4,Caller,S,sì,lì,,héritée de la transcription,majeure,True,1.0
+italien_3.2,italien_3.2-tradu-004,traduction,4,Caller,D,a terra non risponde sono qui accanto è,,,héritée de la transcription,majeure,True,1.0
+italien_3.2,italien_3.2-tradu-005,traduction,6,Caller,DS,sì non ne sono sicuro guardi,oui respire bisogna controllare,respire,héritée de la transcription,critique,True,0.8
+italien_3.2,italien_3.2-tradu-006,traduction,7,Operator,S,petto,torace,,terminologie,majeure,True,0.07
+italien_3.2,italien_3.2-tradu-007,traduction,8,Caller,DS,sì respira quindi,allora,respira,héritée de la transcription,critique,True,1.0
+italien_3.2,italien_3.2-tradu-008,traduction,9,Operator,DS,così com è,come sta,,contresens,majeure,True,0.07
+italien_3.2,italien_3.2-tradu-009,traduction,9,Operator,S,le,ti,,forme,mineure,True,0.07
+italien_3.2,italien_3.2-tradu-010,traduction,9,Operator,IS,qualcuno,del bond,del,terminologie,critique,True,0.07
+italien_3.2,italien_3.2-tradu-011,traduction,10,Caller,S,sì,oui,,forme,mineure,True,0.0
+italien_3.3,italien_3.3-trans-001,transcription,2,Caller,S,al,a,,code-switching,mineure,True,
+italien_3.3,italien_3.3-trans-002,transcription,4,Caller,DS,nel comune di bourg en bresse de,c est,comune di bourg en bresse,entité/nombre,critique,True,
+italien_3.3,italien_3.3-trans-003,transcription,8,Caller,D,ma,,,omission,majeure,True,
+italien_3.3,italien_3.3-trans-004,transcription,10,Caller,D,no è incosciente,,,omission,majeure,True,
+italien_3.3,italien_3.3-trans-005,transcription,12,Caller,D,sì,,,omission,mineure,True,
+italien_3.3,italien_3.3-trans-006,transcription,13,Operator,IS,gaz toxique ou pas,gastronomie no es inconsciente sí,,substitution lexicale,majeure,True,
+italien_3.3,italien_3.3-trans-007,transcription,16,Caller,D,ok nessun problema,,,omission,majeure,True,
+italien_3.3,italien_3.3-trans-008,transcription,17,Caller,I,,ok nessun,,insertion/hallucination,majeure,True,
+italien_3.3,italien_3.3-trans-009,transcription,18,Caller,S,no no,problema gracias,,substitution lexicale,majeure,True,
+italien_3.3,italien_3.3-tradu-001,traduction,1,Operator,S,vigili del fuoco,pompiere sono in,del fuoco,contresens,critique,True,0.0
+italien_3.3,italien_3.3-tradu-002,traduction,1,Caller,I,,bonjour,,ajout,majeure,True,0.0
+italien_3.3,italien_3.3-tradu-003,traduction,2,Caller,S,buongiorno c è stato,il y a eu,,contresens,majeure,True,0.0
+italien_3.3,italien_3.3-tradu-004,traduction,2,Caller,S,incidente nella nostra fabbrica,accident dans notre usine,incidente accident,contresens,critique,True,0.0
+italien_3.3,italien_3.3-tradu-005,traduction,2,Caller,IS,mio collega è stato esposto al gas tossico,de mes collègues a été exposé à un gaz toxique,,contresens,majeure,True,0.0
+italien_3.3,italien_3.3-tradu-006,traduction,3,Operator,S,in,è,,forme,mineure,True,0.0
+italien_3.3,italien_3.3-tradu-007,traduction,4,Caller,S,nel comune di bourg en bresse in quale fabbrica,è quale fabbrica l usine de produits chimiques dans,comune bourg en bresse,héritée de la transcription,critique,True,1.0
+italien_3.3,italien_3.3-tradu-008,traduction,6,Caller,DS,fabbrica di prodotti chimici nella zona industriale ok benissimo,zone industrielle va bene,,contresens,majeure,True,0.0
+italien_3.3,italien_3.3-tradu-009,traduction,7,Caller,I,,alors il y a le,,ajout,mineure,True,0.0
+italien_3.3,italien_3.3-tradu-010,traduction,8,Caller,S,allora c è il collega che lo ha inalato poi altre tre persone che erano presenti ma sembrano stare bene d accordo,collègue qui l a inhalé puis trois autres personnes qui étaient présentes semblent aller bien non c est inconscient oui va bene,tre trois,contresens,critique,True,0.05
+italien_3.3,italien_3.3-tradu-011,traduction,10,Caller,DS,no è incosciente d accordo,va bene,,héritée de la transcription,majeure,True,1.0
+italien_3.3,italien_3.3-tradu-012,traduction,12,Caller,D,sì,,,omission,mineure,True,0.0
+italien_3.3,italien_3.3-tradu-013,traduction,13,Operator,S,esposta al gas tossico o no no sono usciti tutti d,sottoposta alla gastronomia non ils sont tous sortis va bene fate,,héritée de la transcription,majeure,True,0.38
+italien_3.3,italien_3.3-tradu-014,traduction,15,Operator,D,accordo create,,,omission,majeure,True,0.0
+italien_3.3,italien_3.3-tradu-015,traduction,16,Caller,S,ok nessun problema,va bene avete,,héritée de la transcription,majeure,True,1.0
+italien_3.3,italien_3.3-tradu-016,traduction,17,Operator,MS,d accordo ha,"d accord aucun (déplacé, attribué à Caller)",,contresens,majeure,True,0.15
+italien_3.3,italien_3.3-tradu-017,traduction,17,Operator,S,chiudere,tagliare,,terminologie,majeure,True,0.15
+italien_3.3,italien_3.3-tradu-018,traduction,18,Caller,S,no no benissimo allora,problème merci molto bene,,héritée de la transcription,majeure,True,1.0
+italien_3.3,italien_3.3-tradu-019,traduction,19,Operator,S,riagganci,riattacchi,,terminologie,majeure,True,0.0
+italien_3.3,italien_3.3-tradu-020,traduction,19,Operator,M,subito,subito (déplacé),,héritée de la transcription,mineure,True,0.0
+italien_3.4,italien_3.4-trans-001,transcription,1,Operator,S,allô,allo,,substitution phonétique,majeure,True,
+italien_3.4,italien_3.4-trans-002,transcription,2,Caller,D,sì,,,omission,mineure,True,
+italien_3.4,italien_3.4-trans-003,transcription,4,Caller,MS,sì esatto,sì esatto okay (déplacé),,substitution phonétique,majeure,True,
+italien_3.4,italien_3.4-trans-004,transcription,5,Operator,I,,bon,,insertion/hallucination,mineure,True,
+italien_3.4,italien_3.4-trans-005,transcription,6,Caller,S,è,e,,forme,mineure,True,
+italien_3.4,italien_3.4-trans-006,transcription,6,Caller,S,circonvallazione,circonvariazione,,substitution phonétique,majeure,True,
+italien_3.4,italien_3.4-trans-007,transcription,7,Operator,D,oui mais,,,omission,mineure,True,
+italien_3.4,italien_3.4-tradu-001,traduction,1,Operator,S,allô,ciao,,terminologie,majeure,True,0.25
+italien_3.4,italien_3.4-tradu-002,traduction,1,Operator,IS,vigili del fuoco buongiorno sì buongiorno la mia auto non parte più,pompieri buongiorno bonjour ma voiture ne démarre plus oui c est exact d accord,fuoco auto voiture,contresens,critique,True,0.25
+italien_3.4,italien_3.4-tradu-003,traduction,3,Operator,S,in,sull,,contresens,majeure,True,0.0
+italien_3.4,italien_3.4-tradu-004,traduction,4,Caller,D,sì esatto,,,héritée de la transcription,majeure,True,1.0
+italien_3.4,italien_3.4-tradu-005,traduction,5,Operator,IS,riagganci,si preoccupi,,terminologie,majeure,True,0.0
+italien_3.4,italien_3.4-tradu-006,traduction,5,Operator,S,collegamento,contatto,,terminologie,majeure,True,0.0
+italien_3.4,italien_3.4-tradu-007,traduction,6,Caller,S,è,et,,forme,mineure,True,0.25
+italien_3.4,italien_3.4-tradu-008,traduction,6,Caller,S,circonvallazione tangenziale sì ma,rocade périphérique siete sull,siete,contresens,critique,True,0.25
+italien_3.4,italien_3.4-tradu-009,traduction,7,Operator,D,si trova in,,,omission,majeure,True,0.0
+italien_3.4,italien_3.4-tradu-010,traduction,7,Operator,S,la,vi,,forme,mineure,True,0.0
+italien_3.4,italien_3.4-tradu-011,traduction,7,Operator,S,collegamento,contatto,,terminologie,majeure,True,0.0
+italien_3.4,italien_3.4-tradu-012,traduction,7,Operator,S,corretto,giusto,,terminologie,majeure,True,0.0
+italien_3.4,italien_3.4-tradu-013,traduction,7,Operator,S,riagganci,riattaccate,,terminologie,majeure,True,0.0
+italien_3.5,italien_3.5-trans-001,transcription,1,Operator,S,ain,un,ain,entité/nombre,critique,True,
+italien_3.5,italien_3.5-trans-002,transcription,2,Caller,S,buongiorno ho appena assistito a uno scontro frontale molto violento tra due,sulla rd 1084 nei tornanti di serdo il conducente di una delle,due 1084,entité/nombre,critique,True,
+italien_3.5,italien_3.5-trans-003,transcription,2,Caller,DS,sulla rd1084 nei tornanti di cerdon,incastrato non risponde,cerdon,entité/nombre,critique,True,
+italien_3.5,italien_3.5-trans-004,transcription,4,Caller,D,sì il conducente di una delle auto è incastrato e non risponde,,auto,omission,critique,True,
+italien_3.5,italien_3.5-trans-005,transcription,5,Operator,S,la,le,,forme,mineure,True,
+italien_3.5,italien_3.5-tradu-001,traduction,1,Operator,DS,vigili del fuoco,pompiere,vigili del fuoco,contresens,critique,True,0.2
+italien_3.5,italien_3.5-tradu-002,traduction,1,Operator,S,ain,un,ain,contresens,critique,True,0.2
+italien_3.5,italien_3.5-tradu-003,traduction,2,Caller,S,buongiorno ho appena assistito a uno scontro frontale molto violento tra due auto sulla rd1084 nei tornanti di cerdon d accordo ci sono feriti sì il conducente di una delle auto è incastrato e non risponde nell altra auto una,va bene ci sono feriti sur la rd 1084 dans les virages de serdo le conducteur de l une des voitures bloqué ne répond pas dans l autre voiture une dame est sortie mais elle est en état de choc,due auto feriti 1084 voitures voiture,héritée de la transcription,critique,True,0.95
+italien_3.5,italien_3.5-tradu-004,traduction,4,Caller,D,signora è uscita ma è in stato di shock,,,héritée de la transcription,majeure,True,0.48
+italien_3.5,italien_3.5-tradu-005,traduction,5,Caller,I,,oui en bloquant les,,ajout,majeure,True,0.0
+italien_3.5,italien_3.5-tradu-006,traduction,6,Caller,S,sì bloccando entrambe le corsie c è olio ovunque,deux voies il y a de l huile partout,deux,contresens,critique,True,0.0
+italien_3.5,italien_3.5-tradu-007,traduction,7,Operator,I,,stati,,ajout,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-trans-001,transcription,1,Caller,I,,qué dices,,insertion/hallucination,majeure,True,
+espagnol_1.1,espagnol_1.1-trans-002,transcription,2,Caller,I,,me,,insertion/hallucination,mineure,True,
+espagnol_1.1,espagnol_1.1-trans-003,transcription,4,Caller,D,eh estoy en bourg en bresse,,en bourg bresse,omission,critique,True,
+espagnol_1.1,espagnol_1.1-trans-004,transcription,6,Caller,D,eh rue des roseaux,,rue des roseaux,omission,critique,True,
+espagnol_1.1,espagnol_1.1-trans-005,transcription,7,Caller,I,,estoy en bulambrez rueda roso si,en rueda,insertion/hallucination,critique,True,
+espagnol_1.1,espagnol_1.1-trans-006,transcription,8,Caller,S,sí,si,,forme,mineure,True,
+espagnol_1.1,espagnol_1.1-trans-007,transcription,8,Caller,S,número,numero,,substitution phonétique,majeure,True,
+espagnol_1.1,espagnol_1.1-trans-008,transcription,9,Operator,S,un,le,,forme,mineure,True,
+espagnol_1.1,espagnol_1.1-trans-009,transcription,9,Operator,I,,ou,,insertion/hallucination,mineure,True,
+espagnol_1.1,espagnol_1.1-trans-010,transcription,11,Operator,M,d accord c est quel appartement,d accord c est quel appartement (déplacé),,inversion de locuteur,mineure,True,
+espagnol_1.1,espagnol_1.1-trans-011,transcription,14,Caller,D,no no no falta,,,omission,majeure,True,
+espagnol_1.1,espagnol_1.1-trans-012,transcription,14,Caller,I,,así es,,insertion/hallucination,majeure,True,
+espagnol_1.1,espagnol_1.1-trans-013,transcription,16,Caller,D,sí así es ok,,,omission,majeure,True,
+espagnol_1.1,espagnol_1.1-trans-014,transcription,18,Caller,S,sí,si,,forme,mineure,True,
+espagnol_1.1,espagnol_1.1-tradu-001,traduction,1,Operator,I,,los,,héritée de la transcription,mineure,True,0.4
+espagnol_1.1,espagnol_1.1-tradu-002,traduction,1,Operator,S,le,les,,héritée de la transcription,mineure,True,0.4
+espagnol_1.1,espagnol_1.1-tradu-003,traduction,1,Caller,I,,que dis tu,,héritée de la transcription,majeure,True,0.4
+espagnol_1.1,espagnol_1.1-tradu-004,traduction,2,Caller,S,vous,t,,contresens,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-005,traduction,2,Caller,IS,puisqu,parce qu,,terminologie,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-006,traduction,2,Caller,S,le feu,un incendie,feu incendie,terminologie,critique,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-007,traduction,2,Caller,I,,d,,ajout,mineure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-008,traduction,4,Caller,D,euh je suis à bourg en bresse,,bourg en bresse,héritée de la transcription,critique,True,1.0
+espagnol_1.1,espagnol_1.1-tradu-009,traduction,5,Operator,D,cuál es,,,omission,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-010,traduction,6,Caller,S,euh rue des roseaux hay un número de portal o no,hay un número o no je suis à bulambrez rueda roso,rue des roseaux rueda,héritée de la transcription,critique,True,1.0
+espagnol_1.1,espagnol_1.1-tradu-011,traduction,8,Caller,I,,numéro,,ajout,majeure,True,0.2
+espagnol_1.1,espagnol_1.1-tradu-012,traduction,9,Operator,I,,ok,,ajout,mineure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-013,traduction,9,Operator,IS,qué se está quemando,dónde está el fuego en,quemando fuego en,contresens,critique,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-014,traduction,9,Operator,I,,en,en,ajout,critique,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-015,traduction,9,Operator,I,,de acuerdo cuál es el apartamento,,ajout,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-016,traduction,10,Caller,DS,il y a,avec,,forme,mineure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-017,traduction,10,Caller,S,dedans de acuerdo,à l intérieur,,contresens,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-018,traduction,11,Operator,D,en qué apartamento es c est celui,,en,omission,critique,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-019,traduction,12,Operator,I,,en el,en,ajout,critique,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-020,traduction,13,Operator,DS,ha salido todo el mundo,pero todos salieron,,contresens,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-021,traduction,14,Caller,D,non non non il manque,,,omission,majeure,True,0.29
+espagnol_1.1,espagnol_1.1-tradu-022,traduction,14,Caller,D,sûre et,,,omission,majeure,True,0.29
+espagnol_1.1,espagnol_1.1-tradu-023,traduction,14,Caller,D,c,,,omission,mineure,True,0.29
+espagnol_1.1,espagnol_1.1-tradu-024,traduction,14,Caller,IS,vu ressortir entonces faltan,vus sortir c est ça por lo tanto hay,,contresens,majeure,True,0.29
+espagnol_1.1,espagnol_1.1-tradu-025,traduction,15,Operator,I,,que faltan,,ajout,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-026,traduction,15,Operator,S,están fuera,han salido,,contresens,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-027,traduction,16,Caller,D,oui c est ça vale,,,héritée de la transcription,majeure,True,1.0
+espagnol_1.1,espagnol_1.1-tradu-028,traduction,17,Operator,S,ve,ven,,terminologie,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-029,traduction,17,Operator,D,o,,,omission,mineure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-030,traduction,17,Operator,S,parecido,s,,contresens,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-031,traduction,18,Caller,D,oui,,,omission,mineure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-032,traduction,18,Caller,S,vélux,vasistas,,terminologie,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-033,traduction,19,Operator,S,caballero,señor,,terminologie,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-034,traduction,19,Operator,S,lejos,alejado,,terminologie,majeure,True,0.0
+espagnol_1.1,espagnol_1.1-tradu-035,traduction,19,Operator,DS,en camino,llegando,en,terminologie,critique,True,0.0
+espagnol_1.2,espagnol_1.2-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_1.2,espagnol_1.2-trans-002,transcription,2,Caller,IS,sale humo,salí un mon,humo,substitution phonétique,critique,True,
+espagnol_1.2,espagnol_1.2-trans-003,transcription,2,Caller,IS,enfrente,en frente,,substitution phonétique,majeure,True,
+espagnol_1.2,espagnol_1.2-trans-004,transcription,3,Operator,DS,s il y a,que c est,,forme,mineure,True,
+espagnol_1.2,espagnol_1.2-trans-005,transcription,4,Caller,D,no lo sé pero las persianas están abiertas,,,omission,majeure,True,
+espagnol_1.2,espagnol_1.2-trans-006,transcription,6,Caller,S,boulevard,boulevards,boulevard,entité/nombre,critique,True,
+espagnol_1.2,espagnol_1.2-tradu-001,traduction,1,Operator,S,bomberos dígame,bombero escucho,,héritée de la transcription,majeure,True,0.33
+espagnol_1.2,espagnol_1.2-tradu-002,traduction,2,Caller,S,de la fumée noire sort,un homme noir est sorti,de fumée,contresens,critique,True,0.25
+espagnol_1.2,espagnol_1.2-tradu-003,traduction,2,Caller,S,3ème,troisième,troisième,terminologie,critique,True,0.25
+espagnol_1.2,espagnol_1.2-tradu-004,traduction,2,Caller,I,,sur le,,ajout,mineure,True,0.25
+espagnol_1.2,espagnol_1.2-tradu-005,traduction,3,Operator,S,sabe si,sabes que,,terminologie,majeure,True,0.0
+espagnol_1.2,espagnol_1.2-tradu-006,traduction,4,Caller,DS,je ne sais pas mais les volets sont ouverts,la,,héritée de la transcription,majeure,True,1.0
+espagnol_1.2,espagnol_1.2-tradu-007,traduction,6,Caller,S,boulevard,boulevards,boulevard,terminologie,critique,True,0.25
+espagnol_1.2,espagnol_1.2-tradu-008,traduction,7,Operator,S,enviamos a,se envían,,terminologie,majeure,True,0.0
+espagnol_1.2,espagnol_1.2-tradu-009,traduction,7,Operator,DS,servicios de emergencia,socorros,de,contresens,critique,True,0.0
+espagnol_1.2,espagnol_1.2-tradu-010,traduction,7,Operator,S,atraviese el humo,crucen las humaredas,humo,contresens,critique,True,0.0
+espagnol_1.3,espagnol_1.3-trans-001,transcription,1,Operator,IS,pompiers,bon pied,,substitution phonétique,majeure,True,
+espagnol_1.3,espagnol_1.3-trans-002,transcription,1,Operator,S,ain,eau,,substitution lexicale,majeure,True,
+espagnol_1.3,espagnol_1.3-trans-003,transcription,2,Caller,IS,parc,park si una furgoneta ya está al lado está empezando,parc,entité/nombre,critique,True,
+espagnol_1.3,espagnol_1.3-trans-004,transcription,4,Caller,DS,sí una furgoneta justo al lado está empezando a echar humo,et par l ombre,humo,code-switching,critique,True,
+espagnol_1.3,espagnol_1.3-trans-005,transcription,5,Operator,I,,ça,,insertion/hallucination,mineure,True,
+espagnol_1.3,espagnol_1.3-tradu-001,traduction,1,Operator,IS,bomberos,buen pie,,héritée de la transcription,majeure,True,0.75
+espagnol_1.3,espagnol_1.3-tradu-002,traduction,1,Operator,S,ain,agua,,héritée de la transcription,majeure,True,0.75
+espagnol_1.3,espagnol_1.3-tradu-003,traduction,2,Caller,S,entièrement sur,complètement dans,,héritée de la transcription,majeure,True,0.77
+espagnol_1.3,espagnol_1.3-tradu-004,traduction,2,Caller,IS,parc,park une fourgonnette est déjà à côté ça commence,parc,héritée de la transcription,critique,True,0.77
+espagnol_1.3,espagnol_1.3-tradu-005,traduction,3,Operator,S,aparcados,estacionados,,terminologie,majeure,True,0.0
+espagnol_1.3,espagnol_1.3-tradu-006,traduction,4,Caller,DS,oui une camionnette juste à côté commence à fumer aleje,et par l ombre alejen,,héritée de la transcription,majeure,True,1.0
+espagnol_1.4,espagnol_1.4-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_1.4,espagnol_1.4-trans-002,transcription,2,Caller,I,,un,,insertion/hallucination,mineure,True,
+espagnol_1.4,espagnol_1.4-trans-003,transcription,2,Caller,IS,medieval,de neyéval,de,entité/nombre,critique,True,
+espagnol_1.4,espagnol_1.4-trans-004,transcription,2,Caller,IS,vistas,listas de la halm,de la,entité/nombre,critique,True,
+espagnol_1.4,espagnol_1.4-trans-005,transcription,4,Caller,D,place de la halle,,place de la halle,omission,critique,True,
+espagnol_1.4,espagnol_1.4-trans-006,transcription,5,Caller,I,,hvað er það bye,,insertion/hallucination,majeure,True,
+espagnol_1.4,espagnol_1.4-tradu-001,traduction,1,Operator,S,bomberos,bombero,,héritée de la transcription,majeure,True,0.33
+espagnol_1.4,espagnol_1.4-tradu-002,traduction,2,Caller,I,,un,,héritée de la transcription,mineure,True,0.32
+espagnol_1.4,espagnol_1.4-tradu-003,traduction,2,Caller,IS,cité médiévale,ville de neyéval,de,héritée de la transcription,critique,True,0.32
+espagnol_1.4,espagnol_1.4-tradu-004,traduction,2,Caller,IS,feu de hotte,incendie dans la cheminée,feu de incendie la cheminée,héritée de la transcription,critique,True,0.32
+espagnol_1.4,espagnol_1.4-tradu-005,traduction,2,Caller,IS,apparentes,en bois de la halm,de la,héritée de la transcription,critique,True,0.32
+espagnol_1.4,espagnol_1.4-tradu-006,traduction,4,Caller,DS,place de la halle corte,corten,place de la halle,héritée de la transcription,critique,True,1.0
+espagnol_1.4,espagnol_1.4-tradu-007,traduction,5,Operator,IS,servicios de emergencia están llegando,socorros están llegando qu est ce que c est adiós,de,héritée de la transcription,critique,True,0.44
+espagnol_1.5,espagnol_1.5-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_1.5,espagnol_1.5-trans-002,transcription,2,Caller,DS,montluel ha saltado la alarma,manuel asaltador aralmas,montluel,entité/nombre,critique,True,
+espagnol_1.5,espagnol_1.5-trans-003,transcription,2,Caller,DS,incendios sale humo,incendio sargumo,incendios humo incendio,substitution phonétique,critique,True,
+espagnol_1.5,espagnol_1.5-trans-004,transcription,2,Caller,D,de,,,omission,mineure,True,
+espagnol_1.5,espagnol_1.5-trans-005,transcription,4,Caller,D,sí,,,omission,mineure,True,
+espagnol_1.5,espagnol_1.5-trans-006,transcription,6,Caller,M,no ninguno,no ninguno (déplacé),,inversion de locuteur,mineure,True,
+espagnol_1.5,espagnol_1.5-tradu-001,traduction,1,Operator,S,bomberos dígame,bombero hola,,héritée de la transcription,majeure,True,0.5
+espagnol_1.5,espagnol_1.5-tradu-002,traduction,2,Caller,S,c est,je suis,,héritée de la transcription,majeure,True,0.35
+espagnol_1.5,espagnol_1.5-tradu-003,traduction,2,Caller,DS,de montluel l alarme incendie s est déclenchée,manuel asaltador aralmas de incendio sargumo,montluel incendie incendio,héritée de la transcription,critique,True,0.35
+espagnol_1.5,espagnol_1.5-tradu-004,traduction,2,Caller,DS,fumée sort du local,salle,fumée,héritée de la transcription,critique,True,0.35
+espagnol_1.5,espagnol_1.5-tradu-005,traduction,3,Operator,D,la evacuación,,,omission,majeure,True,0.0
+espagnol_1.5,espagnol_1.5-tradu-006,traduction,3,Operator,I,,la,,ajout,mineure,True,0.0
+espagnol_1.5,espagnol_1.5-tradu-007,traduction,4,Caller,S,oui,evacuación,,contresens,majeure,True,0.0
+espagnol_1.5,espagnol_1.5-tradu-008,traduction,4,Caller,S,rassemblement,rencontre,,terminologie,majeure,True,0.0
+espagnol_1.5,espagnol_1.5-tradu-009,traduction,5,Operator,D,hay algún herido,,herido,omission,critique,True,0.0
+espagnol_1.5,espagnol_1.5-tradu-010,traduction,6,Operator,I,,hay,,ajout,mineure,True,0.0
+espagnol_1.5,espagnol_1.5-tradu-011,traduction,7,Operator,S,muy,heridos,heridos,terminologie,critique,True,0.0
+espagnol_1.5,espagnol_1.5-tradu-012,traduction,7,Operator,DS,estamos llegando,llegamos,,contresens,majeure,True,0.0
+espagnol_2.1,espagnol_2.1-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_2.1,espagnol_2.1-trans-002,transcription,4,Caller,D,es en el 3 de la calle del molino en el municipio de saint rémy,,3 calle del molino saint rémy,omission,critique,True,
+espagnol_2.1,espagnol_2.1-trans-003,transcription,7,Operator,S,écart,équerre,,substitution lexicale,majeure,True,
+espagnol_2.1,espagnol_2.1-trans-004,transcription,8,Caller,D,de acuerdo muchas gracias,,,omission,majeure,True,
+espagnol_2.1,espagnol_2.1-tradu-001,traduction,1,Operator,DS,bomberos buenos días,bombero hola,,héritée de la transcription,majeure,True,0.5
+espagnol_2.1,espagnol_2.1-tradu-002,traduction,2,Caller,DS,je vous,j,,forme,mineure,True,0.0
+espagnol_2.1,espagnol_2.1-tradu-003,traduction,2,Caller,S,à,dans,,forme,mineure,True,0.0
+espagnol_2.1,espagnol_2.1-tradu-004,traduction,2,Caller,IS,avoir eu,qu il ait fait,,contresens,majeure,True,0.0
+espagnol_2.1,espagnol_2.1-tradu-005,traduction,4,Caller,D,c est au 3 rue du moulin à,,3 rue du moulin,héritée de la transcription,critique,True,1.0
+espagnol_2.1,espagnol_2.1-tradu-006,traduction,4,Caller,DS,commune de saint rémy,víctima,saint rémy,héritée de la transcription,critique,True,1.0
+espagnol_2.1,espagnol_2.1-tradu-007,traduction,5,Operator,D,la víctima,,,omission,majeure,True,0.0
+espagnol_2.1,espagnol_2.1-tradu-008,traduction,6,Caller,DS,sur le sol,par terre,,terminologie,majeure,True,0.0
+espagnol_2.1,espagnol_2.1-tradu-009,traduction,7,Operator,S,manténgase alejado,manténganse firmes,,contresens,majeure,True,0.05
+espagnol_2.1,espagnol_2.1-tradu-010,traduction,7,Operator,S,toque,toquen,,terminologie,majeure,True,0.05
+espagnol_2.1,espagnol_2.1-tradu-011,traduction,7,Operator,DS,servicios de emergencia,socorristas,,contresens,majeure,True,0.05
+espagnol_2.1,espagnol_2.1-tradu-012,traduction,8,Caller,D,d accord merci beaucoup,,,héritée de la transcription,majeure,True,1.0
+espagnol_2.2,espagnol_2.2-trans-001,transcription,2,Caller,S,hola alguien se ha caído a un curso de agua d accord vous êtes à quel,d accord vous êtes à quel endroit hola again c est hakaido en curso de agua,caído en,code-switching,critique,True,
+espagnol_2.2,espagnol_2.2-trans-002,transcription,3,Operator,D,endroit,,,omission,majeure,True,
+espagnol_2.2,espagnol_2.2-trans-003,transcription,4,Caller,S,reyssouze,resuze,reyssouze,entité/nombre,critique,True,
+espagnol_2.2,espagnol_2.2-trans-004,transcription,4,Caller,S,bourg en bresse,boulambles l arrestre,bourg en bresse,entité/nombre,critique,True,
+espagnol_2.2,espagnol_2.2-trans-005,transcription,5,Operator,D,la reyssouze,,la reyssouze,omission,critique,True,
+espagnol_2.2,espagnol_2.2-trans-006,transcription,6,Caller,D,sí,,,omission,mineure,True,
+espagnol_2.2,espagnol_2.2-trans-007,transcription,6,Caller,DS,jean moulin d accord,somuno,jean moulin,code-switching,critique,True,
+espagnol_2.2,espagnol_2.2-trans-008,transcription,7,Operator,IS,localise,la calise,la,entité/nombre,critique,True,
+espagnol_2.2,espagnol_2.2-trans-009,transcription,7,Operator,IS,se passe,s est passé,,substitution phonétique,majeure,True,
+espagnol_2.2,espagnol_2.2-trans-010,transcription,10,Caller,D,sí,,,omission,mineure,True,
+espagnol_2.2,espagnol_2.2-trans-011,transcription,11,Operator,I,,la,la,insertion/hallucination,critique,True,
+espagnol_2.2,espagnol_2.2-trans-012,transcription,11,Operator,I,,ok donc,,insertion/hallucination,mineure,True,
+espagnol_2.2,espagnol_2.2-trans-013,transcription,13,Operator,D,ok donc vous ne vous,,,omission,mineure,True,
+espagnol_2.2,espagnol_2.2-trans-014,transcription,13,Operator,D,vous,,,omission,mineure,True,
+espagnol_2.2,espagnol_2.2-trans-015,transcription,13,Operator,S,on arrive,en arrière,en,entité/nombre,critique,True,
+espagnol_2.2,espagnol_2.2-trans-016,transcription,14,Caller,D,claro,,,omission,majeure,True,
+espagnol_2.2,espagnol_2.2-tradu-001,traduction,1,Operator,I,,los,,ajout,mineure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-002,traduction,1,Operator,S,buenos días bonjour il y a quelqu un,hola de acuerdo dónde están bonjour encore c,,contresens,majeure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-003,traduction,2,Caller,D,qui,,,héritée de la transcription,mineure,True,1.0
+espagnol_2.2,espagnol_2.2-tradu-004,traduction,2,Caller,DS,tombé dans un,hakaido en,tombé en,héritée de la transcription,critique,True,1.0
+espagnol_2.2,espagnol_2.2-tradu-005,traduction,3,Operator,DS,de acuerdo en qué lugar se encuentra la reyssouze,dans la re suse,en reyssouze,contresens,critique,True,0.14
+espagnol_2.2,espagnol_2.2-tradu-006,traduction,4,Caller,S,bourg en bresse,boulambles dónde estás,bourg en bresse,héritée de la transcription,critique,True,0.57
+espagnol_2.2,espagnol_2.2-tradu-007,traduction,5,Operator,D,la reyssouze está,,reyssouze,omission,critique,True,0.18
+espagnol_2.2,espagnol_2.2-tradu-008,traduction,5,Operator,D,en qué lugar exactamente oui c est,,en,omission,critique,True,0.18
+espagnol_2.2,espagnol_2.2-tradu-009,traduction,6,Caller,I,,dans la,,héritée de la transcription,mineure,True,0.4
+espagnol_2.2,espagnol_2.2-tradu-010,traduction,6,Caller,IS,jean moulin de acuerdo le localizo,somuno sí la veo muy bien entonces,jean moulin,héritée de la transcription,critique,True,0.4
+espagnol_2.2,espagnol_2.2-tradu-011,traduction,7,Operator,DS,está pasando vio,pasó viste,,contresens,majeure,True,0.15
+espagnol_2.2,espagnol_2.2-tradu-012,traduction,7,Operator,S,la,una,,forme,mineure,True,0.15
+espagnol_2.2,espagnol_2.2-tradu-013,traduction,7,Operator,I,,esa persona,,ajout,majeure,True,0.15
+espagnol_2.2,espagnol_2.2-tradu-014,traduction,7,Operator,D,siendo,,,omission,majeure,True,0.15
+espagnol_2.2,espagnol_2.2-tradu-015,traduction,8,Caller,DS,non elle,ce,,forme,mineure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-016,traduction,8,Caller,S,pense,crois,,terminologie,majeure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-017,traduction,8,Caller,S,elle,il,,forme,mineure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-018,traduction,8,Caller,S,encore,toujours,,terminologie,majeure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-019,traduction,8,Operator,I,,está,,ajout,majeure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-020,traduction,9,Operator,S,estaba,completamente,,terminologie,majeure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-021,traduction,10,Caller,S,oui tiene,tienen la,,terminologie,majeure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-022,traduction,11,Operator,S,emergencia,rescate,,terminologie,majeure,True,0.05
+espagnol_2.2,espagnol_2.2-tradu-023,traduction,11,Operator,I,,vale entonces,,ajout,majeure,True,0.05
+espagnol_2.2,espagnol_2.2-tradu-024,traduction,12,Caller,DS,tout à fait vale,bien sûr,,contresens,majeure,True,0.0
+espagnol_2.2,espagnol_2.2-tradu-025,traduction,13,Operator,S,acerque,acerquen,,terminologie,majeure,True,0.08
+espagnol_2.2,espagnol_2.2-tradu-026,traduction,13,Operator,I,,curso de,,ajout,majeure,True,0.08
+espagnol_2.2,espagnol_2.2-tradu-027,traduction,13,Operator,IS,manténgase seguro,y manténganse seguros,,contresens,majeure,True,0.08
+espagnol_2.2,espagnol_2.2-tradu-028,traduction,13,Operator,S,espere,vengan,,terminologie,majeure,True,0.08
+espagnol_2.2,espagnol_2.2-tradu-029,traduction,13,Operator,I,,recibir,,ajout,majeure,True,0.08
+espagnol_2.2,espagnol_2.2-tradu-030,traduction,13,Operator,DS,refuerzos estamos llegando d accord,socorros atrás,,contresens,majeure,True,0.08
+espagnol_2.3,espagnol_2.3-trans-001,transcription,1,Operator,S,oui tengo un,you all right,,substitution lexicale,majeure,True,
+espagnol_2.3,espagnol_2.3-trans-002,transcription,2,Caller,D,problema querría un calendario de los bomberos pero no pueden pasar por donde vivo porque han puesto vallas de seguridad cómo puedo conseguir uno,,,omission,majeure,True,
+espagnol_2.3,espagnol_2.3-trans-003,transcription,3,Operator,S,d accord ah sí al parque,oui ah si à le parquet,,code-switching,majeure,True,
+espagnol_2.3,espagnol_2.3-trans-004,transcription,4,Caller,DS,por dónde voy,pardonne moi,,substitution lexicale,majeure,True,
+espagnol_2.3,espagnol_2.3-trans-005,transcription,5,Operator,D,les lignes d urgence,,,omission,majeure,True,
+espagnol_2.3,espagnol_2.3-tradu-001,traduction,1,Operator,S,sí j ai un souci je voudrais avoir un,tu d accord entonces señor o van a pasar,,héritée de la transcription,majeure,True,1.0
+espagnol_2.3,espagnol_2.3-tradu-002,traduction,2,Caller,D,calendrier des pompiers mais malheureusement vous ne pourrez pas passer là où j habite parce que maintenant ils ont mis des trucs de sécurité comment faire pour en avoir un mire caballero,,en,héritée de la transcription,critique,True,0.92
+espagnol_2.3,espagnol_2.3-tradu-003,traduction,3,Operator,DS,bien pasarán o bien puede ir,se dirige,,contresens,majeure,True,0.24
+espagnol_2.3,espagnol_2.3-tradu-004,traduction,3,Operator,DS,al parque de bomberos,a la caserna,,contresens,majeure,True,0.24
+espagnol_2.3,espagnol_2.3-tradu-005,traduction,3,Operator,D,mismo,,,omission,majeure,True,0.24
+espagnol_2.3,espagnol_2.3-tradu-006,traduction,3,Operator,DS,de acuerdo,sí,,contresens,majeure,True,0.24
+espagnol_2.3,espagnol_2.3-tradu-007,traduction,4,Caller,DS,à la caserne à,au parquet de,,terminologie,majeure,True,0.27
+espagnol_2.3,espagnol_2.3-tradu-008,traduction,4,Caller,S,je vais de quel côté sí eso es pregunte,pardonne moi sí es eso usted va a presentarse,,contresens,majeure,True,0.27
+espagnol_2.3,espagnol_2.3-tradu-009,traduction,5,Operator,D,allí,,,omission,majeure,True,0.1
+espagnol_2.3,espagnol_2.3-tradu-010,traduction,5,Operator,IS,al entrar pero caballero las líneas,cuando entra porque ahora está en una línea,en,contresens,critique,True,0.1
+espagnol_2.3,espagnol_2.3-tradu-011,traduction,5,Operator,I,,por lo tanto,,ajout,majeure,True,0.1
+espagnol_2.3,espagnol_2.3-tradu-012,traduction,5,Operator,S,son,es,,forme,mineure,True,0.1
+espagnol_2.3,espagnol_2.3-tradu-013,traduction,5,Operator,IS,esto,eso señor,,contresens,majeure,True,0.1
+espagnol_2.4,espagnol_2.4-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_2.4,espagnol_2.4-trans-002,transcription,2,Caller,I,,y,,insertion/hallucination,mineure,True,
+espagnol_2.4,espagnol_2.4-trans-003,transcription,4,Caller,S,en bourg en bresse,es un buen embres,en bourg bresse,entité/nombre,critique,True,
+espagnol_2.4,espagnol_2.4-trans-004,transcription,5,Operator,M,respire t elle,respire t elle (déplacé),respire,inversion de locuteur,mineure,True,
+espagnol_2.4,espagnol_2.4-trans-005,transcription,7,Operator,D,très bien,,,omission,mineure,True,
+espagnol_2.4,espagnol_2.4-trans-006,transcription,8,Caller,D,vale,,,omission,majeure,True,
+espagnol_2.4,espagnol_2.4-tradu-001,traduction,1,Operator,S,bomberos dígame,hola bombero,,héritée de la transcription,majeure,True,0.5
+espagnol_2.4,espagnol_2.4-tradu-002,traduction,2,Caller,S,elle,et,,forme,mineure,True,0.0
+espagnol_2.4,espagnol_2.4-tradu-003,traduction,3,Operator,S,deme,dime,,terminologie,majeure,True,0.0
+espagnol_2.4,espagnol_2.4-tradu-004,traduction,4,Caller,S,avenue,avenida,avenue,héritée de la transcription,critique,True,0.44
+espagnol_2.4,espagnol_2.4-tradu-005,traduction,4,Caller,S,à bourg en bresse,est un bon embranchement,bourg en bresse,héritée de la transcription,critique,True,0.44
+espagnol_2.4,espagnol_2.4-tradu-006,traduction,5,Operator,M,respira,respira (déplacé),respira,héritée de la transcription,mineure,True,0.0
+espagnol_2.4,espagnol_2.4-tradu-007,traduction,6,Caller,IS,très difficilement muy bien quédese con,avec beaucoup de difficulté quédate cerca de,,contresens,majeure,True,0.0
+espagnol_2.4,espagnol_2.4-tradu-008,traduction,7,Operator,DS,servicios de emergencia,socorros,,contresens,majeure,True,0.0
+espagnol_2.4,espagnol_2.4-tradu-009,traduction,8,Operator,D,d accord,,,héritée de la transcription,majeure,True,1.0
+espagnol_2.5,espagnol_2.5-trans-001,transcription,1,Operator,S,pompiers,oui,,substitution lexicale,majeure,True,
+espagnol_2.5,espagnol_2.5-trans-002,transcription,1,Operator,I,,quelle adresse,adresse,insertion/hallucination,critique,True,
+espagnol_2.5,espagnol_2.5-trans-003,transcription,2,Caller,S,mi abuela,peut il,,code-switching,majeure,True,
+espagnol_2.5,espagnol_2.5-trans-004,transcription,2,Operator,IS,ha caído en la escalera le duele,relever ya voy a saca y doy en,caído,substitution lexicale,critique,True,
+espagnol_2.5,espagnol_2.5-trans-005,transcription,2,Caller,S,cadera à quelle adresse 12 impasse des tilleuls meximieux peut il se relever,escalera y doy en la cadera dos en paz de ti el mexilio,adresse 12 impasse des tilleuls meximieux dos,code-switching,critique,True,
+espagnol_2.5,espagnol_2.5-trans-006,transcription,6,Caller,DS,grita de dolor,gris,dolor,substitution lexicale,critique,True,
+espagnol_2.5,espagnol_2.5-trans-007,transcription,7,Operator,S,la,le,,forme,mineure,True,
+espagnol_2.5,espagnol_2.5-tradu-001,traduction,1,Operator,S,bomberos,sí,,héritée de la transcription,majeure,True,1.0
+espagnol_2.5,espagnol_2.5-tradu-002,traduction,1,Operator,I,,qué dirección puede levantarse je vais,dirección,héritée de la transcription,critique,True,1.0
+espagnol_2.5,espagnol_2.5-tradu-003,traduction,2,Caller,S,mon grand père est tombé,sortir et je te donne,tombé,héritée de la transcription,critique,True,1.0
+espagnol_2.5,espagnol_2.5-tradu-004,traduction,2,Caller,S,il a mal à,je te donne dans,,héritée de la transcription,majeure,True,1.0
+espagnol_2.5,espagnol_2.5-tradu-005,traduction,2,Caller,I,,deux,deux,héritée de la transcription,critique,True,1.0
+espagnol_2.5,espagnol_2.5-tradu-006,traduction,3,Operator,S,qué dirección 12 impasse des tilleuls meximieux puede levantarse non elle crie de,paix de toi l exil ne grise pas no lo muevan estamos enviando,dirección 12 impasse des tilleuls meximieux,contresens,critique,True,0.0
+espagnol_2.5,espagnol_2.5-tradu-007,traduction,6,Caller,D,douleur no la mueva enviamos,,douleur,héritée de la transcription,critique,True,0.75
+espagnol_2.6,espagnol_2.6-trans-001,transcription,4,Caller,IS,calle michelet oyonnax,demi chleu y una,calle michelet oyonnax,entité/nombre,critique,True,
+espagnol_2.6,espagnol_2.6-trans-002,transcription,7,Operator,R,très bien reste avec lui,très bien reste avec lui (attribué à Caller),,inversion de locuteur,majeure,True,
+espagnol_2.6,espagnol_2.6-tradu-001,traduction,1,Operator,DS,bomberos buenos días,bombero hola,,contresens,majeure,True,0.0
+espagnol_2.6,espagnol_2.6-tradu-002,traduction,3,Operator,DS,se encuentra,están,,terminologie,majeure,True,0.0
+espagnol_2.6,espagnol_2.6-tradu-003,traduction,4,Caller,S,michelet oyonnax desde hace,de la chouette une,michelet oyonnax,héritée de la transcription,critique,True,1.0
+espagnol_2.6,espagnol_2.6-tradu-004,traduction,5,Operator,S,le duele a su marido environ,lleva su esposo sintiéndose mal dans,,contresens,majeure,True,0.0
+espagnol_2.6,espagnol_2.6-tradu-005,traduction,7,Operator,S,muy,très,,héritée de la transcription,majeure,True,0.56
+espagnol_2.6,espagnol_2.6-tradu-006,traduction,7,Caller,IS,quédese con él la ayuda llega de inmediato,reste avec lui los servicios de emergencia están en camino,,héritée de la transcription,majeure,True,0.56
+espagnol_2.7,espagnol_2.7-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_2.7,espagnol_2.7-trans-002,transcription,2,Caller,S,cortó,acertado,,substitution lexicale,majeure,True,
+espagnol_2.7,espagnol_2.7-trans-003,transcription,2,Caller,S,circular,singular,,substitution phonétique,majeure,True,
+espagnol_2.7,espagnol_2.7-trans-004,transcription,3,Operator,S,arbent,arbans,arbent,entité/nombre,critique,True,
+espagnol_2.7,espagnol_2.7-trans-005,transcription,4,Caller,D,sí,,,omission,mineure,True,
+espagnol_2.7,espagnol_2.7-trans-006,transcription,5,Operator,S,linge,âge,,substitution phonétique,majeure,True,
+espagnol_2.7,espagnol_2.7-trans-007,transcription,6,Caller,I,,bye,,insertion/hallucination,majeure,True,
+espagnol_2.7,espagnol_2.7-trans-008,transcription,7,Operator,S,maintenez,rétenez,,substitution phonétique,majeure,True,
+espagnol_2.7,espagnol_2.7-tradu-001,traduction,1,Operator,DS,bomberos buenos días,bombero hola,,héritée de la transcription,majeure,True,0.5
+espagnol_2.7,espagnol_2.7-tradu-002,traduction,2,Caller,S,coupé,blessé,blessé,terminologie,critique,True,0.13
+espagnol_2.7,espagnol_2.7-tradu-003,traduction,2,Caller,S,circulaire à,particulière dans,,terminologie,majeure,True,0.13
+espagnol_2.7,espagnol_2.7-tradu-004,traduction,2,Caller,S,ça,il,,forme,mineure,True,0.13
+espagnol_2.7,espagnol_2.7-tradu-005,traduction,3,Operator,S,están,estás,,terminologie,majeure,True,0.12
+espagnol_2.7,espagnol_2.7-tradu-006,traduction,3,Operator,S,arbent,arbans,arbent,terminologie,critique,True,0.12
+espagnol_2.7,espagnol_2.7-tradu-007,traduction,4,Caller,D,oui,,,omission,mineure,True,0.0
+espagnol_2.7,espagnol_2.7-tradu-008,traduction,5,Operator,S,presione,presiona,,terminologie,majeure,True,0.09
+espagnol_2.7,espagnol_2.7-tradu-009,traduction,6,Caller,S,j appuie,je pousse,,terminologie,majeure,True,0.17
+espagnol_2.7,espagnol_2.7-tradu-010,traduction,6,Caller,I,,au revoir,,ajout,majeure,True,0.17
+espagnol_2.7,espagnol_2.7-tradu-011,traduction,7,Operator,S,mantenga,mantén,,terminologie,majeure,True,0.09
+espagnol_2.8,espagnol_2.8-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_2.8,espagnol_2.8-trans-002,transcription,1,Operator,I,,okay,,insertion/hallucination,mineure,True,
+espagnol_2.8,espagnol_2.8-trans-003,transcription,2,Caller,S,hinchando,echando,,substitution phonétique,majeure,True,
+espagnol_2.8,espagnol_2.8-trans-004,transcription,2,Caller,I,,sí cerca de,,insertion/hallucination,majeure,True,
+espagnol_2.8,espagnol_2.8-trans-005,transcription,3,Operator,S,c est,ahí grazie,,substitution lexicale,majeure,True,
+espagnol_2.8,espagnol_2.8-trans-006,transcription,4,Caller,D,sí cerca de la entrada,,,omission,majeure,True,
+espagnol_2.8,espagnol_2.8-trans-007,transcription,5,Operator,S,s il,il y,,forme,mineure,True,
+espagnol_2.8,espagnol_2.8-trans-008,transcription,5,Caller,I,,okay i,,insertion/hallucination,mineure,True,
+espagnol_2.8,espagnol_2.8-tradu-001,traduction,1,Operator,S,bomberos buenos días,bombero hola vale,,héritée de la transcription,majeure,True,0.5
+espagnol_2.8,espagnol_2.8-tradu-002,traduction,2,Caller,I,,oui,,ajout,mineure,True,0.22
+espagnol_2.8,espagnol_2.8-tradu-003,traduction,3,Operator,S,es en el parc des oiseaux oui vers l entrée acuéstelo,près d ici merci en el parque de los pájaros ponlo,parc des oiseaux,héritée de la transcription,critique,True,0.33
+espagnol_2.8,espagnol_2.8-tradu-004,traduction,5,Operator,S,si tiene dificultad para respirar los servicios de emergencia están llegando,le cuesta respirar los socorristas están en camino okay d accord,respirar,contresens,critique,True,0.0
+espagnol_2.9,espagnol_2.9-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_2.9,espagnol_2.9-trans-002,transcription,2,Caller,S,triplicado,triturado,,substitution phonétique,majeure,True,
+espagnol_2.9,espagnol_2.9-trans-003,transcription,3,Operator,S,vous êtes seule chez vous sí en el 15 de la calle pasteur,sí en elkinn síðr að kæði pastor gracias vous êtes seul chez vous,15 calle pasteur,entité/nombre,critique,True,
+espagnol_2.9,espagnol_2.9-trans-004,transcription,6,Caller,D,gracias,,,omission,majeure,True,
+espagnol_2.9,espagnol_2.9-tradu-001,traduction,1,Operator,DS,bomberos buenos días,hola bombero,,héritée de la transcription,majeure,True,0.5
+espagnol_2.9,espagnol_2.9-tradu-002,traduction,2,Caller,S,tombée,tombé,tombée tombé,terminologie,critique,True,0.05
+espagnol_2.9,espagnol_2.9-tradu-003,traduction,2,Caller,S,mes,les,,contresens,majeure,True,0.05
+espagnol_2.9,espagnol_2.9-tradu-004,traduction,2,Caller,DS,triplé de volume,gonflé,,contresens,majeure,True,0.05
+espagnol_2.9,espagnol_2.9-tradu-005,traduction,2,Caller,I,,oui en elkinn síðr,,ajout,majeure,True,0.05
+espagnol_2.9,espagnol_2.9-tradu-006,traduction,3,Operator,S,está sola en casa oui au 15 rue pasteur,à kæði pastor merci está solo en su casa,15 rue pasteur,héritée de la transcription,critique,True,1.0
+espagnol_2.9,espagnol_2.9-tradu-007,traduction,5,Operator,D,más,,,omission,majeure,True,0.0
+espagnol_2.9,espagnol_2.9-tradu-008,traduction,5,Operator,DS,servicios de emergencia,socorros,,contresens,majeure,True,0.0
+espagnol_2.9,espagnol_2.9-tradu-009,traduction,5,Operator,S,trasladarla,llevarlo,,terminologie,majeure,True,0.0
+espagnol_2.9,espagnol_2.9-tradu-010,traduction,6,Caller,D,merci,,,héritée de la transcription,majeure,True,1.0
+espagnol_2.10,espagnol_2.10-trans-001,transcription,1,Operator,S,pompiers,pompi,,substitution phonétique,majeure,True,
+espagnol_2.10,espagnol_2.10-trans-002,transcription,2,Caller,DS,no puede moverse,está bloqueado,,substitution lexicale,majeure,True,
+espagnol_2.10,espagnol_2.10-trans-003,transcription,3,Operator,DS,un point de repère,va prendre repaire,,substitution phonétique,majeure,True,
+espagnol_2.10,espagnol_2.10-tradu-001,traduction,1,Operator,IS,buenos días bonjour on randonne,hola bonjour nous faisons de la randonnée,,héritée de la transcription,majeure,True,0.5
+espagnol_2.10,espagnol_2.10-tradu-002,traduction,2,Caller,S,le genou il,la cheville et,,terminologie,majeure,True,0.17
+espagnol_2.10,espagnol_2.10-tradu-003,traduction,3,Operator,S,puede,puedes,,héritée de la transcription,majeure,True,0.33
+espagnol_2.10,espagnol_2.10-tradu-004,traduction,3,Operator,S,sus,tus,,héritée de la transcription,majeure,True,0.33
+espagnol_2.10,espagnol_2.10-tradu-005,traduction,4,Caller,S,on est,nous sommes,,contresens,majeure,True,0.0
+espagnol_2.10,espagnol_2.10-tradu-006,traduction,5,Operator,IS,muevan la ayuda está,mueva los servicios de emergencia están,,contresens,majeure,True,0.0
+espagnol_3.1,espagnol_3.1-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+espagnol_3.1,espagnol_3.1-trans-002,transcription,2,Caller,S,valence,valencia,valence,entité/nombre,critique,True,
+espagnol_3.1,espagnol_3.1-trans-003,transcription,3,Operator,D,d accord où exactement cela s est il passé,,,omission,majeure,True,
+espagnol_3.1,espagnol_3.1-trans-004,transcription,4,Operator,I,,kom,,insertion/hallucination,majeure,True,
+espagnol_3.1,espagnol_3.1-trans-005,transcription,5,Operator,S,combien de victimes y a t il,med hvad er det vigtigt nia til,victimes,substitution phonétique,critique,True,
+espagnol_3.1,espagnol_3.1-trans-006,transcription,6,Caller,S,consciente,inconsciente,consciente,substitution phonétique,critique,True,
+espagnol_3.1,espagnol_3.1-trans-007,transcription,8,Caller,D,de,,,omission,mineure,True,
+espagnol_3.1,espagnol_3.1-trans-008,transcription,10,Caller,D,muy bien muchas gracias,,,code-switching,majeure,True,
+espagnol_3.1,espagnol_3.1-tradu-001,traduction,1,Operator,DS,bomberos buenos días,bombero hola,,héritée de la transcription,majeure,True,0.5
+espagnol_3.1,espagnol_3.1-tradu-002,traduction,3,Operator,D,dónde exactamente ha pasado esto sur la route nationale à l entrée de la commune de vaison la romaine,,la route de vaison romaine,héritée de la transcription,critique,True,1.0
+espagnol_3.1,espagnol_3.1-tradu-003,traduction,4,Caller,IS,pris feu cuántas víctimas hay,commencé à brûler ven qué es lo importante nia til,feu brûler,contresens,critique,True,0.08
+espagnol_3.1,espagnol_3.1-tradu-004,traduction,6,Caller,I,,l,,ajout,mineure,True,0.06
+espagnol_3.1,espagnol_3.1-tradu-005,traduction,6,Caller,S,consciente,inconsciente,consciente,terminologie,critique,True,0.06
+espagnol_3.1,espagnol_3.1-tradu-006,traduction,6,Caller,S,piégée,coincée,,terminologie,majeure,True,0.06
+espagnol_3.1,espagnol_3.1-tradu-007,traduction,7,Operator,IS,ardiendo,en llamas,,terminologie,majeure,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-008,traduction,7,Operator,IS,peligrosa la propagación del fuego,peligroso que el fuego se propague,la fuego,contresens,critique,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-009,traduction,8,Caller,S,on a,nous avons,,contresens,majeure,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-010,traduction,8,Caller,S,que ça touche,qu elles atteignent,,contresens,majeure,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-011,traduction,8,Caller,S,proche,voisine,,terminologie,majeure,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-012,traduction,9,Operator,S,intenten,intentes,,terminologie,majeure,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-013,traduction,9,Operator,S,vehículo,coche,vehículo coche,terminologie,critique,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-014,traduction,9,Operator,I,,servicios de emergencia y los,de,ajout,critique,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-015,traduction,9,Operator,IS,mantengan,mantente a,,terminologie,majeure,True,0.0
+espagnol_3.1,espagnol_3.1-tradu-016,traduction,10,Caller,D,très bien merci beaucoup,,,héritée de la transcription,majeure,True,1.0
+espagnol_3.2,espagnol_3.2-trans-001,transcription,1,Operator,S,pompier,pompiers,,substitution phonétique,majeure,True,
+espagnol_3.2,espagnol_3.2-trans-002,transcription,2,Caller,DS,carré amiot el hombre está en el suelo y no responde,carramión,carré amiot carramión,entité/nombre,critique,True,
+espagnol_3.2,espagnol_3.2-trans-003,transcription,3,Operator,DS,ok carré amiot,caramio,carré amiot caramio,entité/nombre,critique,True,
+espagnol_3.2,espagnol_3.2-trans-004,transcription,4,Caller,DS,sí no estoy seguro,oui you,,code-switching,majeure,True,
+espagnol_3.2,espagnol_3.2-trans-005,transcription,5,Operator,S,inconscient,conscient,conscient,substitution phonétique,critique,True,
+espagnol_3.2,espagnol_3.2-trans-006,transcription,6,Caller,D,sí no estoy seguro,,,omission,majeure,True,
+espagnol_3.2,espagnol_3.2-trans-007,transcription,8,Caller,S,sí respira,c est,respira,code-switching,critique,True,
+espagnol_3.2,espagnol_3.2-trans-008,transcription,9,Operator,D,donc vous laissez,,,omission,majeure,True,
+espagnol_3.2,espagnol_3.2-trans-009,transcription,9,Operator,DS,il est,ça,,forme,mineure,True,
+espagnol_3.2,espagnol_3.2-trans-010,transcription,10,Caller,S,vale,valeu,,substitution phonétique,majeure,True,
+espagnol_3.2,espagnol_3.2-tradu-001,traduction,1,Operator,S,le,les,,forme,mineure,True,0.25
+espagnol_3.2,espagnol_3.2-tradu-002,traduction,2,Caller,DS,je vous,j,,héritée de la transcription,mineure,True,0.37
+espagnol_3.2,espagnol_3.2-tradu-003,traduction,2,Caller,DS,s est fait percuter,a été renversé,,héritée de la transcription,majeure,True,0.37
+espagnol_3.2,espagnol_3.2-tradu-004,traduction,2,Caller,D,à bourg en bresse,,bourg en bresse,héritée de la transcription,critique,True,0.37
+espagnol_3.2,espagnol_3.2-tradu-005,traduction,2,Caller,DS,au carré amiot,de carramión,carré amiot carramión,héritée de la transcription,critique,True,0.37
+espagnol_3.2,espagnol_3.2-tradu-006,traduction,3,Operator,DS,carré amiot,caramio,carré amiot caramio,contresens,critique,True,0.23
+espagnol_3.2,espagnol_3.2-tradu-007,traduction,4,Caller,DS,ah oui il est à terre il répond pas je suis à côté,sí tu,,héritée de la transcription,majeure,True,1.0
+espagnol_3.2,espagnol_3.2-tradu-008,traduction,5,Operator,S,inconsciente,consciente,consciente,terminologie,critique,True,0.2
+espagnol_3.2,espagnol_3.2-tradu-009,traduction,6,Caller,DS,oui je ne suis pas sûr fíjese,hay que mirar,,héritée de la transcription,majeure,True,1.0
+espagnol_3.2,espagnol_3.2-tradu-010,traduction,7,Operator,I,,se eleva,,ajout,majeure,True,0.0
+espagnol_3.2,espagnol_3.2-tradu-011,traduction,7,Operator,D,suben y bajan,,,omission,majeure,True,0.0
+espagnol_3.2,espagnol_3.2-tradu-012,traduction,7,Operator,S,mueve oui il respire pues,eleva es así y les,respire,contresens,critique,True,0.0
+espagnol_3.2,espagnol_3.2-tradu-013,traduction,9,Operator,D,déjelo como está le,,,omission,majeure,True,0.21
+espagnol_3.2,espagnol_3.2-tradu-014,traduction,9,Operator,S,ayuda ahora mismo d,gente de acuerdo merci,,contresens,majeure,True,0.21
+espagnol_3.2,espagnol_3.2-tradu-015,traduction,10,Caller,D,accord,,,héritée de la transcription,majeure,True,1.0
+arabe_1.1,arabe_1.1-trans-001,transcription,2,Caller,S,اتصل,التسل,,substitution phonétique,majeure,True,
+arabe_1.1,arabe_1.1-trans-002,transcription,3,Operator,S,où,ou,,substitution phonétique,majeure,True,
+arabe_1.1,arabe_1.1-trans-003,transcription,3,Caller,I,,un,,insertion/hallucination,mineure,True,
+arabe_1.1,arabe_1.1-trans-004,transcription,4,Caller,S,انا في بورغ اون بريس,f a beaucoup en bresse,بورغ اون بريس,code-switching,critique,True,
+arabe_1.1,arabe_1.1-trans-005,transcription,6,Caller,D,اه شارع دي روزو,,شارع دي روزو,omission,critique,True,
+arabe_1.1,arabe_1.1-trans-006,transcription,10,Caller,S,اربع شقق,اقبع ثق,اربع,entité/nombre,critique,True,
+arabe_1.1,arabe_1.1-trans-007,transcription,10,Caller,IS,والشقه,وشقه المح,المح,substitution phonétique,critique,True,
+arabe_1.1,arabe_1.1-trans-008,transcription,12,Caller,S,الشقه,الشيقه,,substitution phonétique,majeure,True,
+arabe_1.1,arabe_1.1-trans-009,transcription,13,Operator,S,quatrième,premier,quatrième premier,entité/nombre,critique,True,
+arabe_1.1,arabe_1.1-trans-010,transcription,14,Caller,DS,هناك شخصين,honachersين,,substitution lexicale,majeure,True,
+arabe_1.1,arabe_1.1-trans-011,transcription,18,Caller,S,الاسود,الاشود,,substitution phonétique,majeure,True,
+arabe_1.1,arabe_1.1-trans-012,transcription,18,Caller,S,النوافذ,النواسد,,substitution phonétique,majeure,True,
+arabe_1.1,arabe_1.1-trans-013,transcription,19,Operator,IS,monsieur restez,je me suis resté,,substitution phonétique,majeure,True,
+arabe_1.1,arabe_1.1-tradu-001,traduction,1,Operator,S,رجال الاطفاء,ال pompiers,,contresens,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-002,traduction,1,Operator,S,استمع اليكم euh,انصت لكم ah,,contresens,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-003,traduction,2,Caller,DS,j appelle,merci,,terminologie,majeure,True,0.1
+arabe_1.1,arabe_1.1-tradu-004,traduction,2,Caller,DS,d en face اين ذلك,adjacent ايplace,en,contresens,critique,True,0.1
+arabe_1.1,arabe_1.1-tradu-005,traduction,4,Caller,S,je suis à bourg,une f a beaucoup,bourg,héritée de la transcription,critique,True,1.0
+arabe_1.1,arabe_1.1-tradu-006,traduction,4,Operator,I,,وايضا,,héritée de la transcription,majeure,True,1.0
+arabe_1.1,arabe_1.1-tradu-007,traduction,5,Operator,S,وما هو,ما هي,,contresens,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-008,traduction,6,Caller,D,euh rue des roseaux,,rue des roseaux,héritée de la transcription,critique,True,1.0
+arabe_1.1,arabe_1.1-tradu-009,traduction,7,Operator,D,ام لا,,,omission,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-010,traduction,9,Operator,S,طيب جيد جدا الحريق,حسنا جيدا هناك حريق,الحريق حريق,contresens,critique,True,0.0
+arabe_1.1,arabe_1.1-tradu-011,traduction,9,Operator,D,ماذا في,,,omission,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-012,traduction,9,Operator,DS,ام في,او,,contresens,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-013,traduction,10,Caller,DS,une maison c est une maison de quatre appartements euh,il y a un appartement dans un immeuble ah,quatre,contresens,critique,True,0.24
+arabe_1.1,arabe_1.1-tradu-014,traduction,10,Caller,DS,il y a,se trouve,,contresens,majeure,True,0.24
+arabe_1.1,arabe_1.1-tradu-015,traduction,10,Caller,S,quatrième,premier,quatrième premier,terminologie,critique,True,0.24
+arabe_1.1,arabe_1.1-tradu-016,traduction,11,Operator,S,حسنا,اكيد,,terminologie,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-017,traduction,12,Caller,D,euh,,,omission,mineure,True,0.17
+arabe_1.1,arabe_1.1-tradu-018,traduction,12,Caller,D,qui se trouve,,,omission,majeure,True,0.17
+arabe_1.1,arabe_1.1-tradu-019,traduction,12,Caller,S,quatrième,premier,quatrième premier,terminologie,critique,True,0.17
+arabe_1.1,arabe_1.1-tradu-020,traduction,13,Operator,S,الرابع,الاول,الرابع الاول,terminologie,critique,True,0.08
+arabe_1.1,arabe_1.1-tradu-021,traduction,13,Operator,S,هل,الجميع,,contresens,majeure,True,0.08
+arabe_1.1,arabe_1.1-tradu-022,traduction,13,Operator,D,الجميع,,,omission,majeure,True,0.08
+arabe_1.1,arabe_1.1-tradu-023,traduction,13,Caller,I,,deux vieillards,deux,ajout,critique,True,0.08
+arabe_1.1,arabe_1.1-tradu-024,traduction,14,Caller,S,il y a deux personnes âgées qui n ont pas pu sortir هناك شخصان مفقودان والاخرون,ne sont pas parvenus à sortir هناك اثنتان من الناس الذين لا يزالون غير موجودين والاخرين,deux,héritée de la transcription,critique,True,0.33
+arabe_1.1,arabe_1.1-tradu-025,traduction,15,Operator,D,هل,,,omission,mineure,True,0.0
+arabe_1.1,arabe_1.1-tradu-026,traduction,16,Caller,S,ça حسنا طيب,ainsi اكيد جيد,,contresens,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-027,traduction,17,Operator,S,السنه لهب تخرج,اللهيب الذي يخرج,,contresens,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-028,traduction,17,Operator,DS,او شييا,شيء,,terminologie,majeure,True,0.0
+arabe_1.1,arabe_1.1-tradu-029,traduction,18,Caller,D,noire,,,omission,majeure,True,0.25
+arabe_1.1,arabe_1.1-tradu-030,traduction,18,Caller,IS,des,par les,des,forme,critique,True,0.25
+arabe_1.1,arabe_1.1-tradu-031,traduction,19,Operator,S,سيدي ابق,انا بقيت,,héritée de la transcription,majeure,True,0.4
+arabe_1.1,arabe_1.1-tradu-032,traduction,19,Operator,I,,سيصل,,héritée de la transcription,majeure,True,0.4
+arabe_1.1,arabe_1.1-tradu-033,traduction,19,Operator,DS,في الطريق,الان,الطريق,héritée de la transcription,critique,True,0.4
+arabe_1.2,arabe_1.2-trans-001,transcription,1,Operator,D,pompiers j écoute,,,omission,majeure,True,
+arabe_1.2,arabe_1.2-trans-002,transcription,3,Operator,S,savez,veillez,,substitution phonétique,majeure,True,
+arabe_1.2,arabe_1.2-trans-003,transcription,5,Operator,S,l,j,,forme,mineure,True,
+arabe_1.2,arabe_1.2-trans-004,transcription,5,Operator,S,exacte اثنا,exact اثني,,substitution phonétique,majeure,True,
+arabe_1.2,arabe_1.2-trans-005,transcription,6,Caller,S,بولفار دو برو,boulevar de bro,بولفار دو برو,code-switching,critique,True,
+arabe_1.2,arabe_1.2-tradu-001,traduction,1,Operator,D,رجال الاطفاء انا استمع,,,héritée de la transcription,majeure,True,1.0
+arabe_1.2,arabe_1.2-tradu-002,traduction,2,Caller,DS,de la fumée noire,du smoke noir,de fumée smoke,contresens,critique,True,0.0
+arabe_1.2,arabe_1.2-tradu-003,traduction,3,Operator,DS,تعرف ان كان هناك احد في الداخل,يوجد شخص داخل,,contresens,majeure,True,0.09
+arabe_1.2,arabe_1.2-tradu-004,traduction,4,Operator,I,,انا,,ajout,mineure,True,0.0
+arabe_1.2,arabe_1.2-tradu-005,traduction,5,Operator,S,العنوان بالضبط 12,اوجه بدقه douze,العنوان 12 douze,héritée de la transcription,critique,True,0.67
+arabe_1.2,arabe_1.2-tradu-006,traduction,6,Caller,S,brou سنرسل فرق الاسعاف لا تعبروا,bro نرسل المساعدات لا تدخلوا في,brou المساعدات,héritée de la transcription,critique,True,0.6
+arabe_1.3,arabe_1.3-trans-001,transcription,1,Operator,D,pompiers de l ain,,,omission,majeure,True,
+arabe_1.3,arabe_1.3-trans-002,transcription,2,Caller,IS,تحترق,تحت رق,,substitution phonétique,majeure,True,
+arabe_1.3,arabe_1.3-trans-003,transcription,2,Caller,S,غراند,غروم,غراند,entité/nombre,critique,True,
+arabe_1.3,arabe_1.3-trans-004,transcription,3,Operator,DS,y a t il,也 就 也,,substitution lexicale,majeure,True,
+arabe_1.3,arabe_1.3-trans-005,transcription,3,Operator,I,,d,,insertion/hallucination,mineure,True,
+arabe_1.3,arabe_1.3-trans-006,transcription,3,Operator,S,garés,gars,,substitution phonétique,majeure,True,
+arabe_1.3,arabe_1.3-trans-007,transcription,4,Caller,S,شاحنه,شاهنه,,substitution phonétique,majeure,True,
+arabe_1.3,arabe_1.3-trans-008,transcription,5,Operator,DS,éloignez les gens,一种一种机力,,substitution lexicale,majeure,True,
+arabe_1.3,arabe_1.3-tradu-001,traduction,1,Operator,D,رجال اطفاء الان,,,héritée de la transcription,majeure,True,1.0
+arabe_1.3,arabe_1.3-tradu-002,traduction,2,Caller,DS,qui brûle sur,coincée dans,brûle,héritée de la transcription,critique,True,0.3
+arabe_1.3,arabe_1.3-tradu-003,traduction,2,Caller,S,du grand parc هل,situé à grum park,grand parc,héritée de la transcription,critique,True,0.3
+arabe_1.3,arabe_1.3-tradu-004,traduction,3,Operator,IS,سيارات اخري مركونه بجانبها,ايضا عده سياراتarked الي جانبها,,héritée de la transcription,majeure,True,0.5
+arabe_1.3,arabe_1.3-tradu-005,traduction,4,Caller,D,il y a,,,omission,mineure,True,0.17
+arabe_1.3,arabe_1.3-tradu-006,traduction,4,Caller,D,qui,,,omission,mineure,True,0.17
+arabe_1.3,arabe_1.3-tradu-007,traduction,5,Operator,DS,ابعدوا الناس نحن قادمون,نصل قريبا,قادمون,héritée de la transcription,critique,True,0.6
+arabe_1.4,arabe_1.4-trans-001,transcription,1,Operator,IS,pompiers,不 bien,,substitution lexicale,majeure,True,
+arabe_1.4,arabe_1.4-trans-002,transcription,1,Operator,S,écoute,coute,,substitution phonétique,majeure,True,
+arabe_1.4,arabe_1.4-trans-003,transcription,2,Caller,S,طباخ,اطبعه,,substitution lexicale,majeure,True,
+arabe_1.4,arabe_1.4-trans-004,transcription,2,Caller,S,الوسطي,وسطاه,الوسطي,entité/nombre,critique,True,
+arabe_1.4,arabe_1.4-trans-005,transcription,2,Caller,S,حريق,حقيق,حريق,substitution phonétique,critique,True,
+arabe_1.4,arabe_1.4-trans-006,transcription,2,Operator,I,,qu,,insertion/hallucination,mineure,True,
+arabe_1.4,arabe_1.4-trans-007,transcription,3,Operator,S,quelle,il,,substitution lexicale,majeure,True,
+arabe_1.4,arabe_1.4-trans-008,transcription,4,Caller,S,ساحه لا ال,plus de la,,code-switching,majeure,True,
+arabe_1.4,arabe_1.4-trans-009,transcription,5,Operator,D,coupez le gaz et,,,omission,majeure,True,
+arabe_1.4,arabe_1.4-trans-010,transcription,5,Operator,D,électricité,,,omission,majeure,True,
+arabe_1.4,arabe_1.4-tradu-001,traduction,1,Operator,DS,رجال الاطفاء,لا,,héritée de la transcription,majeure,True,1.0
+arabe_1.4,arabe_1.4-tradu-002,traduction,2,Caller,S,euh,ah,,forme,mineure,True,0.23
+arabe_1.4,arabe_1.4-tradu-003,traduction,2,Caller,S,cuisinier dans la cité médiévale,à bourg en bresse et,la,contresens,critique,True,0.23
+arabe_1.4,arabe_1.4-tradu-004,traduction,3,Operator,S,ما هو,اين هي,,contresens,majeure,True,0.12
+arabe_1.4,arabe_1.4-tradu-005,traduction,3,Operator,S,بالضبط داخل,الدقيق في,,contresens,majeure,True,0.12
+arabe_1.4,arabe_1.4-tradu-006,traduction,3,Caller,I,,au,,ajout,mineure,True,0.12
+arabe_1.4,arabe_1.4-tradu-007,traduction,4,Caller,S,place,delà,place,héritée de la transcription,critique,True,1.0
+arabe_1.4,arabe_1.4-tradu-008,traduction,4,Caller,S,halle اقطعوا الغاز,l المساعدات تصل,halle المساعدات,héritée de la transcription,critique,True,1.0
+arabe_1.4,arabe_1.4-tradu-009,traduction,5,Operator,D,والكهرباء فرق الاسعاف في الطريق,,الطريق,héritée de la transcription,critique,True,0.56
+arabe_1.5,arabe_1.5-trans-001,transcription,1,Operator,D,pompiers bonjour,,,omission,majeure,True,
+arabe_1.5,arabe_1.5-trans-002,transcription,2,Caller,S,المدرسه,للمدرسه,المدرسه,substitution phonétique,critique,True,
+arabe_1.5,arabe_1.5-trans-003,transcription,2,Caller,S,حريق,حقيق,حريق,substitution phonétique,critique,True,
+arabe_1.5,arabe_1.5-trans-004,transcription,3,Operator,DS,est elle,était,,substitution lexicale,majeure,True,
+arabe_1.5,arabe_1.5-trans-005,transcription,4,Caller,S,يتواجدون,ليتوجدون,,substitution phonétique,majeure,True,
+arabe_1.5,arabe_1.5-trans-006,transcription,5,Operator,D,il,,,omission,mineure,True,
+arabe_1.5,arabe_1.5-trans-007,transcription,5,Operator,I,,t il,,insertion/hallucination,majeure,True,
+arabe_1.5,arabe_1.5-trans-008,transcription,5,Operator,S,blessés,blesés,blessés,substitution phonétique,critique,True,
+arabe_1.5,arabe_1.5-trans-009,transcription,7,Operator,DS,très bien on arrive,退病国家,,substitution lexicale,majeure,True,
+arabe_1.5,arabe_1.5-tradu-001,traduction,1,Operator,D,رجال الاطفاء صباح الخير,,,héritée de la transcription,majeure,True,1.0
+arabe_1.5,arabe_1.5-tradu-002,traduction,2,Caller,DS,primaire euh de montluel euh,maternelle ahoule ah,montluel,contresens,critique,True,0.12
+arabe_1.5,arabe_1.5-tradu-003,traduction,2,Caller,S,un incendie,une alerte,incendie,terminologie,critique,True,0.12
+arabe_1.5,arabe_1.5-tradu-004,traduction,2,Caller,S,informatique هل,d information,,terminologie,majeure,True,0.12
+arabe_1.5,arabe_1.5-tradu-005,traduction,3,Operator,IS,جار,كان جاريا,,héritée de la transcription,majeure,True,0.33
+arabe_1.5,arabe_1.5-tradu-006,traduction,4,Caller,IS,sont au point,se trouvent à la pointe,,contresens,majeure,True,0.14
+arabe_1.5,arabe_1.5-tradu-007,traduction,6,Caller,D,en,,,omission,mineure,True,0.0
+arabe_1.5,arabe_1.5-tradu-008,traduction,6,Caller,I,,de blessés,blessés,ajout,critique,True,0.0
+arabe_1.5,arabe_1.5-tradu-009,traduction,7,Operator,S,جيد جدا نحن قادمون,لا توجد حالات مرضيه,قادمون,héritée de la transcription,critique,True,1.0
+arabe_2.1,arabe_2.1-trans-001,transcription,1,Operator,DS,pompiers bonjour صباح,سبح,,substitution lexicale,majeure,True,
+arabe_2.1,arabe_2.1-trans-002,transcription,2,Caller,S,اتصل,اتفلوا,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-003,transcription,2,Caller,S,بانني وجدت,بان يوجدوا,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-004,transcription,2,Caller,D,في بيته اظن انه وقع,,,omission,majeure,True,
+arabe_2.1,arabe_2.1-trans-005,transcription,3,Operator,S,exacte,exact,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-006,transcription,5,Operator,S,blessures,blesures,blessures,substitution phonétique,critique,True,
+arabe_2.1,arabe_2.1-trans-007,transcription,6,Caller,S,نعم,ونعم,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-008,transcription,6,Caller,S,اصابات,اسابات,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-009,transcription,7,Operator,S,restez,reste,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-010,transcription,7,Operator,S,écart,écraire,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-011,transcription,7,Operator,DS,ne touchez,détoucher,,substitution phonétique,majeure,True,
+arabe_2.1,arabe_2.1-trans-012,transcription,7,Operator,I,,et,,insertion/hallucination,mineure,True,
+arabe_2.1,arabe_2.1-tradu-001,traduction,1,Operator,S,رجال الاطفاء صباح الخير bonjour j appelle,saluez le bien et venez me dire,,héritée de la transcription,majeure,True,1.0
+arabe_2.1,arabe_2.1-tradu-002,traduction,2,Caller,D,pour vous informer,,,héritée de la transcription,majeure,True,0.67
+arabe_2.1,arabe_2.1-tradu-003,traduction,2,Caller,D,j ai trouvé,,,héritée de la transcription,majeure,True,0.67
+arabe_2.1,arabe_2.1-tradu-004,traduction,2,Caller,D,chez lui je pense qu il,,,héritée de la transcription,majeure,True,0.67
+arabe_2.1,arabe_2.1-tradu-005,traduction,2,Caller,S,tombé,là,tombé,héritée de la transcription,critique,True,0.67
+arabe_2.1,arabe_2.1-tradu-006,traduction,3,Operator,DS,ان تعطيني,اعطايي,,terminologie,majeure,True,0.11
+arabe_2.1,arabe_2.1-tradu-007,traduction,3,Operator,S,بالضبط,الدقيق,,terminologie,majeure,True,0.11
+arabe_2.1,arabe_2.1-tradu-008,traduction,4,Caller,DS,dans la rue dans,c est sur,rue,contresens,critique,True,0.0
+arabe_2.1,arabe_2.1-tradu-009,traduction,4,Caller,S,commune,rue,rue,terminologie,critique,True,0.0
+arabe_2.1,arabe_2.1-tradu-010,traduction,4,Caller,S,dibona,débonne,dibona,terminologie,critique,True,0.0
+arabe_2.1,arabe_2.1-tradu-011,traduction,5,Operator,IS,لدي الضحيه,المصاب يظهر عليه,الضحيه المصاب,contresens,critique,True,0.11
+arabe_2.1,arabe_2.1-tradu-012,traduction,5,Operator,D,ظاهره,,,omission,majeure,True,0.11
+arabe_2.1,arabe_2.1-tradu-013,traduction,6,Caller,IS,à la tête,au niveau du crâne,,contresens,majeure,True,0.2
+arabe_2.1,arabe_2.1-tradu-014,traduction,6,Caller,DS,sur le sol,par terre,,terminologie,majeure,True,0.2
+arabe_2.1,arabe_2.1-tradu-015,traduction,7,Operator,IS,بعيدا,في الغرفه,,terminologie,majeure,True,0.21
+arabe_2.1,arabe_2.1-tradu-016,traduction,7,Operator,DS,في الغرفه فرق الاسعاف في الطريق,وستصل المساعدات قريبا,الطريق المساعدات,contresens,critique,True,0.21
+arabe_2.2,arabe_2.2-trans-001,transcription,1,Operator,S,les pompiers bonjour صباح,李 崩 出 سبح,,substitution lexicale,majeure,True,
+arabe_2.2,arabe_2.2-trans-002,transcription,3,Operator,S,vous êtes,c est,,substitution lexicale,majeure,True,
+arabe_2.2,arabe_2.2-trans-003,transcription,4,Caller,S,في بورغ اون بريس,ف la ray souse,بورغ اون بريس la,entité/nombre,critique,True,
+arabe_2.2,arabe_2.2-trans-004,transcription,5,Operator,D,la reyssouze,,la reyssouze,omission,critique,True,
+arabe_2.2,arabe_2.2-trans-005,transcription,6,Caller,S,قريبه,قريب,,substitution phonétique,majeure,True,
+arabe_2.2,arabe_2.2-trans-006,transcription,6,Caller,S,جون مولان,جمولا 大概,جون مولان,entité/nombre,critique,True,
+arabe_2.2,arabe_2.2-trans-007,transcription,7,Operator,D,d accord oui,,,omission,majeure,True,
+arabe_2.2,arabe_2.2-trans-008,transcription,7,Operator,IS,localise,le qualite,,substitution phonétique,majeure,True,
+arabe_2.2,arabe_2.2-trans-009,transcription,7,Operator,I,,c est que,,insertion/hallucination,mineure,True,
+arabe_2.2,arabe_2.2-trans-010,transcription,7,Operator,S,tomber,tombée,tomber tombée,substitution phonétique,critique,True,
+arabe_2.2,arabe_2.2-trans-011,transcription,7,Operator,S,cette personne,ces personnes,,substitution phonétique,majeure,True,
+arabe_2.2,arabe_2.2-trans-012,transcription,8,Caller,IS,مرييه اظن,مع ايعا عظم,,substitution lexicale,majeure,True,
+arabe_2.2,arabe_2.2-trans-013,transcription,10,Caller,D,نعم,,,omission,mineure,True,
+arabe_2.2,arabe_2.2-trans-014,transcription,11,Operator,I,,la,la,insertion/hallucination,critique,True,
+arabe_2.2,arabe_2.2-trans-015,transcription,12,Caller,S,استطيع ok,استاذ vou,,substitution phonétique,majeure,True,
+arabe_2.2,arabe_2.2-trans-016,transcription,13,Operator,D,donc,,,omission,mineure,True,
+arabe_2.2,arabe_2.2-trans-017,transcription,13,Operator,DS,ne vous,les,,forme,mineure,True,
+arabe_2.2,arabe_2.2-trans-018,transcription,13,Operator,D,vous,,,omission,mineure,True,
+arabe_2.2,arabe_2.2-trans-019,transcription,13,Operator,S,les,le,,forme,mineure,True,
+arabe_2.2,arabe_2.2-trans-020,transcription,14,Caller,D,حسنا شكرا,,,omission,majeure,True,
+arabe_2.2,arabe_2.2-tradu-001,traduction,1,Operator,S,رجال الاطفاء صباح الخير,خرج soubh al khair,,héritée de la transcription,majeure,True,1.0
+arabe_2.2,arabe_2.2-tradu-002,traduction,2,Caller,D,bonjour,,,omission,majeure,True,0.0
+arabe_2.2,arabe_2.2-tradu-003,traduction,2,Caller,S,quelqu un,une personne,,terminologie,majeure,True,0.0
+arabe_2.2,arabe_2.2-tradu-004,traduction,2,Caller,S,est tombé,a chuté,tombé,terminologie,critique,True,0.0
+arabe_2.2,arabe_2.2-tradu-005,traduction,2,Caller,S,la rivière,le fleuve,,terminologie,majeure,True,0.0
+arabe_2.2,arabe_2.2-tradu-006,traduction,3,Operator,DS,في اي مكان انت,ما هو الموقع,الموقع,contresens,critique,True,0.29
+arabe_2.2,arabe_2.2-tradu-007,traduction,4,Caller,DS,à bourg en bresse نهر لا ريسوز,près الراي سوسه,bourg en bresse نهر لا ريسوز,héritée de la transcription,critique,True,0.8
+arabe_2.2,arabe_2.2-tradu-008,traduction,5,Operator,S,قرب,بالقرب,,terminologie,majeure,True,0.18
+arabe_2.2,arabe_2.2-tradu-009,traduction,5,Operator,DS,الجسر في اي مكان,جسر which bridge,,contresens,majeure,True,0.18
+arabe_2.2,arabe_2.2-tradu-010,traduction,6,Caller,S,euh rue jean moulin حسنا نعم لقد حددت,ah dans la rue jamoul a à traduire,rue jean moulin,héritée de la transcription,critique,True,0.3
+arabe_2.2,arabe_2.2-tradu-011,traduction,7,Operator,D,موقعك جيد جدا اذن ماذا يحدث رايت شخصا يسقط في الماء هل لا يزال هذا الشخص ظاهرا non,,يسقط الماء لا,omission,critique,True,0.24
+arabe_2.2,arabe_2.2-tradu-012,traduction,8,Caller,D,n,,,héritée de la transcription,mineure,True,0.38
+arabe_2.2,arabe_2.2-tradu-013,traduction,8,Caller,DS,pas visible je pense qu,tout seul en fait,en,héritée de la transcription,critique,True,0.38
+arabe_2.2,arabe_2.2-tradu-014,traduction,9,Operator,D,لكن هل,,,omission,mineure,True,0.0
+arabe_2.2,arabe_2.2-tradu-015,traduction,9,Operator,S,وحدها oui,وحده لكن,,terminologie,majeure,True,0.0
+arabe_2.2,arabe_2.2-tradu-016,traduction,11,Operator,DS,يمكنك ان تاتي,يمكنكم القدوم,,contresens,majeure,True,0.05
+arabe_2.2,arabe_2.2-tradu-017,traduction,11,Operator,S,لتشيري الي فرق الاسعاف وترشديها,للكشف عن الحاجه والارشاد للانقاذ,,contresens,majeure,True,0.05
+arabe_2.2,arabe_2.2-tradu-018,traduction,12,Caller,DS,je peux حسنا اذن,monsieur,,héritée de la transcription,majeure,True,1.0
+arabe_2.2,arabe_2.2-tradu-019,traduction,13,Operator,S,تقتربي,تقتربوا,,terminologie,majeure,True,0.0
+arabe_2.2,arabe_2.2-tradu-020,traduction,13,Operator,S,الماء وابقي في امان وتعالي لاستقبال فرق الاسعاف نحن قادمون,المياه واحتفظوا بالسلامه ولا تترددوا في استقبال المساعده سنصل قريبا,الماء قادمون المياه المساعده,contresens,critique,True,0.0
+arabe_2.2,arabe_2.2-tradu-021,traduction,14,Caller,D,d accord merci,,,héritée de la transcription,majeure,True,1.0
+arabe_2.3,arabe_2.3-trans-001,transcription,1,Operator,D,oui,,,omission,mineure,True,
+arabe_2.3,arabe_2.3-trans-002,transcription,2,Caller,IS,لسوء الحظ,السوء الحظر ليس,,substitution phonétique,majeure,True,
+arabe_2.3,arabe_2.3-trans-003,transcription,2,Caller,S,تمروا,تمغوا,,substitution phonétique,majeure,True,
+arabe_2.3,arabe_2.3-trans-004,transcription,3,Operator,DS,vous rendez,vendez,,substitution phonétique,majeure,True,
+arabe_2.3,arabe_2.3-trans-005,transcription,4,Caller,DS,بورغ اون بريس,بكون برش,بورغ اون بريس,entité/nombre,critique,True,
+arabe_2.3,arabe_2.3-trans-006,transcription,5,Caller,I,,bonsoir,,insertion/hallucination,majeure,True,
+arabe_2.3,arabe_2.3-trans-007,transcription,5,Operator,DS,les lignes d,l ind,,substitution phonétique,majeure,True,
+arabe_2.3,arabe_2.3-tradu-001,traduction,1,Operator,S,نعم,ah,,forme,mineure,True,0.0
+arabe_2.3,arabe_2.3-tradu-002,traduction,2,Caller,D,euh,,,omission,mineure,True,0.14
+arabe_2.3,arabe_2.3-tradu-003,traduction,2,Caller,S,voudrais avoir,veux obtenir,,contresens,majeure,True,0.14
+arabe_2.3,arabe_2.3-tradu-004,traduction,2,Caller,S,calendrier,planning,,terminologie,majeure,True,0.14
+arabe_2.3,arabe_2.3-tradu-005,traduction,2,Caller,IS,malheureusement,du fait des mesures sanitaires,,contresens,majeure,True,0.14
+arabe_2.3,arabe_2.3-tradu-006,traduction,2,Caller,S,passer,venir,,terminologie,majeure,True,0.14
+arabe_2.3,arabe_2.3-tradu-007,traduction,2,Caller,DS,parce qu,car,car,terminologie,critique,True,0.14
+arabe_2.3,arabe_2.3-tradu-008,traduction,2,Caller,S,faire pour avoir,puis je obtenir,,contresens,majeure,True,0.14
+arabe_2.3,arabe_2.3-tradu-009,traduction,2,Caller,S,calendrier اذن يا,planning فاو سياتون,,contresens,majeure,True,0.14
+arabe_2.3,arabe_2.3-tradu-010,traduction,3,Operator,D,سيدي,,,omission,majeure,True,0.08
+arabe_2.3,arabe_2.3-tradu-011,traduction,3,Operator,D,يمروا عليك واما ان,,,omission,majeure,True,0.08
+arabe_2.3,arabe_2.3-tradu-012,traduction,3,Operator,IS,الثكنه لكنك الان,القaserne لكن هنا انت,,contresens,majeure,True,0.08
+arabe_2.3,arabe_2.3-tradu-013,traduction,3,Operator,S,الطواري حسنا oui d accord à la caserne à bourg en bresse نعم هذا صحيح ستقدم نفسك هناك انه علي طول مباشره عندما تدخل,طواري فهم يتعاملون مع الحالات الطاريه فقط oui d accord au caserne tu seras reçu à traduire bonsoir monsieur الاسعاف طيب اليوم au revoir,bourg en bresse ستقدم عندما,contresens,critique,True,0.08
+arabe_2.3,arabe_2.3-tradu-014,traduction,5,Operator,D,لانك الان علي خط الطواري وخطوط الطواري ليست مخصصه لهذا يا سيدي يوما سعيدا الي اللقاء,,,omission,majeure,True,0.1
+arabe_2.4,arabe_2.4-trans-001,transcription,2,Caller,S,سقطت,شقطت,سقطت,substitution phonétique,critique,True,
+arabe_2.4,arabe_2.4-trans-002,transcription,3,Operator,S,exacte كارفور ماركت شارع جون جوريس في بورغ اون بريس,l adresse exact carrefour market avenue jean jaurès à boucambre,شارع جون جوريس بورغ اون بريس adresse carrefour avenue,code-switching,critique,True,
+arabe_2.4,arabe_2.4-trans-003,transcription,6,Caller,S,التنفس,تنفس,التنفس تنفس,substitution phonétique,critique,True,
+arabe_2.4,arabe_2.4-trans-004,transcription,7,Operator,DS,très bien restez près d elle les,合并 rester le,,substitution lexicale,majeure,True,
+arabe_2.4,arabe_2.4-trans-005,transcription,7,Operator,S,arrivent,arrive,,substitution phonétique,majeure,True,
+arabe_2.4,arabe_2.4-tradu-001,traduction,1,Operator,S,رجال الاطفاء صباح الخير,مرحبا بال pompiers ah,,contresens,majeure,True,0.0
+arabe_2.4,arabe_2.4-tradu-002,traduction,2,Caller,D,euh,,,omission,mineure,True,0.11
+arabe_2.4,arabe_2.4-tradu-003,traduction,2,Caller,S,dame,femme,,terminologie,majeure,True,0.11
+arabe_2.4,arabe_2.4-tradu-004,traduction,2,Caller,I,,s,,ajout,mineure,True,0.11
+arabe_2.4,arabe_2.4-tradu-005,traduction,2,Caller,S,tombée,évanouie,tombée,terminologie,critique,True,0.11
+arabe_2.4,arabe_2.4-tradu-006,traduction,3,Operator,IS,اعطني,قدم لي,قدم,héritée de la transcription,critique,True,1.0
+arabe_2.4,arabe_2.4-tradu-007,traduction,3,Operator,IS,بالضبط,العنوان الدقيق,العنوان,héritée de la transcription,critique,True,1.0
+arabe_2.4,arabe_2.4-tradu-008,traduction,4,Caller,DS,bourg en bresse,boucambourg,bourg en bresse,contresens,critique,True,0.0
+arabe_2.4,arabe_2.4-tradu-009,traduction,5,Operator,S,تتنفس euh non,تنفس ah oui,تتنفس تنفس,terminologie,critique,True,0.0
+arabe_2.4,arabe_2.4-tradu-010,traduction,6,Caller,S,n arrive,ne peut,,terminologie,majeure,True,0.11
+arabe_2.4,arabe_2.4-tradu-011,traduction,6,Caller,S,à respirer,respirer correctement,respirer,contresens,critique,True,0.11
+arabe_2.4,arabe_2.4-tradu-012,traduction,6,Caller,S,difficilement جيد جدا ابق بقربها فرق,avec difficulté احتفظ بالصبر المساعده علي,المساعده,contresens,critique,True,0.11
+arabe_2.4,arabe_2.4-tradu-013,traduction,7,Operator,D,الاسعاف في,,,héritée de la transcription,majeure,True,0.89
+arabe_2.5,arabe_2.5-trans-001,transcription,1,Operator,D,pompiers bonjour,,,omission,majeure,True,
+arabe_2.5,arabe_2.5-trans-002,transcription,2,Caller,S,السلالم وخصره,سلالم وخسره,السلالم سلالم,substitution phonétique,critique,True,
+arabe_2.5,arabe_2.5-trans-003,transcription,4,Caller,S,اثنا,اثني,,substitution phonétique,majeure,True,
+arabe_2.5,arabe_2.5-trans-004,transcription,4,Caller,S,امباس دي تيلول,impasse des tellules,امباس دي تيلول,code-switching,critique,True,
+arabe_2.5,arabe_2.5-trans-005,transcription,5,Operator,D,peut,,,omission,majeure,True,
+arabe_2.5,arabe_2.5-trans-006,transcription,5,Operator,S,relever لا,relevait لاستتي,,substitution phonétique,majeure,True,
+arabe_2.5,arabe_2.5-trans-007,transcription,6,Caller,D,لا يستطيع,,,omission,majeure,True,
+arabe_2.5,arabe_2.5-trans-008,transcription,6,Caller,S,يصرخ,يسغق,,substitution lexicale,majeure,True,
+arabe_2.5,arabe_2.5-trans-009,transcription,7,Operator,S,le,ne,,forme,mineure,True,
+arabe_2.5,arabe_2.5-tradu-001,traduction,1,Operator,DS,رجال الاطفاء صباح الخير euh,ah,,héritée de la transcription,majeure,True,1.0
+arabe_2.5,arabe_2.5-tradu-002,traduction,2,Caller,S,grand père est tombé dans l escalier,dieu il a glissé sur les marches,tombé,contresens,critique,True,0.29
+arabe_2.5,arabe_2.5-tradu-003,traduction,2,Caller,S,il a mal à la hanche في,son genou lui fait mal اين العنوان,العنوان,contresens,critique,True,0.29
+arabe_2.5,arabe_2.5-tradu-004,traduction,3,Operator,D,اي عنوان,,عنوان,omission,critique,True,0.0
+arabe_2.5,arabe_2.5-tradu-005,traduction,4,Caller,S,tilleuls هل يستطيع النهوض non,tellules كان يستنهض نفسه estati,tilleuls,héritée de la transcription,critique,True,0.8
+arabe_2.5,arabe_2.5-tradu-006,traduction,6,Caller,D,il ne peut pas,,,héritée de la transcription,majeure,True,0.43
+arabe_2.5,arabe_2.5-tradu-007,traduction,6,Caller,S,crie de douleur,lui fait mal,douleur,héritée de la transcription,critique,True,0.43
+arabe_2.5,arabe_2.5-tradu-008,traduction,7,Operator,S,تحركوه سنرسل,تتحركوا نرسل,,contresens,majeure,True,0.0
+arabe_2.6,arabe_2.6-trans-001,transcription,1,Operator,DS,pompiers bonjour زوجي,الزوجي,,substitution lexicale,majeure,True,
+arabe_2.6,arabe_2.6-trans-002,transcription,3,Operator,S,où,tout,,substitution lexicale,majeure,True,
+arabe_2.6,arabe_2.6-trans-003,transcription,7,Operator,S,les,et,,forme,mineure,True,
+arabe_2.6,arabe_2.6-trans-004,transcription,7,Operator,S,arrivent,arrive,,substitution phonétique,majeure,True,
+arabe_2.6,arabe_2.6-tradu-001,traduction,1,Operator,DS,رجال الاطفاء صباح الخير mon,votre,,héritée de la transcription,majeure,True,1.0
+arabe_2.6,arabe_2.6-tradu-002,traduction,2,Caller,S,a,ressent,,contresens,majeure,True,0.0
+arabe_2.6,arabe_2.6-tradu-003,traduction,2,Caller,IS,dans la poitrine,au niveau du torse,,contresens,majeure,True,0.0
+arabe_2.6,arabe_2.6-tradu-004,traduction,2,Caller,S,beaucoup اين انت euh 12,abondamment انت بخير ah 12ème,12,contresens,critique,True,0.0
+arabe_2.6,arabe_2.6-tradu-005,traduction,4,Caller,S,michelet,chalet,michelet,terminologie,critique,True,0.0
+arabe_2.6,arabe_2.6-tradu-006,traduction,5,Operator,IS,متي يتالم,كم من الوقت يشعر,يتالم,contresens,critique,True,0.0
+arabe_2.6,arabe_2.6-tradu-007,traduction,6,Caller,S,depuis dix dix minutes جيد جدا ابقي معه فرق الاسعاف في,بالمشقه il a mal depuis dix minutes حسنا راقبيه وستاتي المساعده,dix بالمشقه المساعده,contresens,critique,True,0.0
+arabe_2.6,arabe_2.6-tradu-008,traduction,7,Operator,D,الطريق,,الطريق,omission,critique,True,0.12
+arabe_2.7,arabe_2.7-trans-001,transcription,1,Operator,IS,pompiers,mon pied,,substitution phonétique,majeure,True,
+arabe_2.7,arabe_2.7-trans-002,transcription,3,Operator,S,arbent,arban,arbent,entité/nombre,critique,True,
+arabe_2.7,arabe_2.7-trans-003,transcription,4,Caller,D,نعم,,,omission,mineure,True,
+arabe_2.7,arabe_2.7-trans-004,transcription,5,Operator,S,linge,âge,,substitution phonétique,majeure,True,
+arabe_2.7,arabe_2.7-trans-005,transcription,6,Operator,I,,va,,insertion/hallucination,majeure,True,
+arabe_2.7,arabe_2.7-trans-006,transcription,7,Operator,S,maintenez,tener,,substitution phonétique,majeure,True,
+arabe_2.7,arabe_2.7-trans-007,transcription,7,Operator,DS,sans relâcher,relâchée,,substitution phonétique,majeure,True,
+arabe_2.7,arabe_2.7-trans-008,transcription,7,Operator,I,,ce que,,insertion/hallucination,mineure,True,
+arabe_2.7,arabe_2.7-tradu-001,traduction,1,Operator,DS,رجال الاطفاء صباح الخير euh,مرحبا بقدمك ah,بقدمك,héritée de la transcription,critique,True,1.0
+arabe_2.7,arabe_2.7-tradu-002,traduction,2,Caller,S,mon collègue,collègue il,,contresens,majeure,True,0.0
+arabe_2.7,arabe_2.7-tradu-003,traduction,2,Caller,S,à l atelier,dans sa workshop,,contresens,majeure,True,0.0
+arabe_2.7,arabe_2.7-tradu-004,traduction,2,Caller,IS,saigne,y a,,contresens,majeure,True,0.0
+arabe_2.7,arabe_2.7-tradu-005,traduction,2,Caller,I,,de sang qui coule de la,sang,ajout,critique,True,0.0
+arabe_2.7,arabe_2.7-tradu-006,traduction,3,Operator,S,هل,blessure,blessure,contresens,critique,True,0.12
+arabe_2.7,arabe_2.7-tradu-007,traduction,3,Operator,S,المنطقه,منطقه,المنطقه,terminologie,critique,True,0.12
+arabe_2.7,arabe_2.7-tradu-008,traduction,3,Operator,D,في,,,omission,mineure,True,0.12
+arabe_2.7,arabe_2.7-tradu-009,traduction,4,Caller,S,oui حسنا اضغط بقوه,حسنا ضع الضغط بشده,,contresens,majeure,True,0.0
+arabe_2.7,arabe_2.7-tradu-010,traduction,5,Operator,S,بقطعه قماش,باستخدام قطعه,,contresens,majeure,True,0.09
+arabe_2.7,arabe_2.7-tradu-011,traduction,5,Caller,I,,je seraipressé,,ajout,majeure,True,0.09
+arabe_2.7,arabe_2.7-tradu-012,traduction,6,Caller,S,j appuie de toutes mes forces حافظ علي الضغط دون توقف حتي وصول رجال الاطفاء,avec toute ma force عليك ان تrelease la pression jusqu à l arrivée des pompiers,,contresens,majeure,True,0.25
+arabe_2.8,arabe_2.8-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+arabe_2.8,arabe_2.8-trans-002,transcription,2,Caller,S,لسعه,لفعه,,substitution phonétique,majeure,True,
+arabe_2.8,arabe_2.8-trans-003,transcription,2,Caller,D,ولديه,,,omission,majeure,True,
+arabe_2.8,arabe_2.8-trans-004,transcription,3,Operator,D,c est au parc des oiseaux,,,omission,majeure,True,
+arabe_2.8,arabe_2.8-trans-005,transcription,5,Operator,DS,allongez le en position,allon opposition,,substitution phonétique,majeure,True,
+arabe_2.8,arabe_2.8-trans-006,transcription,5,Operator,D,s,,,omission,mineure,True,
+arabe_2.8,arabe_2.8-tradu-001,traduction,1,Operator,S,رجال الاطفاء,ضابط متطوع,,héritée de la transcription,majeure,True,0.5
+arabe_2.8,arabe_2.8-tradu-002,traduction,2,Caller,DS,des abeilles son visage,une guêpe et,des,contresens,critique,True,0.18
+arabe_2.8,arabe_2.8-tradu-003,traduction,2,Caller,D,et,,,omission,mineure,True,0.18
+arabe_2.8,arabe_2.8-tradu-004,traduction,2,Caller,D,il a,,,omission,mineure,True,0.18
+arabe_2.8,arabe_2.8-tradu-005,traduction,3,Operator,DS,هل هذا في حديقه الطيور parc des oiseaux euh,oh,des,héritée de la transcription,critique,True,1.0
+arabe_2.8,arabe_2.8-tradu-006,traduction,5,Operator,DS,ضعوه في وضعيه الجلوس اذا كان,اخرج مواجهه مستلقيه,,contresens,majeure,True,0.27
+arabe_2.8,arabe_2.8-tradu-007,traduction,5,Operator,DS,فرق الاسعاف في الطريق,arrivent les secouristes,الطريق,contresens,critique,True,0.27
+arabe_2.9,arabe_2.9-trans-001,transcription,1,Operator,S,pompiers,pompier,,substitution phonétique,majeure,True,
+arabe_2.9,arabe_2.9-trans-002,transcription,2,Caller,S,صباح,سبح,,substitution phonétique,majeure,True,
+arabe_2.9,arabe_2.9-trans-003,transcription,2,Caller,S,سقطت,سقدت,سقطت,substitution phonétique,critique,True,
+arabe_2.9,arabe_2.9-trans-004,transcription,2,Caller,S,السلالم وكاحلي,السلام وكاحل,السلالم,substitution phonétique,critique,True,
+arabe_2.9,arabe_2.9-trans-005,transcription,2,Caller,S,قلمي,قليمي,,substitution phonétique,majeure,True,
+arabe_2.9,arabe_2.9-trans-006,transcription,3,Operator,S,seule,seul,,substitution phonétique,majeure,True,
+arabe_2.9,arabe_2.9-trans-007,transcription,4,Caller,D,نعم,,,omission,mineure,True,
+arabe_2.9,arabe_2.9-trans-008,transcription,5,Operator,S,bougez,bogez,,substitution phonétique,majeure,True,
+arabe_2.9,arabe_2.9-trans-009,transcription,5,Operator,IS,les secours vont arriver,et ce qu aura arrivé,,substitution phonétique,majeure,True,
+arabe_2.9,arabe_2.9-tradu-001,traduction,1,Operator,S,رجال الاطفاء صباح الخير bonjour je suis tombée dans les escaliers et ma cheville a,firefighter مرحبا salaam aleikoum j ai une douleur au genou qui s est gonflé et,tombée firefighter douleur,héritée de la transcription,critique,True,0.5
+arabe_2.9,arabe_2.9-tradu-002,traduction,2,Caller,D,gonflé,,,héritée de la transcription,majeure,True,0.36
+arabe_2.9,arabe_2.9-tradu-003,traduction,2,Caller,S,poser le crayon le pied,mettre ma jambe au lit,,héritée de la transcription,majeure,True,0.36
+arabe_2.9,arabe_2.9-tradu-004,traduction,3,Operator,D,هل,,,omission,mineure,True,0.2
+arabe_2.9,arabe_2.9-tradu-005,traduction,3,Operator,IS,البيت oui لا تتحركي ستصل فرق الاسعاف,المنزل لا تقلق واستعجل وانظر ما يمكن ان يحدث لك,المنزل,contresens,critique,True,0.2
+arabe_2.9,arabe_2.9-tradu-006,traduction,5,Operator,S,قسم الطواري,العنايه المركزه,المركزه,héritée de la transcription,critique,True,0.5
+arabe_2.10,arabe_2.10-trans-001,transcription,1,Operator,DS,pompiers bonjour صباح,سبح,,substitution lexicale,majeure,True,
+arabe_2.10,arabe_2.10-trans-002,transcription,2,Caller,S,اتجول,التجون,,substitution phonétique,majeure,True,
+arabe_2.10,arabe_2.10-trans-003,transcription,3,Operator,IS,gps,p s,,substitution phonétique,majeure,True,
+arabe_2.10,arabe_2.10-trans-004,transcription,3,Operator,DS,un point de repère,à prendre peur,,substitution lexicale,majeure,True,
+arabe_2.10,arabe_2.10-trans-005,transcription,4,Caller,S,قريبين,قاربين,,substitution phonétique,majeure,True,
+arabe_2.10,arabe_2.10-trans-006,transcription,4,Caller,DS,لا كروا دو,نكواد,كروا دو,entité/nombre,critique,True,
+arabe_2.10,arabe_2.10-trans-007,transcription,4,Caller,D,كولومبييه,,,omission,majeure,True,
+arabe_2.10,arabe_2.10-trans-008,transcription,5,Operator,IS,secours,faux coups,,substitution lexicale,majeure,True,
+arabe_2.10,arabe_2.10-tradu-001,traduction,1,Operator,S,رجال الاطفاء صباح الخير bonjour,saluez le bien nous étions,,héritée de la transcription,majeure,True,1.0
+arabe_2.10,arabe_2.10-tradu-002,traduction,2,Caller,D,je me promenais,,,omission,majeure,True,0.09
+arabe_2.10,arabe_2.10-tradu-003,traduction,2,Caller,I,,et,,ajout,mineure,True,0.09
+arabe_2.10,arabe_2.10-tradu-004,traduction,2,Caller,DS,par terre et il s,au sol sa jambe,,contresens,majeure,True,0.09
+arabe_2.10,arabe_2.10-tradu-005,traduction,2,Caller,S,tordu le genou هل يمكنك ان,déformée يمكنكم اعطايي معلوماتكم الاتصاليه سبيشال,,contresens,majeure,True,0.09
+arabe_2.10,arabe_2.10-tradu-006,traduction,3,Operator,D,تعطيني احداثيات gps الخاصه بكم,,,héritée de la transcription,majeure,True,0.5
+arabe_2.10,arabe_2.10-tradu-007,traduction,3,Operator,DS,نقطه مرجعيه,لاسعاف,,héritée de la transcription,majeure,True,0.5
+arabe_2.10,arabe_2.10-tradu-008,traduction,4,Caller,DS,la croix du colombier,noguès colomie,croix du colombier,héritée de la transcription,critique,True,0.62
+arabe_2.10,arabe_2.10-tradu-009,traduction,5,Operator,DS,فرق الاسعاف في الطريق,الهجمات الزايفه قادمه,الطريق قادمه,héritée de la transcription,critique,True,0.33
+arabe_3.1,arabe_3.1-trans-001,transcription,1,Operator,S,pompiers,ok,,substitution lexicale,majeure,True,
+arabe_3.1,arabe_3.1-trans-002,transcription,2,Caller,D,مرور,,,omission,majeure,True,
+arabe_3.1,arabe_3.1-trans-003,transcription,2,Caller,S,فالونس,زالونس,فالونس,entité/nombre,critique,True,
+arabe_3.1,arabe_3.1-trans-004,transcription,3,Operator,S,cela s est il passé في الطريق,c est la sétude passée sitä oikea,الطريق,substitution lexicale,critique,True,
+arabe_3.1,arabe_3.1-trans-005,transcription,4,Caller,S,فيزون لا رومين,visant la romaine,فيزون لا رومين,code-switching,critique,True,
+arabe_3.1,arabe_3.1-trans-006,transcription,4,Caller,S,اصطدمت,استدمت,اصطدمت استدمت,substitution phonétique,critique,True,
+arabe_3.1,arabe_3.1-trans-007,transcription,6,Caller,S,يقظ,يقض,,substitution phonétique,majeure,True,
+arabe_3.1,arabe_3.1-trans-008,transcription,6,Caller,DS,مغمي عليه,مغماله,,substitution phonétique,majeure,True,
+arabe_3.1,arabe_3.1-trans-009,transcription,8,Caller,S,حريق,حقيق,حريق,substitution phonétique,critique,True,
+arabe_3.1,arabe_3.1-trans-010,transcription,8,Caller,S,يصل,يفسل,,substitution phonétique,majeure,True,
+arabe_3.1,arabe_3.1-trans-011,transcription,9,Operator,S,ne tentez,de tenter,,substitution phonétique,majeure,True,
+arabe_3.1,arabe_3.1-trans-012,transcription,10,Caller,D,جيد شكرا,,,omission,majeure,True,
+arabe_3.1,arabe_3.1-tradu-001,traduction,1,Operator,DS,رجال الاطفاء,اكيد,,héritée de la transcription,majeure,True,0.5
+arabe_3.1,arabe_3.1-tradu-002,traduction,2,Caller,D,de la circulation,,de la,omission,critique,True,0.15
+arabe_3.1,arabe_3.1-tradu-003,traduction,2,Caller,S,valence,zalons,valence,terminologie,critique,True,0.15
+arabe_3.1,arabe_3.1-tradu-004,traduction,2,Caller,IS,du rond point حسنا اين حدث ذلك بالضبط sur la route nationale à,de l intersection des routes dove الدقيقهexactement مكان الحادث il se trouve près de,la route de الحادث,contresens,critique,True,0.15
+arabe_3.1,arabe_3.1-tradu-005,traduction,4,Caller,DS,de vaison,visant,de vaison,terminologie,critique,True,0.27
+arabe_3.1,arabe_3.1-tradu-006,traduction,4,Caller,I,,il y a,,ajout,mineure,True,0.27
+arabe_3.1,arabe_3.1-tradu-007,traduction,4,Caller,I,,qui,,ajout,mineure,True,0.27
+arabe_3.1,arabe_3.1-tradu-008,traduction,6,Caller,S,euh,ah,,forme,mineure,True,0.27
+arabe_3.1,arabe_3.1-tradu-009,traduction,6,Caller,S,euh,ah,,forme,mineure,True,0.27
+arabe_3.1,arabe_3.1-tradu-010,traduction,6,Caller,IS,une,l un,,forme,mineure,True,0.27
+arabe_3.1,arabe_3.1-tradu-011,traduction,6,Caller,S,consciente,inconscient,consciente,terminologie,critique,True,0.27
+arabe_3.1,arabe_3.1-tradu-012,traduction,6,Caller,S,évanouie,blessé,blessé,terminologie,critique,True,0.27
+arabe_3.1,arabe_3.1-tradu-013,traduction,7,Operator,IS,تحترق,في النار,النار,terminologie,critique,True,0.0
+arabe_3.1,arabe_3.1-tradu-014,traduction,7,Operator,IS,انتشار النار خطير,هي خطيره بالنسبه لانتشار النيران,النار,contresens,critique,True,0.0
+arabe_3.1,arabe_3.1-tradu-015,traduction,8,Caller,DS,est en feu,brûle,feu brûle,terminologie,critique,True,0.13
+arabe_3.1,arabe_3.1-tradu-016,traduction,8,Caller,DS,j ai peur,je crains,,terminologie,majeure,True,0.13
+arabe_3.1,arabe_3.1-tradu-017,traduction,8,Caller,S,atteigne la forêt حسنا لا تحاولي التدخل في السياره,ne s étende jusqu à la forêt à traduire,la السياره,contresens,critique,True,0.13
+arabe_3.1,arabe_3.1-tradu-018,traduction,9,Operator,D,فرق الاسعاف ورجال الاطفاء في الطريق ابقي علي مسافه امنه bien merci,,الطريق,omission,critique,True,0.09
+arabe_3.2,arabe_3.2-trans-001,transcription,1,Operator,D,pompier je vous écoute,,,omission,majeure,True,
+arabe_3.2,arabe_3.2-trans-002,transcription,2,Caller,S,اتصل,اتسل,,substitution phonétique,majeure,True,
+arabe_3.2,arabe_3.2-trans-003,transcription,2,Caller,S,دراجه ناريه,درجه ناغيه,ناريه,substitution phonétique,critique,True,
+arabe_3.2,arabe_3.2-trans-004,transcription,2,Caller,DS,بورغ اون بريس,بوكمبرس,بورغ اون بريس,entité/nombre,critique,True,
+arabe_3.2,arabe_3.2-trans-005,transcription,2,Caller,S,اميو,اهميو,,substitution phonétique,majeure,True,
+arabe_3.2,arabe_3.2-trans-006,transcription,3,Operator,S,carré amiot,caré amio,carré amiot caré,entité/nombre,critique,True,
+arabe_3.2,arabe_3.2-trans-007,transcription,3,Operator,IS,motard,moteur est,,substitution phonétique,majeure,True,
+arabe_3.2,arabe_3.2-trans-008,transcription,3,Operator,D,est,,,omission,mineure,True,
+arabe_3.2,arabe_3.2-trans-009,transcription,4,Caller,S,بجانبه il,بجنبه l,,substitution phonétique,majeure,True,
+arabe_3.2,arabe_3.2-trans-010,transcription,5,Operator,D,est,,,omission,mineure,True,
+arabe_3.2,arabe_3.2-trans-011,transcription,7,Operator,DS,il faut regarder,vous gardez,,substitution lexicale,majeure,True,
+arabe_3.2,arabe_3.2-trans-012,transcription,8,Caller,D,نعم نعم هو يتنفس,,يتنفس,omission,critique,True,
+arabe_3.2,arabe_3.2-trans-013,transcription,10,Caller,D,حسنا,,,omission,majeure,True,
+arabe_3.2,arabe_3.2-tradu-001,traduction,1,Operator,DS,رجال الاطفاء انا استمع اليك euh je vous,ah j,,héritée de la transcription,majeure,True,1.0
+arabe_3.2,arabe_3.2-tradu-002,traduction,2,Caller,IS,percuter un motard à,qui a percuté le conducteur d une motocyclette près de,,héritée de la transcription,majeure,True,0.37
+arabe_3.2,arabe_3.2-tradu-003,traduction,2,Caller,S,du carré amiot حسنا طيب كاري,caré amio د accord ok كاريه,carré amiot كاري caré,héritée de la transcription,critique,True,0.37
+arabe_3.2,arabe_3.2-tradu-004,traduction,3,Operator,D,carré amiot,,carré amiot,héritée de la transcription,critique,True,0.31
+arabe_3.2,arabe_3.2-tradu-005,traduction,3,Operator,DS,سايق الدراجه الناريه لا يزال,المركبه ما زالت,الناريه المركبه,héritée de la transcription,critique,True,0.31
+arabe_3.2,arabe_3.2-tradu-006,traduction,3,Operator,I,,هناك,,héritée de la transcription,mineure,True,0.31
+arabe_3.2,arabe_3.2-tradu-007,traduction,4,Caller,IS,à terre il,sur le sol et,,terminologie,majeure,True,0.25
+arabe_3.2,arabe_3.2-tradu-008,traduction,5,Operator,DS,انه فاقد للوعي هل يتنفس,à traduire,للوعي يتنفس,contresens,critique,True,0.0
+arabe_3.2,arabe_3.2-tradu-009,traduction,7,Operator,DS,يجب ان تنظر ان كان صدره يرتفع,تبقوا اذا ارتفعت الصدر,,contresens,majeure,True,0.18
+arabe_3.2,arabe_3.2-tradu-010,traduction,7,Operator,S,بطنه هل يرتفع oui oui il respire اذن اتركه كما هو,اذا ارتفع البطن فلتماclsont ils tels quelsils هم وارسل لكم مساعدين,respire,contresens,critique,True,0.18
+arabe_3.2,arabe_3.2-tradu-011,traduction,9,Operator,D,وسارسل اليك فريقا,,,omission,majeure,True,0.0
+arabe_3.2,arabe_3.2-tradu-012,traduction,10,Caller,D,d accord,,,héritée de la transcription,majeure,True,1.0
+arabe_3.3,arabe_3.3-trans-001,transcription,1,Operator,S,pompier j,pour plus,,substitution lexicale,majeure,True,
+arabe_3.3,arabe_3.3-trans-002,transcription,2,Caller,D,في,,,omission,mineure,True,
+arabe_3.3,arabe_3.3-trans-003,transcription,2,Caller,S,زميلي,جميلي,,substitution phonétique,majeure,True,
+arabe_3.3,arabe_3.3-trans-004,transcription,3,Operator,S,quelle commune,quelques communes,,substitution phonétique,majeure,True,
+arabe_3.3,arabe_3.3-trans-005,transcription,4,Caller,IS,بلديه بورغ اون بريس,baladier est beaucoup en bresse,بورغ اون بريس,code-switching,critique,True,
+arabe_3.3,arabe_3.3-trans-006,transcription,5,Operator,S,quelle usine,quel usin,,substitution phonétique,majeure,True,
+arabe_3.3,arabe_3.3-trans-007,transcription,8,Caller,S,زميلي,زميل,,substitution phonétique,majeure,True,
+arabe_3.3,arabe_3.3-trans-008,transcription,8,Caller,S,تنفس الغاز,تنفش الغز,تنفس,substitution phonétique,critique,True,
+arabe_3.3,arabe_3.3-trans-009,transcription,12,Caller,D,لا,,,omission,mineure,True,
+arabe_3.3,arabe_3.3-trans-010,transcription,13,Operator,S,elle,il,,forme,mineure,True,
+arabe_3.3,arabe_3.3-trans-011,transcription,14,Caller,S,خرج,خارج,,substitution phonétique,majeure,True,
+arabe_3.3,arabe_3.3-trans-012,transcription,16,Caller,D,حسنا لا مشكله,,,omission,majeure,True,
+arabe_3.3,arabe_3.3-trans-013,transcription,18,Caller,D,لا لا,,,omission,mineure,True,
+arabe_3.3,arabe_3.3-trans-014,transcription,19,Operator,S,raccrochez,racrochez,,substitution phonétique,majeure,True,
+arabe_3.3,arabe_3.3-trans-015,transcription,20,Caller,S,حسنا,हसनन,,code-switching,majeure,True,
+arabe_3.3,arabe_3.3-tradu-001,traduction,1,Operator,S,رجال الاطفاء انا استمع,للمزيد من الاستماع ah,,héritée de la transcription,majeure,True,0.67
+arabe_3.3,arabe_3.3-tradu-002,traduction,2,Caller,D,euh,,,omission,mineure,True,0.1
+arabe_3.3,arabe_3.3-tradu-003,traduction,2,Caller,S,mon collègue,il y,,contresens,majeure,True,0.1
+arabe_3.3,arabe_3.3-tradu-004,traduction,2,Caller,IS,respiré,des gens qui inhalent,respiré,contresens,critique,True,0.1
+arabe_3.3,arabe_3.3-tradu-005,traduction,3,Operator,S,حسنا في اي بلديه dans la commune de bourg en,د accord هذا بعض البلديات baladier est beaucoup dans la,bourg en,héritée de la transcription,critique,True,0.33
+arabe_3.3,arabe_3.3-tradu-006,traduction,5,Operator,I,,هو,,héritée de la transcription,mineure,True,0.33
+arabe_3.3,arabe_3.3-tradu-007,traduction,7,Operator,I,,çok,,ajout,majeure,True,0.0
+arabe_3.3,arabe_3.3-tradu-008,traduction,7,Operator,D,جدا,,,omission,majeure,True,0.0
+arabe_3.3,arabe_3.3-tradu-009,traduction,7,Operator,IS,تعرضوا للغاز,تواجدوا في نطاق الغاز,,contresens,majeure,True,0.0
+arabe_3.3,arabe_3.3-tradu-010,traduction,8,Caller,S,mon,un,,héritée de la transcription,majeure,True,0.33
+arabe_3.3,arabe_3.3-tradu-011,traduction,8,Caller,S,respiré,inhalé,respiré,héritée de la transcription,critique,True,0.33
+arabe_3.3,arabe_3.3-tradu-012,traduction,8,Caller,S,toxique,poison,,héritée de la transcription,majeure,True,0.33
+arabe_3.3,arabe_3.3-tradu-013,traduction,8,Caller,I,,également,,héritée de la transcription,majeure,True,0.33
+arabe_3.3,arabe_3.3-tradu-014,traduction,9,Operator,S,حسنا,اكيد,,terminologie,majeure,True,0.0
+arabe_3.3,arabe_3.3-tradu-015,traduction,9,Operator,S,هل هو واع non il est inconscient,هي واعيه il ne est pas conscient,واعيه conscient,contresens,critique,True,0.0
+arabe_3.3,arabe_3.3-tradu-016,traduction,11,Operator,I,,تتنفس اكيد,تتنفس,ajout,critique,True,0.0
+arabe_3.3,arabe_3.3-tradu-017,traduction,11,Operator,IS,يتنفس non حسنا هل لا يزال معرضا للغاز السام ام,ما زالت الشخص المتاثر تحت impacted par le gaz toxique او,يتنفس المتاثر,contresens,critique,True,0.0
+arabe_3.3,arabe_3.3-tradu-018,traduction,14,Caller,S,tout le monde est sorti,tous ne sont pas sortis,,héritée de la transcription,majeure,True,0.33
+arabe_3.3,arabe_3.3-tradu-019,traduction,15,Operator,S,اذن ستقيمون محيطا امنيا d accord pas de problème حسنا هل,فهمني انك تقوم بوضع منطقه امان حسن هل لديك القدره علي,,contresens,majeure,True,0.0
+arabe_3.3,arabe_3.3-tradu-020,traduction,17,Operator,D,يمكنكم,,,omission,majeure,True,0.0
+arabe_3.3,arabe_3.3-tradu-021,traduction,18,Caller,D,non non,,,omission,mineure,True,0.0
+arabe_3.3,arabe_3.3-tradu-022,traduction,19,Operator,DS,جيد جدا اسمع,جيدا اسمعي,,contresens,majeure,True,0.05
+arabe_3.3,arabe_3.3-tradu-023,traduction,19,Operator,I,,التي احتاجها,,ajout,majeure,True,0.05
+arabe_3.3,arabe_3.3-tradu-024,traduction,19,Operator,S,تغلق,تجعلي,,terminologie,majeure,True,0.05
+arabe_3.3,arabe_3.3-tradu-025,traduction,19,Operator,I,,مفتوحا,,ajout,majeure,True,0.05
+arabe_3.3,arabe_3.3-tradu-026,traduction,19,Operator,DS,اليك فرق الاسعاف حالا d accord,المساعدات فورا hassanan,المساعدات,contresens,critique,True,0.05
+arabe_3.4,arabe_3.4-trans-001,transcription,1,Operator,D,allo,,,omission,majeure,True,
+arabe_3.4,arabe_3.4-trans-002,transcription,2,Caller,S,صباح,سباح,,substitution phonétique,majeure,True,
+arabe_3.4,arabe_3.4-trans-003,transcription,2,Caller,S,اتصل,التسليم,,substitution phonétique,majeure,True,
+arabe_3.4,arabe_3.4-trans-004,transcription,2,Caller,S,لا,لم,,substitution phonétique,majeure,True,
+arabe_3.4,arabe_3.4-trans-005,transcription,3,Operator,S,panne,page,,substitution phonétique,majeure,True,
+arabe_3.4,arabe_3.4-trans-006,transcription,5,Operator,D,bon,,,omission,mineure,True,
+arabe_3.4,arabe_3.4-trans-007,transcription,5,Operator,I,,d,,insertion/hallucination,mineure,True,
+arabe_3.4,arabe_3.4-trans-008,transcription,6,Caller,S,في الطريق المجاور,si stair mudje,الطريق المجاور,code-switching,critique,True,
+arabe_3.4,arabe_3.4-trans-009,transcription,7,Operator,D,oui mais vous êtes sur l autoroute,,autoroute,omission,critique,True,
+arabe_3.4,arabe_3.4-trans-010,transcription,8,Caller,D,حسنا شكرا,,,omission,majeure,True,
+arabe_3.4,arabe_3.4-tradu-001,traduction,1,Operator,S,الو رجال الاطفاء صباح الخير euh bonjour je vous appelle parce que,ال pompiersbonjour ah salam alaikum j espère que tout va bien car,car,contresens,critique,True,0.25
+arabe_3.4,arabe_3.4-tradu-002,traduction,3,Operator,DS,هل سيارتك معطله,انت,,contresens,majeure,True,0.14
+arabe_3.4,arabe_3.4-tradu-003,traduction,4,Caller,D,oui,,,omission,mineure,True,0.0
+arabe_3.4,arabe_3.4-tradu-004,traduction,4,Caller,IS,ça حسنا طيب ابق علي الخط ساحولك الي مصالح الطرق السريعه c est sur la rocade نعم لكنك علي الطريق السريع ساحولك الي المصلحه المختصه ابق علي الخط شكرا d accord merci,bien cela د accord لا تتركوا ساضعكم في اتصال مع خدمات الطريق السريع je vous mets en relation avec le bon service ne quittez pas merci اضعك في الاتصال بالخدمه الصحيحه لا تغادر من فضلك شكرا,الطريق المصلحه المختصه خدمات بالخدمه,contresens,critique,True,0.0
+arabe_3.5,arabe_3.5-trans-001,transcription,1,Operator,D,pompiers de l ain bonjour,,pompiers de ain,omission,critique,True,
+arabe_3.5,arabe_3.5-trans-002,transcription,2,Caller,S,اصطدام,استدام,,substitution phonétique,majeure,True,
+arabe_3.5,arabe_3.5-trans-003,transcription,2,Caller,DS,سي دو سردن,سيد سردون,سي دو سردن,entité/nombre,critique,True,
+arabe_3.5,arabe_3.5-trans-004,transcription,3,Operator,S,blessés,blesés,blessés,substitution phonétique,critique,True,
+arabe_3.5,arabe_3.5-trans-005,transcription,4,Caller,S,و,هو,,forme,mineure,True,
+arabe_3.5,arabe_3.5-trans-006,transcription,5,Operator,S,les véhicules,le véhicule,,substitution phonétique,majeure,True,
+arabe_3.5,arabe_3.5-trans-007,transcription,6,Caller,S,الزيت,الزيد,,substitution phonétique,majeure,True,
+arabe_3.5,arabe_3.5-trans-008,transcription,7,Operator,S,blessé,blesé,blessé,substitution phonétique,critique,True,
+arabe_3.5,arabe_3.5-trans-009,transcription,7,Operator,S,poncin,poncing,poncin,entité/nombre,critique,True,
+arabe_3.5,arabe_3.5-trans-010,transcription,7,Operator,S,nantua,ventua,nantua,entité/nombre,critique,True,
+arabe_3.5,arabe_3.5-tradu-001,traduction,1,Operator,DS,رجال اطفاء الان صباح الخير euh,ah,,héritée de la transcription,majeure,True,1.0
+arabe_3.5,arabe_3.5-tradu-002,traduction,2,Caller,S,une collision,un accident,accident,terminologie,critique,True,0.19
+arabe_3.5,arabe_3.5-tradu-003,traduction,2,Caller,S,euh,ah,,forme,mineure,True,0.19
+arabe_3.5,arabe_3.5-tradu-004,traduction,2,Caller,DS,euh mille quatre vingt quatre euh dans les lacets de cerdon حسنا,ah 148 ah dans la zone la sideroudène د accord,mille quatre vingt 148,contresens,critique,True,0.19
+arabe_3.5,arabe_3.5-tradu-005,traduction,3,Operator,S,جرحي,مصابين,جرحي مصابين,terminologie,critique,True,0.12
+arabe_3.5,arabe_3.5-tradu-006,traduction,4,Caller,IS,et,il est,,forme,mineure,True,0.0
+arabe_3.5,arabe_3.5-tradu-007,traduction,4,Caller,D,dans un,,,omission,mineure,True,0.0
+arabe_3.5,arabe_3.5-tradu-008,traduction,4,Caller,S,mauvais état,gravement blessée,blessée,contresens,critique,True,0.0
+arabe_3.5,arabe_3.5-tradu-009,traduction,5,Operator,S,الطريق,الطرق,الطريق,terminologie,critique,True,0.29
+arabe_3.5,arabe_3.5-tradu-010,traduction,6,Caller,S,elles,ils,,contresens,majeure,True,0.12
+arabe_3.5,arabe_3.5-tradu-011,traduction,6,Caller,DS,de l huile,du sang,sang,terminologie,critique,True,0.12
+arabe_3.5,arabe_3.5-tradu-012,traduction,7,Operator,S,تحركوا,تتحركوا,,terminologie,majeure,True,0.21
+arabe_3.5,arabe_3.5-tradu-013,traduction,7,Operator,S,الفاقد للوعي تم ابلاغ فرق الاسعاف في بونسان ونانتوا,غير الوعي طاقم الانقاذ من فنching و فنتوا مستنذرون,للوعي بونسان ونانتوا الوعي,contresens,critique,True,0.21

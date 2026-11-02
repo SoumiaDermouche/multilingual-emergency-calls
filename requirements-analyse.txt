@@ -1,0 +1,12 @@
+# Pré-annotation des erreurs (pre_annotation.py) et analyses des questions de recherche
+-r requirements.txt
+mutagen
+jiwer
+scipy
+matplotlib
+torch
+transformers
+sentencepiece
+protobuf
+bert-score
+sentence-transformers

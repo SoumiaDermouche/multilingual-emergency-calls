@@ -1,152 +1,110 @@
-"""Corpus loading: links each audio file to its transcriptions and translations.
+"""Corpus loading: data/corpus.csv, one row per call.
 
-The original spreadsheets are never modified. Corrections made in the review
-interface are stored in data/revisions.json.
+Columns:
+  - call, langue, scenario, categorie_urgence
+  - transcription_auto, transcription_manuelle    automatic (Whisper) and manual (post-edited) transcription
+  - traduction_auto, traduction_manuelle          automatic (LLM) and manual translation
+  - appelant_*, operateur_*                       questionnaire scores (1-5) of the caller and of the operator
 
-Speaker labels are normalised on load: every line starts with "Operator:" or
-"Caller:", in both transcriptions and translations, for every language.
+Speaker labels are normalised on save: every line starts with "Operator:" or "Caller:".
 """
 
-import json
 import os
 import re
-from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
-from odf import opendocument, teletype
-from odf.table import Table, TableCell, TableRow
-from odf.text import P
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 AUDIO_DIR = DATA_DIR / "audio"
-TABLES_DIR = DATA_DIR / "translation+ transcription"
-REVISIONS_FILE = DATA_DIR / "revisions.json"
+CORPUS_FILE = DATA_DIR / "corpus.csv"
 
-COLONNES = ["transcription", "transcription_corrigee", "traduction", "traduction_corrigee"]
-
-# language -> (audio file prefix, spreadsheet, sheet)
-SOURCES = {
-    "anglais": ("anglais", "iappel_db_english.xlsx", 0),
-    "italien": ("italien", "iappel_db_italian.xlsx", "après correction"),
-    "espagnol": ("espagnol", "iappel_db_spanish.ods", 0),
-    # automatic transcription and translation only; corrected versions are in data/revisions.json
-    "arabe": ("arabe", "iappel_db_arabic.xlsx", 0),
+# questionnaire dimensions: column suffix -> name used in the results
+DIMENSIONS = {
+    "transcription": "transcription_quality",
+    "traduction_vers_fr": "translation_caller_to_fr",
+    "traduction_vers_appelant": "translation_fr_to_caller",
+    "compris": "feeling_understood",
+    "confiance": "confidence_real_deployment",
 }
+ROLES = ("appelant", "operateur")
+# the operator, who only speaks French, is not asked about the translation into the caller's language
+DIMENSIONS_BY_ROLE = {
+    "appelant": list(DIMENSIONS),
+    "operateur": [d for d in DIMENSIONS if d != "traduction_vers_appelant"],
+}
+SCORE_COLUMNS = [f"{role}_{d}" for role in ROLES for d in DIMENSIONS_BY_ROLE[role]]
 
 # "Label: text" at the start of a line (label = up to 40 characters before the first colon)
-_ETIQUETTE = re.compile(r"^\s*([^:\n]{1,40}?)\s*:\s*")
+_LABEL = re.compile(r"^\s*([^:\n]{1,40}?)\s*:\s*")
 
 
-def _role(etiquette):
-    """Map a spreadsheet label to "Operator" / "Caller", or None if it is not a speaker label.
+def _speaker(label):
+    """Map a label to "Operator" / "Caller", or None if it is not a speaker label.
 
     Translations were labelled by target language: "<language> translation" is the
     operator's French line translated for the caller, "French translation" is the caller's line.
     """
-    e = etiquette.lower()
-    if "french" in e:
+    label = label.lower()
+    if "french" in label:
         return "Caller"
-    if "translation" in e or "traduction" in e:
+    if "translation" in label or "traduction" in label:
         return "Operator"
-    if e.startswith(("opérateur", "operateur", "operator")):
+    if label.startswith(("opérateur", "operateur", "operator")):
         return "Operator"
-    if e.startswith(("appelant", "caller")):
+    if label.startswith(("appelant", "caller")):
         return "Caller"
     return None
 
 
-def normaliser_roles(texte):
+def normalize_speakers(text):
     """Rewrite each line's speaker label as "Operator: " or "Caller: "; other lines are kept as is."""
-    lignes = []
-    for ligne in texte.split("\n"):
-        m = _ETIQUETTE.match(ligne)
-        role = m and _role(m.group(1))
-        lignes.append(f"{role}: {ligne[m.end():]}" if role else ligne)
-    return "\n".join(lignes)
+    lines = []
+    for line in text.split("\n"):
+        m = _LABEL.match(line)
+        speaker = m and _speaker(m.group(1))
+        lines.append(f"{speaker}: {line[m.end():]}" if speaker else line)
+    return "\n".join(lines)
 
 
-def _lire_ods(chemin):
-    """Read the first sheet of an .ods file, keeping line breaks.
-
-    pandas joins the paragraphs of an ODS cell without a separator
-    ("écoute.Appelant:"), hence this dedicated reader.
-    """
-    doc = opendocument.load(chemin)
-    feuille = doc.spreadsheet.getElementsByType(Table)[0]
-    lignes = []
-    for row in feuille.getElementsByType(TableRow):
-        valeurs = []
-        for cell in row.getElementsByType(TableCell):
-            repet = int(cell.getAttribute("numbercolumnsrepeated") or 1)
-            texte = "\n".join(teletype.extractText(p) for p in cell.getElementsByType(P))
-            valeurs.extend([texte] * min(repet, 50))
-        if any(v.strip() for v in valeurs):
-            lignes.append(valeurs)
-    entete = lignes[0]
-    n = len([c for c in entete if c.strip()])
-    df = pd.DataFrame([l[:n] + [""] * (n - len(l)) for l in lignes[1:]], columns=entete[:n])
-    return df.replace("", None)
+def load_corpus():
+    """Return data/corpus.csv, with the path of each call's audio file (None if missing)."""
+    corpus = pd.read_csv(CORPUS_FILE, encoding="utf-8-sig", dtype={"scenario": str}, keep_default_na=False)
+    for col in SCORE_COLUMNS:
+        corpus[col] = pd.to_numeric(corpus[col]).astype("Int64")
+    # a list keeps None (Series.map would turn it into NaN, which gr.Audio rejects)
+    corpus["audio"] = [str(AUDIO_DIR / f"{c}.mp3") if (AUDIO_DIR / f"{c}.mp3").exists() else None
+                       for c in corpus.call]
+    return corpus
 
 
-def _lire_tableur(fichier, feuille):
-    chemin = TABLES_DIR / fichier
-    if chemin.suffix == ".ods":
-        return _lire_ods(chemin)
-    # dtype=str keeps "2.10" distinct from "2.1"
-    return pd.read_excel(chemin, sheet_name=feuille, dtype=str)
+def scores(role):
+    """Questionnaire scores of "appelant" or "operateur": call + the role's dimensions (named as in DIMENSIONS)."""
+    corpus = load_corpus()
+    dims = DIMENSIONS_BY_ROLE[role]
+    df = corpus[["call"] + [f"{role}_{d}" for d in dims]]
+    df = df.rename(columns={f"{role}_{d}": DIMENSIONS[d] for d in dims})
+    return df.dropna(subset=[DIMENSIONS[d] for d in dims], how="all")
 
 
-def charger_corpus():
-    """Return a DataFrame with one row per call (id, language, scenario, audio, texts)."""
-    frames = []
-    for langue, (prefixe, fichier, feuille) in SOURCES.items():
-        if not (TABLES_DIR / fichier).exists():
-            continue
-        df = _lire_tableur(fichier, feuille)
-        df["numero_scenario"] = df["numero_scenario"].astype(str).str.strip()
-        df["langue"] = langue
-        df["id"] = prefixe + "_" + df["numero_scenario"]
-        df["audio"] = df["id"].map(
-            lambda i: str(AUDIO_DIR / f"{i}.mp3") if (AUDIO_DIR / f"{i}.mp3").exists() else None
-        )
-        frames.append(df)
-    corpus = pd.concat(frames, ignore_index=True)
-    for col in COLONNES:
-        corpus[col] = corpus[col].fillna("").astype(str).str.strip().map(normaliser_roles)
-    return corpus[["id", "langue", "numero_scenario", "audio"] + COLONNES]
-
-
-def charger_revisions():
-    if not REVISIONS_FILE.exists():
-        return {}
-    revisions = json.loads(REVISIONS_FILE.read_text(encoding="utf-8"))
-    for r in revisions.values():
-        r["transcription"] = normaliser_roles(r["transcription"])
-        r["traduction"] = normaliser_roles(r["traduction"])
-    return revisions
-
-
-def enregistrer_revision(revisions, id_appel, transcription, traduction, valide, par=None):
-    revisions[id_appel] = {
-        "transcription": normaliser_roles(transcription),
-        "traduction": normaliser_roles(traduction),
-        "valide": valide,
-        "date": datetime.now().isoformat(timespec="seconds"),
-        "par": par,
-    }
+def save_revision(call, transcription, translation):
+    """Save the manual version of a call in data/corpus.csv; return the updated corpus."""
     # re-read the file so revisions saved by another process are not overwritten
-    sur_disque = charger_revisions()
-    sur_disque[id_appel] = revisions[id_appel]
-    revisions.update(sur_disque)
-    tmp = REVISIONS_FILE.with_suffix(".tmp")
-    tmp.write_text(json.dumps(sur_disque, ensure_ascii=False, indent=2), encoding="utf-8")
-    os.replace(tmp, REVISIONS_FILE)
+    corpus = load_corpus()
+    i = corpus.index[corpus.call == call][0]
+    corpus.loc[i, ["transcription_manuelle", "traduction_manuelle"]] = [
+        normalize_speakers(transcription), normalize_speakers(translation)
+    ]
+    tmp = CORPUS_FILE.with_suffix(".tmp")
+    corpus.drop(columns="audio").to_csv(tmp, index=False, encoding="utf-8-sig")
+    os.replace(tmp, CORPUS_FILE)
+    return corpus
 
 
 if __name__ == "__main__":
-    c = charger_corpus()
+    c = load_corpus()
     print(c.groupby("langue").size().to_string())
-    print("\nNo audio:", c.loc[c.audio.isna(), "id"].tolist())
-    print("No corrected transcription:", c.loc[c.transcription_corrigee == "", "id"].tolist())
+    print("\nNo audio:", c.loc[c.audio.isna(), "call"].tolist())
+    print("Questionnaires:", {role: int(c[[f"{role}_{d}" for d in DIMENSIONS_BY_ROLE[role]]].notna().all(axis=1).sum())
+                              for role in ROLES})

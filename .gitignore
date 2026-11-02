@@ -1,5 +1,6 @@
 # Secrets (reviewer passwords)
 comptes.txt
+.env
 
 # Participant data (voices): do not publish before signed consent
 data/
