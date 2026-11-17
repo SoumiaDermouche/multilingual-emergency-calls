@@ -19,3 +19,6 @@ article/
 *.csv
 *.png
 *.pdf
+
+# Hugging Face export (rebuilt by publish_hf.py)
+hf_export/
